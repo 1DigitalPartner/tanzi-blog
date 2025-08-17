@@ -150,7 +150,7 @@ author: "Gabriele Tanzi"
 
 ## Connect
 
-- Email: tanzidigitalpartner@gmail.com
+- Email: info@tanzitech.com
 - Website: tanzitech.com
 
 ---

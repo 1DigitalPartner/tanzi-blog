@@ -58,7 +58,7 @@ The most mentioned hashtags include:
 
 Connect with Gabriele:
 - Website: [tanzitech.com](tanzitech.com)
-- Email: tanzidigitalpartner@gmail.com
+- Email: info@tanzitech.com
 
 *This analysis is powered by advanced social media intelligence tools and real-time data collection.*
 
