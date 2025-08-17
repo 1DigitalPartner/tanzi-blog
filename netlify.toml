@@ -1,0 +1,11 @@
+# Netlify configuration
+[build]
+  command = "echo 'Blog ready for deployment'"
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Author = "Gabriele Tanzi"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"

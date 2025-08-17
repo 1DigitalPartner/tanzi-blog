@@ -1,0 +1,15 @@
+author:
+  email: tanzidigitalpartner@gmail.com
+  name: Gabriele Tanzi
+baseurl: ''
+description: Competitive insights and market intelligence powered by social media
+  data analysis
+highlighter: rouge
+markdown: kramdown
+name: Gabriele Tanzis Data-Driven Blog
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+show_excerpts: true
+theme: minima
+url: tanzitech.com

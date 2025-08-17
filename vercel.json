@@ -1,0 +1,11 @@
+{
+  "name": "gabriele-tanzis-data-driven-blog",
+  "version": 2,
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ]
+}
