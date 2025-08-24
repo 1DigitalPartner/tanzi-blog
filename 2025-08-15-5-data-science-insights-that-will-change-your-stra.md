@@ -106,3 +106,11 @@ Connect with Gabriele:
 
 *This analysis is powered by advanced social media intelligence tools and real-time data collection.*
 
+---
+
+## 📊 Source Data
+
+**Download the complete dataset and methodology:** [Data Science Analysis Source](/sources/batch_blog_01_Data_Science_20250815_140145.md)
+
+*Source file contains raw data, analysis methodology, and detailed findings used in this research.*
+

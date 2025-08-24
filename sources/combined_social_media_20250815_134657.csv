@@ -1,0 +1,321 @@
+platform,username,content,timestamp,likes,shares,comments,url,hashtags,mentions
+twitter,DigitalNomad707,New Python framework just released. Time to rebuild everything 😅 #DevLife,2025-08-15 13:40:03.740958,399,38,7,https://twitter.com/DigitalNomad707/status/123456789015,#DevLife,
+twitter,InnovatorDaily794,"Debug tip: When working with JavaScript, always remember to... #CodingTips",2025-08-15 13:40:03.740947,145,80,41,https://twitter.com/InnovatorDaily794/status/123456789014,#CodingTips,
+twitter,FutureTech705,"Debug tip: When working with microservices, always remember to... #CodingTips",2025-08-15 13:40:03.740938,77,38,27,https://twitter.com/FutureTech705/status/123456789013,#CodingTips,
+twitter,TechStartup258,"Debug tip: When working with APIs, always remember to... #CodingTips",2025-08-15 13:40:03.740928,25,90,24,https://twitter.com/TechStartup258/status/123456789012,#CodingTips,
+twitter,DevCommunity118,Code review pet peeve: People who don't optimize APIs usage #Programming,2025-08-15 13:40:03.740918,3,60,7,https://twitter.com/DevCommunity118/status/123456789011,#Programming,
+twitter,CodeNewbie997,Code review pet peeve: People who don't optimize APIs usage #Programming,2025-08-15 13:40:03.740909,296,5,9,https://twitter.com/CodeNewbie997/status/123456789010,#Programming,
+twitter,AIResearcher359,Hot debate: Is JavaScript the best approach for modern development? #CodeReview,2025-08-15 13:40:03.740900,315,68,27,https://twitter.com/AIResearcher359/status/123456789009,#CodeReview,
+twitter,FutureTech527,"Debug tip: When working with JavaScript, always remember to... #CodingTips",2025-08-15 13:40:03.740891,167,30,4,https://twitter.com/FutureTech527/status/123456789008,#CodingTips,
+twitter,CodeNewbie198,New microservices framework just released. Time to rebuild everything 😅 #DevLife,2025-08-15 13:40:03.740876,407,8,47,https://twitter.com/CodeNewbie198/status/123456789007,#DevLife,
+twitter,TechLeader873,"Debug tip: When working with microservices, always remember to... #CodingTips",2025-08-15 13:40:03.740866,249,31,35,https://twitter.com/TechLeader873/status/123456789006,#CodingTips,
+twitter,CodeArtist55,Hot debate: Is APIs the best approach for modern development? #CodeReview,2025-08-15 13:40:03.740857,196,24,20,https://twitter.com/CodeArtist55/status/123456789005,#CodeReview,
+twitter,TechGuru123229,Hot debate: Is APIs the best approach for modern development? #CodeReview,2025-08-15 13:40:03.740848,161,80,25,https://twitter.com/TechGuru123229/status/123456789004,#CodeReview,
+twitter,CodeMaster554,"Debug tip: When working with microservices, always remember to... #CodingTips",2025-08-15 13:40:03.740838,463,93,28,https://twitter.com/CodeMaster554/status/123456789003,#CodingTips,
+twitter,TechTrends123,"Debug tip: When working with React, always remember to... #CodingTips",2025-08-15 13:40:03.740828,187,91,29,https://twitter.com/TechTrends123/status/123456789002,#CodingTips,
+twitter,FutureTech242,Code review pet peeve: People who don't optimize Python usage #Programming,2025-08-15 13:40:03.740814,32,71,15,https://twitter.com/FutureTech242/status/123456789001,#Programming,
+twitter,DigitalNomad343,"Debug tip: When working with React, always remember to... #CodingTips",2025-08-15 13:40:03.740552,299,52,15,https://twitter.com/DigitalNomad343/status/123456789000,#CodingTips,
+twitter,DevCommunity75,"PSA: If you're not using quantum computing in 2024, you're missing out #TechTips",2025-08-15 13:40:00.666018,405,47,16,https://twitter.com/DevCommunity75/status/123456789015,#TechTips,
+twitter,TechExplorer547,"PSA: If you're not using cloud computing in 2024, you're missing out #TechTips",2025-08-15 13:40:00.666012,232,33,32,https://twitter.com/TechExplorer547/status/123456789014,#TechTips,
+twitter,AIEnthusiast525,New cloud computing update just dropped and it's incredible! 💻 #Technology #Innovation,2025-08-15 13:40:00.666006,98,91,35,https://twitter.com/AIEnthusiast525/status/123456789013,"#Technology,#Innovation",
+twitter,AIResearcher990,"PSA: If you're not using quantum computing in 2024, you're missing out #TechTips",2025-08-15 13:40:00.666000,362,1,37,https://twitter.com/AIResearcher990/status/123456789012,#TechTips,
+twitter,AIResearcher908,New 5G update just dropped and it's incredible! 💻 #Technology #Innovation,2025-08-15 13:40:00.665993,470,55,41,https://twitter.com/AIResearcher908/status/123456789011,"#Technology,#Innovation",
+twitter,DevLife781,"The blockchain ecosystem is evolving so fast, hard to keep up! #TechNews",2025-08-15 13:40:00.665987,99,12,18,https://twitter.com/DevLife781/status/123456789010,#TechNews,
+twitter,AIEnthusiast536,"The IoT ecosystem is evolving so fast, hard to keep up! #TechNews",2025-08-15 13:40:00.665980,116,38,36,https://twitter.com/AIEnthusiast536/status/123456789009,#TechNews,
+twitter,InnovatorDaily456,"PSA: If you're not using quantum computing in 2024, you're missing out #TechTips",2025-08-15 13:40:00.665974,211,82,17,https://twitter.com/InnovatorDaily456/status/123456789008,#TechTips,
+twitter,TechExplorer309,"PSA: If you're not using cloud computing in 2024, you're missing out #TechTips",2025-08-15 13:40:00.665968,238,83,23,https://twitter.com/TechExplorer309/status/123456789007,#TechTips,
+twitter,CodeMaster909,"The cloud computing ecosystem is evolving so fast, hard to keep up! #TechNews",2025-08-15 13:40:00.665962,16,4,14,https://twitter.com/CodeMaster909/status/123456789006,#TechNews,
+twitter,CodeArtist507,Just deployed quantum computing in production. Here's what I learned... #DevLife,2025-08-15 13:40:00.665956,187,95,36,https://twitter.com/CodeArtist507/status/123456789005,#DevLife,
+twitter,CodeNewbie443,"The quantum computing ecosystem is evolving so fast, hard to keep up! #TechNews",2025-08-15 13:40:00.665948,229,24,25,https://twitter.com/CodeNewbie443/status/123456789004,#TechNews,
+twitter,DevCommunity999,Just deployed IoT in production. Here's what I learned... #DevLife,2025-08-15 13:40:00.665921,404,21,24,https://twitter.com/DevCommunity999/status/123456789003,#DevLife,
+twitter,CodeArtist138,New cloud computing update just dropped and it's incredible! 💻 #Technology #Innovation,2025-08-15 13:40:00.665894,243,73,16,https://twitter.com/CodeArtist138/status/123456789002,"#Technology,#Innovation",
+twitter,TechStartup162,New 5G update just dropped and it's incredible! 💻 #Technology #Innovation,2025-08-15 13:40:00.664168,23,51,10,https://twitter.com/TechStartup162/status/123456789001,"#Technology,#Innovation",
+twitter,TechGuru123692,"The cloud computing ecosystem is evolving so fast, hard to keep up! #TechNews",2025-08-15 13:40:00.664092,323,74,43,https://twitter.com/TechGuru123692/status/123456789000,#TechNews,
+twitter,InnovatorDaily165,The AI community is so supportive! Thanks everyone 🙏,2025-08-15 13:39:57.606562,128,53,33,https://twitter.com/InnovatorDaily165/status/123456789015,,
+twitter,FutureTech15,The AI community is so supportive! Thanks everyone 🙏,2025-08-15 13:39:57.606555,286,9,30,https://twitter.com/FutureTech15/status/123456789014,,
+twitter,FutureTech866,Working on a AI project. Exciting times! #Development,2025-08-15 13:39:57.606548,51,50,11,https://twitter.com/FutureTech866/status/123456789013,#Development,
+twitter,FutureTech286,Working on a AI project. Exciting times! #Development,2025-08-15 13:39:57.606540,11,35,40,https://twitter.com/FutureTech286/status/123456789012,#Development,
+twitter,TechStartup55,Interesting developments in AI lately! #Tech,2025-08-15 13:39:57.606534,291,45,25,https://twitter.com/TechStartup55/status/123456789011,#Tech,
+twitter,CodeMaster897,Working on a AI project. Exciting times! #Development,2025-08-15 13:39:57.606526,236,48,16,https://twitter.com/CodeMaster897/status/123456789010,#Development,
+twitter,TechStartup301,Just published my article about AI. Check it out! #Blog,2025-08-15 13:39:57.606519,10,90,28,https://twitter.com/TechStartup301/status/123456789009,#Blog,
+twitter,TechLeader442,Interesting developments in AI lately! #Tech,2025-08-15 13:39:57.606511,213,36,13,https://twitter.com/TechLeader442/status/123456789008,#Tech,
+twitter,TechGuru123381,The AI community is so supportive! Thanks everyone 🙏,2025-08-15 13:39:57.606506,500,63,28,https://twitter.com/TechGuru123381/status/123456789007,,
+twitter,TechGuru123347,The AI community is so supportive! Thanks everyone 🙏,2025-08-15 13:39:57.606499,223,91,1,https://twitter.com/TechGuru123347/status/123456789006,,
+twitter,CodeArtist17,Interesting developments in AI lately! #Tech,2025-08-15 13:39:57.606493,23,95,47,https://twitter.com/CodeArtist17/status/123456789005,#Tech,
+twitter,TechGuru123688,The AI community is so supportive! Thanks everyone 🙏,2025-08-15 13:39:57.606487,258,59,20,https://twitter.com/TechGuru123688/status/123456789004,,
+twitter,CodeMaster651,The AI community is so supportive! Thanks everyone 🙏,2025-08-15 13:39:57.606482,97,58,34,https://twitter.com/CodeMaster651/status/123456789003,,
+twitter,AIResearcher384,The AI community is so supportive! Thanks everyone 🙏,2025-08-15 13:39:57.606475,93,52,10,https://twitter.com/AIResearcher384/status/123456789002,,
+twitter,TechExplorer208,Interesting developments in AI lately! #Tech,2025-08-15 13:39:57.606464,447,76,12,https://twitter.com/TechExplorer208/status/123456789001,#Tech,
+twitter,FutureTech869,Just published my article about AI. Check it out! #Blog,2025-08-15 13:39:57.606098,477,20,43,https://twitter.com/FutureTech869/status/123456789000,#Blog,
+reddit,rajisonreddit,"launching in open source
+Hi folks,
+
+We’re opening up the build of **Hey Vexa** \-  an open-source meeting co-pilot that *joins your calls, listens, thinks, and talks back*. Actively.
+
+[https://github.com/Vexa-ai/heyvexa](https://github.com/Vexa-ai/heyvexa)
+
+Think voice-triggered AI that sits in your Zoom/Meet/Teams and actually helps and not just transcribes.
+
+This isn't another passive bot. It’s the *first real-time* AI teammate that responds in-call when you say:
+
+&gt;
+
+We’re building this *on",2025-08-15 13:29:13.000000,1,0,0,https://reddit.com/r/programming/comments/1mqv32n/launching_in_open_source/,,
+reddit,DataBaeBee,"Smart Attack on Elliptic Curves for Programmers
+",2025-08-15 13:27:03.000000,1,0,0,https://reddit.com/r/programming/comments/1mqv1h0/smart_attack_on_elliptic_curves_for_programmers/,,
+reddit,Key-Celebration-1481,"GitHub adds support for decades-old BMP &amp; TIFF... but still won't recognize WebP &amp; AVIF as images.
+",2025-08-15 13:18:49.000000,7,0,3,https://reddit.com/r/programming/comments/1mquvh5/github_adds_support_for_decadesold_bmp_tiff_but/,,
+reddit,Agreeable_Touch_9863,"[D] Bethe Hessian Spectral Clustering
+Why does nobody seem to use this when it works noticeably better than regular (normalised laplacian) spectral clustering? I have studied it a fair bit and cant see any downsides apart from ever so slightly higher computational cost (the order of magnitude doesn't change, just a larger constant.)
+
+Its also been around long enough now that I dont see recency as the issue.",2025-08-15 13:12:45.000000,1,0,0,https://reddit.com/r/MachineLearning/comments/1mqur0y/d_bethe_hessian_spectral_clustering/,,
+reddit,DonkeyFuel,"Tesla Banked $11 Billion By Selling Regulatory Credits. Now The Party's Over.
+",2025-08-15 13:10:07.000000,31,0,0,https://reddit.com/r/technology/comments/1mqup0f/tesla_banked_11_billion_by_selling_regulatory/,,
+reddit,chrisdh79,"Kodak Says Reports of Its Imminent Demise Are Greatly Exaggerated | The film company say it's not out of the game yet.
+",2025-08-15 12:42:35.000000,57,0,3,https://reddit.com/r/technology/comments/1mqu57z/kodak_says_reports_of_its_imminent_demise_are/,,
+reddit,alicedu06,"Just a nice shell script
+",2025-08-15 12:14:52.000000,5,0,4,https://reddit.com/r/programming/comments/1mqtm90/just_a_nice_shell_script/,,
+reddit,Big-Slip-6980,"[D] Are you aware of any open positions looking for someone with embedded ML expertise? I'm urgently seeking a new role before my current situation becomes unstable.
+Hey all,
+
+I'm Zack, a husband and father of two and the sole provider of my family. I'm urgently pursuing a new position.
+
+I'm an Embedded Systems Engineer with a focus on ML and computer vision. I’ve spent the last few years building real-time systems from the ground up, everything from edge (ARM) device deployments and IMU integra",2025-08-15 11:11:57.000000,6,0,1,https://reddit.com/r/MachineLearning/comments/1mqshqu/d_are_you_aware_of_any_open_positions_looking_for/,,
+reddit,defenestrate_urself,"AI experts return from China stunned: The U.S. grid is so weak, the race may already be over
+",2025-08-15 09:40:59.000000,2828,0,302,https://reddit.com/r/technology/comments/1mqqwrw/ai_experts_return_from_china_stunned_the_us_grid/,,
+reddit,No_Option_3512,"Geeks for Geeks articles are just worse for learning?
+I recently went through this article of GFG on Computer Organization vs Computer Architecture. It felt like AI wrote it but a bad one literally it just increased my confusion on the topic the differences are just not confined and both looked like same thing. Have a look at the article and drop your thoughts on it. And if you have any suggestions regarding a better article please drop that too. Thank you in advance. The article link: [Click he",2025-08-15 09:38:18.000000,53,0,34,https://reddit.com/r/programming/comments/1mqqv52/geeks_for_geeks_articles_are_just_worse_for/,,
+reddit,RiKeiJin,"NASA Budget Cuts Could End U.S. Exploration of the Outer Solar System
+",2025-08-15 09:32:30.000000,71,0,15,https://reddit.com/r/technology/comments/1mqqrpf/nasa_budget_cuts_could_end_us_exploration_of_the/,,
+reddit,stumblingtowards,"From LISP to Racket (a brief history of LISP programming)
+This is the first in a series of a historical perspective on LISP. For a while, LISP was really on its way to becoming ""the programming language"". Why it didn't, well that's an interesting story. 
+
+Of course, this isn't as comprehensive nor as detailed as I want it to be, but I can only do so much for personal reasons. It keeps my brain working and if a few people find it interesting, that is great. 
+
+I kid of course. Not about the doing ",2025-08-15 07:48:07.000000,2,0,0,https://reddit.com/r/programming/comments/1mqox33/from_lisp_to_racket_a_brief_history_of_lisp/,,
+reddit,Visible_Vacation3308,"Inside the CIA-backed venture fund that helped launch Palantir and Google Earth
+",2025-08-15 06:18:57.000000,168,0,2,https://reddit.com/r/technology/comments/1mqn9yi/inside_the_ciabacked_venture_fund_that_helped/,,
+reddit,ViolatingBadgers,"Meta's flirty AI chatbot invited a retiree to New York. He never made it home
+",2025-08-15 04:54:10.000000,1095,0,121,https://reddit.com/r/technology/comments/1mqlj6n/metas_flirty_ai_chatbot_invited_a_retiree_to_new/,,
+reddit,esporx,"Forget Netflix, Volkswagen locks horsepower behind paid subscription.
+Owners can now subscribe to boost the power of their car… for a fee.
+",2025-08-15 03:06:30.000000,6413,0,1013,https://reddit.com/r/technology/comments/1mqj70n/forget_netflix_volkswagen_locks_horsepower_behind/,,
+reddit,Majano57,"The American Car Industry Can’t Go On Like This
+",2025-08-15 02:59:35.000000,617,0,250,https://reddit.com/r/technology/comments/1mqj1bx/the_american_car_industry_cant_go_on_like_this/,,
+reddit,StraightedgexLiberal,"Nvidia, AMD Pay A 15% Bribe To The US Treasury To Keep Selling Chips To China
+",2025-08-15 02:43:07.000000,523,0,21,https://reddit.com/r/technology/comments/1mqio1s/nvidia_amd_pay_a_15_bribe_to_the_us_treasury_to/,,
+reddit,lurker_bee,"Trump administration in talks to take Intel stake, reports say
+",2025-08-15 01:43:46.000000,2162,0,205,https://reddit.com/r/technology/comments/1mqhagn/trump_administration_in_talks_to_take_intel_stake/,,
+reddit,Onlyheretohelp_you,"custom Vulkan C++ machine learning library vs TensorFlow [R]
+guys I need your opinion: I made a machine learning library using Vulkan (with compute shaders to preform the forward and backward passes) and I found that base tensorflow (on CPU) is faster than my custom model that uses GPUs. I had the simplest test where I used a very large kernel on a singe dense (ffn) layer and tensorflow is much faster. The only operation that is done in this model is a forward and backward matmul which the GPU s",2025-08-15 01:29:54.000000,4,0,5,https://reddit.com/r/MachineLearning/comments/1mqgyfe/custom_vulkan_c_machine_learning_library_vs/,,
+reddit,AncientGearAI,"Problem with dataset for my my physics undergraduate paper. Need advice about potential data leakage. [N]
+Hello.
+
+I am making a project for my final year undergraduate dissertation in a physics department. The project involves generating images (with python) depicting diffraction patters from light (laser) passing through very small holes and openings called slits and apertures. I used python code that i could pass it the values of some parameters such as slit width and slit distance and number ",2025-08-15 01:04:55.000000,4,0,2,https://reddit.com/r/MachineLearning/comments/1mqgcka/problem_with_dataset_for_my_my_physics/,,
+reddit,mqian41,"From epoll to io_uring’s Multishot Receives — Why 2025 Is the Year We Finally Kill the Event Loop
+The evolution of Linux asynchronous I/O from epoll to io\_uring, highlighting how multishot receive operations streamline network event handling. ",2025-08-15 00:38:53.000000,64,0,13,https://reddit.com/r/programming/comments/1mqfp7c/from_epoll_to_io_urings_multishot_receives_why/,,
+reddit,chrisdh79,"Starlink tries to block Virginia’s plan to bring fiber Internet to residents | SpaceX wants more money, asks Trump admin to reject state's broadband grant plan.
+",2025-08-15 00:27:34.000000,6356,0,184,https://reddit.com/r/technology/comments/1mqff4g/starlink_tries_to_block_virginias_plan_to_bring/,,
+reddit,chrisdh79,"US government agency drops Grok after MechaHitler backlash, report says | It appears Grok’s antisemitic rants stopped it from becoming feds’ go-to chatbot.
+",2025-08-15 00:26:46.000000,1593,0,35,https://reddit.com/r/technology/comments/1mqfeg8/us_government_agency_drops_grok_after_mechahitler/,,
+reddit,Aggravating_Money992,"ICE Accidentally Adds Wrong Person to Sensitive Group Chat
+",2025-08-15 00:05:13.000000,5881,0,190,https://reddit.com/r/technology/comments/1mqeua8/ice_accidentally_adds_wrong_person_to_sensitive/,,
+reddit,stevenverses,"[2507.17338] Mobile Manipulation with Active Inference for Long-Horizon Rearrangement Tasks
+Research showcasing how a robot outperforms state of the art models on the Habitat benchmark from Meta ***without pre-training***.
+
+For those fluent in 🤖 what you think?",2025-08-14 23:23:01.000000,2,0,0,https://reddit.com/r/MachineLearning/comments/1mqdpug/250717338_mobile_manipulation_with_active/,,
+reddit,ketralnis,"NaN-Propagation: A Novel Method for Sparsity Detection in Black-Box Computational Functions
+",2025-08-14 23:12:02.000000,5,0,0,https://reddit.com/r/programming/comments/1mqdf0a/nanpropagation_a_novel_method_for_sparsity/,,
+reddit,Majestij,"[R] Code for Flow Stochastic Segmentation Networks (ICCV 20205)
+Code &amp; paper at: [https://github.com/biomedia-mira/flow-ssn](https://github.com/biomedia-mira/flow-ssn)
+
+**TL;DR**
+
+\- A flow's prior is typically fixed (e.g. N(0, I)). We learn it and use a **lightweight** flow to model pixel dependencies;
+
+\- This makes sampling (ODE solving) more **efficient**, without sacrificing performance in our setting;
+
+\- We introduce bespoke training objectives for both **autoregressive** and **contin",2025-08-14 22:32:35.000000,7,0,0,https://reddit.com/r/MachineLearning/comments/1mqccah/r_code_for_flow_stochastic_segmentation_networks/,,
+reddit,ciemnymetal,"No, AI is not Making Engineers 10x as Productive
+",2025-08-14 22:18:58.000000,1274,0,271,https://reddit.com/r/programming/comments/1mqbyr3/no_ai_is_not_making_engineers_10x_as_productive/,,
+reddit,AdInevitable1362,"[P] Can I use test set reviews to help predict ratings, or is that cheating?
+I’m working on a rating prediction (regression) model. I also have reviews for each user-item interaction, and from those reviews I can extract “aspects” (like quality, price, etc.) and build a separate graphs and concatenate their embeddings at the end to help predicting the score.
+
+My question is: when I split my data into train/test, is it okay to still use the aspects extracted from the test set reviews during predi",2025-08-14 21:59:46.000000,1,0,2,https://reddit.com/r/MachineLearning/comments/1mqbf3m/p_can_i_use_test_set_reviews_to_help_predict/,,
+reddit,esporx,"Trump Administration Is Said to Discuss US Taking Stake in Intel
+",2025-08-14 21:48:39.000000,989,0,234,https://reddit.com/r/technology/comments/1mqb47x/trump_administration_is_said_to_discuss_us_taking/,,
+reddit,vriska1,"The Open Internet Is Closed for Business
+",2025-08-14 21:43:22.000000,399,0,35,https://reddit.com/r/technology/comments/1mqaz2g/the_open_internet_is_closed_for_business/,,
+reddit,ketralnis,"Reverse Proxy Deep Dive: Why Load Balancing at Scale Is Hard
+",2025-08-14 21:08:03.000000,8,0,0,https://reddit.com/r/programming/comments/1mq9zs7/reverse_proxy_deep_dive_why_load_balancing_at/,,
+reddit,ketralnis,"Fun with finite state transducers
+",2025-08-14 21:07:58.000000,1,0,0,https://reddit.com/r/programming/comments/1mq9zp2/fun_with_finite_state_transducers/,,
+reddit,ketralnis,"Architecting large software projects [video]
+",2025-08-14 21:06:41.000000,0,0,0,https://reddit.com/r/programming/comments/1mq9yfu/architecting_large_software_projects_video/,,
+reddit,ketralnis,"Placing Arguments
+",2025-08-14 21:05:56.000000,4,0,0,https://reddit.com/r/programming/comments/1mq9xnx/placing_arguments/,,
+reddit,abrownn,"SF tech CEO offers buyouts to let workers flee 'extreme' work culture
+",2025-08-14 21:01:23.000000,2171,0,225,https://reddit.com/r/technology/comments/1mq9t1j/sf_tech_ceo_offers_buyouts_to_let_workers_flee/,,
+reddit,upyoars,"Big Tech is paying its way out of Trump's tariffs
+",2025-08-14 19:48:28.000000,654,0,67,https://reddit.com/r/technology/comments/1mq7rdz/big_tech_is_paying_its_way_out_of_trumps_tariffs/,,
+reddit,samyak210,"Variance in type systems
+I could never remember what covariance, contravariance and invariance meant. These concepts show up quite frequently in programs. So I decided to learn them once and for all and wrote up a post.
+I'm open to any feedback :)",2025-08-14 19:45:30.000000,9,0,1,https://reddit.com/r/programming/comments/1mq7o8a/variance_in_type_systems/,,
+reddit,indig0sixalpha,"xAI Was About to Land a Major Government Contract. Then Grok Praised Hitler
+",2025-08-14 19:42:47.000000,576,0,22,https://reddit.com/r/technology/comments/1mq7lbt/xai_was_about_to_land_a_major_government_contract/,,
+reddit,ketralnis,"Liveness analysis with Datalog
+",2025-08-14 19:06:04.000000,6,0,0,https://reddit.com/r/programming/comments/1mq6jq4/liveness_analysis_with_datalog/,,
+reddit,ketralnis,"Lessons learned from implementing SIMD-accelerated algorithms in pure Rust
+",2025-08-14 19:05:51.000000,13,0,0,https://reddit.com/r/programming/comments/1mq6jgh/lessons_learned_from_implementing_simdaccelerated/,,
+reddit,ketralnis,"LazyLog: A New Shared Log Abstraction for Low-Latency Applications [pdf]
+",2025-08-14 19:04:34.000000,5,0,0,https://reddit.com/r/programming/comments/1mq6i5p/lazylog_a_new_shared_log_abstraction_for/,,
+reddit,ketralnis,"SIMD Binary Heap Operations
+",2025-08-14 19:02:34.000000,5,0,0,https://reddit.com/r/programming/comments/1mq6g5o/simd_binary_heap_operations/,,
+reddit,indig0sixalpha,"ICE Adds Random Person to Group Chat, Exposes Details of Manhunt in Real-Time
+",2025-08-14 18:59:14.000000,3874,0,77,https://reddit.com/r/technology/comments/1mq6coh/ice_adds_random_person_to_group_chat_exposes/,,
+reddit,ImaginationAny2254,"[D] People in ML/DS/AI field since 5-10 years or more, are you tired of updating yourself with changing tech stack?
+I have been in this space since SAS, and its quite exhausting to update with every skill in the market to stay relevant especially if trying for a job switch and going through the interviews. Till how long can you keep studying and updating with the new trend and also even if you get in the boat there is so much stress at the work place in these sectors mainly because the leadershi",2025-08-14 18:43:01.000000,46,0,65,https://reddit.com/r/MachineLearning/comments/1mq5wiz/d_people_in_mldsai_field_since_510_years_or_more/,,
+reddit,DonkeyFuel,"The First Federal Cybersecurity Disaster of Trump 2.0 Has Arrived
+",2025-08-14 18:17:52.000000,7808,0,177,https://reddit.com/r/technology/comments/1mq57sm/the_first_federal_cybersecurity_disaster_of_trump/,,
+reddit,RobertWF_47,"[D] Best way to partition longitudinal data into pre and post time periods for predictive model?
+I'm working on several healthcare models that will predict future health conditions for individuals using past longitudinal data. We have data spanning 6 years.
+
+In the past I'd split the data into one year time spans by calendar year and train the model to predict the outcome in year t1 from predictors in the prior year t0. If we have 6 years of data for a person I'd transform their data from wide t",2025-08-14 17:29:41.000000,3,0,4,https://reddit.com/r/MachineLearning/comments/1mq3w9c/d_best_way_to_partition_longitudinal_data_into/,,
+reddit,Practical-Pin8396,"[P] Small and Imbalanced dataset - what to do
+Hello everyone!
+
+I'm currently in the 1st year of my PhD, and my PI asked me to apply some ML algorithms to a dataset (n = 106, w/ n = 21 in the positive class). As you can see, the performance metrics are quite poor, and I'm not sure how to proceed...
+
+I’ve searched both in this subreddit and internet, and I've tried using LOOCV and stratified k-fold as cross-validation methods. However, the results are consistently underwhelming with both approache",2025-08-14 17:20:53.000000,21,0,23,https://reddit.com/r/MachineLearning/comments/1mq3nia/p_small_and_imbalanced_dataset_what_to_do/,,
+reddit,MarvelsGrantMan136,"X Goes Down Again: Thousands of Users Report Problems With Site, App
+",2025-08-14 17:14:41.000000,753,0,85,https://reddit.com/r/technology/comments/1mq3hk0/x_goes_down_again_thousands_of_users_report/,,
+reddit,yangzhou1993,"AI’s Serious Python Bias: Concerns of LLMs Preferring One Language
+",2025-08-14 17:00:45.000000,214,0,64,https://reddit.com/r/programming/comments/1mq33pm/ais_serious_python_bias_concerns_of_llms/,,
+reddit,1-randomonium,"There’s a small problem with Trump’s export deal with Nvidia and AMD: The Constitution says it’s illegal
+",2025-08-14 16:56:40.000000,25310,0,1029,https://reddit.com/r/technology/comments/1mq2zlh/theres_a_small_problem_with_trumps_export_deal/,,
+reddit,goto-con,"Encrypted Computation: What if Decryption Wasn’t Needed? • Katharine Jarmul
+",2025-08-14 16:28:27.000000,7,0,6,https://reddit.com/r/programming/comments/1mq291m/encrypted_computation_what_if_decryption_wasnt/,,
+reddit,HDev-,"85% of orgs say their biggest AI challenge is… measuring impact
+",2025-08-14 16:15:11.000000,1165,0,131,https://reddit.com/r/technology/comments/1mq1wdw/85_of_orgs_say_their_biggest_ai_challenge_is/,,
+reddit,HDev-,"54% of engineering leaders expect fewer junior hires because of AI coding tools
+LeadDev’s *AI Impact Report 2025* surveyed 880+ engineering leaders and found:
+
+* 54% say AI will reduce long-term junior hiring
+* 38% think juniors will get less hands-on experience
+* 39% expect faster turnaround demands
+
+Some leaders see AI as a learning accelerator, but others fear reduced mentoring and higher workloads for early-career devs.",2025-08-14 16:06:54.000000,896,0,359,https://reddit.com/r/programming/comments/1mq1okh/54_of_engineering_leaders_expect_fewer_junior/,,
+reddit,SingleandSober,"Meta appoints anti-LGBTQ+ conspiracy theorist Robby Starbuck as AI bias advisor
+",2025-08-14 13:54:11.000000,24028,0,1182,https://reddit.com/r/technology/comments/1mpyhp5/meta_appoints_antilgbtq_conspiracy_theorist_robby/,,
+reddit,chrisdh79,"Can’t pay, won’t pay: impoverished streaming services are driving viewers back to piracy
+",2025-08-14 13:41:21.000000,6269,0,717,https://reddit.com/r/technology/comments/1mpy7zy/cant_pay_wont_pay_impoverished_streaming_services/,,
+reddit,ketralnis,"Go 1.25 Release Notes
+",2025-08-14 06:46:16.000000,102,0,2,https://reddit.com/r/programming/comments/1mpqyib/go_125_release_notes/,,
+reddit,ketralnis,"OCaml as my primary language
+",2025-08-14 06:42:40.000000,32,0,17,https://reddit.com/r/programming/comments/1mpqw2s/ocaml_as_my_primary_language/,,
+reddit,mqian41,"The Evolution of Linux CPU Schedulers: From O(1) to CFS to User‑Space Scheduling
+# Linux CPU Scheduling Evolution and Facebook's BOLT: Cutting Latency with sched_ext",2025-08-14 06:07:37.000000,46,0,3,https://reddit.com/r/programming/comments/1mpq92m/the_evolution_of_linux_cpu_schedulers_from_o1_to/,,
+reddit,solidpoopchunk,"[P] Sensor calibration correction
+A few months ago, I had calibrated a few pairs of cam and lidar sensor, namely the intrinsics of each cam and the extrinsic between each cam and lidar in pair
+
+A few days ago, while projecting the lidar points to the camera space, I noticed a consistent drift across the cam and lidar, and was hoping to correct in automatic ways instead of manually do so.
+
+Instantly, one thought was to use depth as a feature to match against the 2 modalities. I have done Monocula",2025-08-14 05:27:46.000000,6,0,0,https://reddit.com/r/MachineLearning/comments/1mppgxq/p_sensor_calibration_correction/,,
+reddit,Entrepreneur7962,"[D] Got Spare Time – What’s Worth Doing?
+I'm a fresh PhD graduate and I finally landed a job which I start in a few months.  
+It happened to be that I have quite a bit of free time, at least until my next journey. I thought about taking a few months off, but a few weeks in and I start to feel a bit out of place.  
+I really don't know how to handle simply doing nothing.
+
+I thought maybe I’d start some initiative in this rare window I’m in right now, and I was hoping to get interesting ideas from ",2025-08-13 20:00:48.000000,35,0,39,https://reddit.com/r/MachineLearning/comments/1mpbp39/d_got_spare_time_whats_worth_doing/,,
+reddit,Proud_Landscape_4231,"[D] If there were to be some sort of way you could get NDVI (not true, but predict) that was near perfect accuracy through JUST standard RGB input (NO NIR AT ALL), how useful would that be (API, for example)?
+Sorry if this is not the right place to post! I'm new to the community and overall GIS industry. Just want to see how useful this would be, specific use cases, and maybe how this could be used by you personally.
+
+  
+I know there are RGB-only indices that exist, but from what I've heard, the",2025-08-13 19:01:28.000000,0,0,3,https://reddit.com/r/MachineLearning/comments/1mpa2ip/d_if_there_were_to_be_some_sort_of_way_you_could/,,
+reddit,ChampionshipCrazy429,"[D] Google DeepMind Analytics Engineer Interview Prep
+Got an upcoming interview for this role and have a good feeling so far. How do I prepare for it? What will be the next steps? Any tips or experience would be greatly appreciated. Thanks!",2025-08-13 16:53:04.000000,11,0,4,https://reddit.com/r/MachineLearning/comments/1mp6n2g/d_google_deepmind_analytics_engineer_interview/,,
+reddit,Accomplished-Pay-390,"[D] EMNLP 2025 Decisions
+Discussion thread for EMNLP 2025 decisions
+
+",2025-08-13 15:02:29.000000,0,0,7,https://reddit.com/r/MachineLearning/comments/1mp3u1f/d_emnlp_2025_decisions/,,
+reddit,ArtemHnilov,"[R] Fuzzy-Pattern Tsetlin Machine
+I’m excited to announce the paper: **Fuzzy-Pattern Tsetlin Machine** (FPTM) — a paradigm shift in the Tsetlin Machine family of algorithms.
+
+Unlike traditional Tsetlin Machines, which rely on strict clause evaluation, FPTM introduces fuzzy clause evaluation: if some literals in a clause fail, the remaining literals can still contribute to the vote with a proportionally reduced score. This allows each clause to act as a collection of adaptive sub-patterns, enabli",2025-08-13 13:55:31.000000,40,0,5,https://reddit.com/r/MachineLearning/comments/1mp2dcp/r_fuzzypattern_tsetlin_machine/,,
+reddit,Centrist-81545,"GitHub folds into Microsoft following CEO resignation — once independent programming site now part of 'CoreAI' team
+",2025-08-13 08:44:57.000000,2370,0,623,https://reddit.com/r/programming/comments/1mox7e5/github_folds_into_microsoft_following_ceo/,,
+reddit,Elegant_Dream4936,"[R] Promising Research Directions for VLMs in the Medical Domain
+Dear all,
+
+I’d like to hear the community’s thoughts on promising research directions for VLMs (e.g., CLIP), particularly in the medical domain.
+
+Thank you in advance!",2025-08-13 05:55:28.000000,0,0,1,https://reddit.com/r/MachineLearning/comments/1mou8y4/r_promising_research_directions_for_vlms_in_the/,,
+reddit,NoteDancing,"[D] Applying Prioritized Experience Replay in the PPO algorithm
+When using the PPO algorithm, can we improve data utilization by implementing Prioritized Experience Replay (PER) where the priority is determined by both the probability ratio and the TD-error, while simultaneously using a windows\_size\_ppo parameter to manage the experience buffer as a sliding window that discards old data?",2025-08-13 03:30:00.000000,1,0,1,https://reddit.com/r/MachineLearning/comments/1mor8vy/d_applying_prioritized_experience_replay_in_the/,,
+reddit,seventh_day123,"[D] Statement on the Originality of OpenRLHF and veRL FSDP RLHF
+&gt;From the original chinese zhihu blogpost (2025/5): [https://zhuanlan.zhihu.com/p/23147932785](https://zhuanlan.zhihu.com/p/23147932785)
+
+**Recently, there has been quite a bit of discussion and controversy online about OpenRLHF and veRL.**  
+**As the original author, I feel compelled to issue a statement.**
+
+In short: **OpenRLHF is like KartRider — the original — and veRL FSDP is like QQ Speed, which is basically a copycat of Op",2025-08-13 03:05:42.000000,10,0,1,https://reddit.com/r/MachineLearning/comments/1moqpqw/d_statement_on_the_originality_of_openrlhf_and/,,
+reddit,alkalinemoe,"[D] Multiple submission policy at EMNLP 2025 for workshops
+Hi all,
+
+I’m trying to understand the EMNLP 2025 multiple submission policy when it comes to co-organized workshops.
+
+Our paper is committed to EMNLP 2025 (main conference), but we think it might also be a good fit for a specific workshop, in case if it is not accepted to EMNLP. 
+
+The problem is, the workshop’s submission deadline is before the EMNLP notification date (Aug 20).
+
+The workshop’s CFP says multiple submissions are fine if di",2025-08-12 22:49:31.000000,3,0,1,https://reddit.com/r/MachineLearning/comments/1mokka9/d_multiple_submission_policy_at_emnlp_2025_for/,,
+reddit,fictoromantic_25,"Guidance on improving the reconstruction results of my VAE [Project]
+Hi all! I was trying to build a VAE with an LSTM to reconstruct particle trajectories by basing off my model on the paper ""Modeling Trajectories with Neural Ordinary Differential Equations"". However, despite my loss plots showing a downward trend, my predictions are linear.
+
+I have applied KL annealing and learning rate scheduler - and yet, the model doesn't seem to be learning the non-linear dynamics. The input features are x ",2025-08-12 21:55:28.000000,1,0,11,https://reddit.com/r/MachineLearning/comments/1moj422/guidance_on_improving_the_reconstruction_results/,,
+reddit,hsbdbsjjd,"[P] Dealing with EXTREME class imbalance(0.095% prevalence)
+I’m trying to build a model for fraud prediction where I have a labeled dataset of ~200M records and 45 features. It’s supervised since I have the target label as well. It’s a binary classification problem and I’ve trying to deal with it using XGB and also tried neural network. 
+
+The thing is that only 0.095% of the total are fraud. How can I make a model that generalizes well. I’m really frustrated at this point. I tried everything but",2025-08-12 08:54:07.000000,13,0,12,https://reddit.com/r/MachineLearning/comments/1mo1ngm/p_dealing_with_extreme_class_imbalance0095/,,
+reddit,NuoJohnChen,"[R] Position: The Current AI Conference Model is Unsustainable!
+
+Paper: https://www.alphaxiv.org/abs/2508.04586v1  
+
+
+📈 Publication Surge: Per-author publication rates have more than doubled over the past decade to over 4.5 papers annually.  
+
+
+🚀 Exponential Output Growth: Individual contributions are rising so fast they’re projected to exceed one paper per month by the 2040s.  
+
+
+🌍 Carbon Overload: NeurIPS 2024’s travel emissions (&gt;8,254 tCO₂e) alone surpass Vancouver’s daily citywide footpr",2025-08-12 08:10:51.000000,364,0,48,https://reddit.com/r/MachineLearning/comments/1mo0ynr/r_position_the_current_ai_conference_model_is/,,
+reddit,Healthy_Horse_2183,"[R] AAAI 2026 Reviewer Assignments?
+Did anyone get assigned papers?
+
+I submitted the biddings long time ago.",2025-08-12 04:45:20.000000,15,0,20,https://reddit.com/r/MachineLearning/comments/1mnx3vn/r_aaai_2026_reviewer_assignments/,,
+reddit,Realistic-Bet-661,"[N] OpenAI Delivers Gold-medal performance at the 2025 International Olympiad in Informatics
+[https://www.msn.com/en-xl/news/other/openai-scores-gold-in-one-of-the-world-s-top-programming-competitions/ar-AA1KknUL](https://www.msn.com/en-xl/news/other/openai-scores-gold-in-one-of-the-world-s-top-programming-competitions/ar-AA1KknUL)
+
+&gt;We officially entered the 2025 International Olympiad in Informatics (IOI) online competition track and adhered to the same restrictions as the human contestants",2025-08-11 23:26:41.000000,56,0,22,https://reddit.com/r/MachineLearning/comments/1mnpqu7/n_openai_delivers_goldmedal_performance_at_the/,,
+reddit,AutoModerator,"[D] Self-Promotion Thread
+Please post your personal projects, startups, product placements, collaboration needs, blogs etc.
+
+Please mention the payment and pricing requirements for products and services.
+
+Please do not post link shorteners, link aggregator websites , or auto-subscribe links.
+
+\--
+
+Any abuse of trust will lead to bans.
+
+Encourage others who create new posts for questions to post here instead!
+
+Thread will stay alive until next one so keep posting after the date in the title.
+
+\--",2025-08-02 04:15:29.000000,3,0,23,https://reddit.com/r/MachineLearning/comments/1mfezri/d_selfpromotion_thread/,,
+reddit,AutoModerator,"[D] Simple Questions Thread
+Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead!
+
+Thread will stay alive until next one so keep posting after the date in the title.
+
+Thanks to everyone for answering questions in the previous thread!",2025-08-01 17:01:19.000000,6,0,29,https://reddit.com/r/MachineLearning/comments/1meysr1/d_simple_questions_thread/,,
