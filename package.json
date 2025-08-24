@@ -1,0 +1,11 @@
+{
+  "name": "gabriele-tanzi-blog",
+  "version": "1.0.0",
+  "description": "Gabriele Tanzi's Data-Driven Blog",
+  "scripts": {
+    "build": "echo 'Static site - no build step needed'",
+    "start": "echo 'Static site ready'"
+  },
+  "author": "Gabriele Tanzi",
+  "license": "MIT"
+}
