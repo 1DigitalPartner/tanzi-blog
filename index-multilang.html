@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriele Tanzi - Data-Driven Tech Insights | Blog Multilingue</title>
+    <meta name="description" content="Competitive insights and market intelligence powered by social media data analysis. Available in English, Italian, and German.">
+    <meta name="author" content="Gabriele Tanzi">
+    <link rel="alternate" hreflang="en" href="https://tanzitech.com/en/">
+    <link rel="alternate" hreflang="it" href="https://tanzitech.com/it/">
+    <link rel="alternate" hreflang="de" href="https://tanzitech.com/de/">
+    <link rel="alternate" hreflang="x-default" href="https://tanzitech.com/">
+    <style>
+        :root {
+            --primary-blue: #2563eb;
+            --success-green: #059669;
+            --orange-accent: #ea580c;
+            --dark-gray: #374151;
+            --medium-gray: #6b7280;
+            --light-gray: #f3f4f6;
+            --white: #ffffff;
+            --gradient-hero: linear-gradient(135deg, #2563eb 0%, #0d9488 50%, #ea580c 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--dark-gray);
+            background: linear-gradient(135deg, #fafafa 0%, var(--light-gray) 100%);
+            min-height: 100vh;
+        }
+
+        .header {
+            background: var(--gradient-hero);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%);
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+        }
+
+        .main-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.4rem;
+            opacity: 0.95;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+
+        .language-selector {
+            background: rgba(255,255,255,0.1);
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            display: inline-block;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            margin-bottom: 2rem;
+        }
+
+        .language-selector h3 {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .language-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .lang-link {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: rgba(255,255,255,0.15);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .lang-link:hover {
+            background: rgba(255,255,255,0.25);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .flag {
+            font-size: 1.5rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(37, 99, 235, 0.08);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--dark-gray);
+        }
+
+        .feature-desc {
+            color: var(--medium-gray);
+            line-height: 1.6;
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 3rem 0;
+        }
+
+        .stat {
+            background: white;
+            padding: 1.5rem 2rem;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid var(--primary-blue);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: var(--medium-gray);
+            font-size: 0.9rem;
+        }
+
+        .cta {
+            text-align: center;
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .cta h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--dark-gray);
+        }
+
+        .cta p {
+            font-size: 1.1rem;
+            color: var(--medium-gray);
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--gradient-hero);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .footer {
+            background: var(--dark-gray);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 2.5rem;
+            }
+            
+            .language-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .lang-link {
+                justify-content: center;
+                min-width: 200px;
+            }
+            
+            .container {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">🚀📊💡</div>
+            <h1 class="main-title">Gabriele Tanzi</h1>
+            <p class="subtitle">Data-Driven Tech Insights & Market Intelligence</p>
+            
+            <div class="language-selector">
+                <h3>Choose Your Language / Scegli la tua lingua / Wählen Sie Ihre Sprache</h3>
+                <div class="language-links">
+                    <a href="en/" class="lang-link">
+                        <span class="flag">🇺🇸</span>
+                        <span>English</span>
+                    </a>
+                    <a href="it/" class="lang-link">
+                        <span class="flag">🇮🇹</span>
+                        <span>Italiano</span>
+                    </a>
+                    <a href="de/" class="lang-link">
+                        <span class="flag">🇩🇪</span>
+                        <span>Deutsch</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Blog Articles</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Languages</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">125+</div>
+                <div class="stat-label">Posts Analyzed</div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3 class="feature-title">Data-Driven Analysis</h3>
+                <p class="feature-desc">Real social media data analysis revealing what content strategies actually work in the tech industry.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🚀</div>
+                <h3 class="feature-title">Tech Industry Insights</h3>
+                <p class="feature-desc">In-depth analysis of AI, programming trends, and technology industry developments backed by real metrics.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3 class="feature-title">Multilingual Content</h3>
+                <p class="feature-desc">Available in English, Italian, and German to serve our global tech community with localized insights.</p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h2>Ready to Access Data-Driven Tech Insights?</h2>
+            <p>Choose your preferred language to start reading our latest analysis and industry intelligence.</p>
+            <a href="en/" class="cta-button">Start Reading →</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Gabriele Tanzi. All rights reserved. | Data-driven insights for the global tech community.</p>
+    </footer>
+
+    <script>
+        // Auto-redirect based on browser language (optional)
+        function detectAndRedirect() {
+            const browserLang = navigator.language.substring(0, 2);
+            const supportedLangs = ['en', 'it', 'de'];
+            const hasVisited = localStorage.getItem('hasVisitedMultilang');
+            
+            if (!hasVisited && supportedLangs.includes(browserLang)) {
+                localStorage.setItem('hasVisitedMultilang', 'true');
+                // Uncomment the next line to enable auto-redirect
+                // window.location.href = `/${browserLang}/`;
+            }
+        }
+        
+        // Call the function when page loads
+        // detectAndRedirect();
+    </script>
+</body>
+</html>

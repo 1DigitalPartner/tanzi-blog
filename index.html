@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriele Tanzi's Data-Driven Blog</title>
+    <title>Gabriele Tanzi's Data-Driven Blog - Multilingual</title>
     <meta name="description" content="Competitive insights and market intelligence powered by social media data analysis">
     <meta name="author" content="Gabriele Tanzi">
+    <link rel="alternate" hreflang="en" href="./en/">
+    <link rel="alternate" hreflang="it" href="./it/">
+    <link rel="alternate" hreflang="de" href="./de/">
     <style>
 /* ============================================
    GABRIELE TANZI'S DATA-DRIVEN BLOG STYLES
@@ -609,6 +612,14 @@ body {
     .post-content h2 {
         font-size: 1.5rem;
     }
+    
+    .language-switcher {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
 }
 
 /* Scroll Animations */
@@ -663,9 +674,66 @@ a:focus, button:focus {
     background: var(--primary-blue);
     color: var(--white);
 }
+
+/* Language Switcher */
+.language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--dark-gray);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.lang-switch:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.lang-switch.active {
+    background: var(--primary-blue);
+    color: white;
+}
+
+.lang-flag {
+    font-size: 1rem;
+}
 </style>
 </head>
 <body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <a href="./en/" class="lang-switch active">
+            <span class="lang-flag">🇺🇸</span>
+            <span>EN</span>
+        </a>
+        <a href="./it/" class="lang-switch">
+            <span class="lang-flag">🇮🇹</span>
+            <span>IT</span>
+        </a>
+        <a href="./de/" class="lang-switch">
+            <span class="lang-flag">🇩🇪</span>
+            <span>DE</span>
+        </a>
+    </div>
+
     <!-- Professional Blog Header with Gradient Background -->
     <header class="blog-header">
         <h1><a href="/"><span class="emoji">🚀</span>Gabriele Tanzi's Data-Driven Blog</a></h1>
