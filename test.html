@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Test - Gabriele Tanzi Blog</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+        }
+        .test-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 { color: #2563eb; margin-bottom: 20px; }
+        .status { padding: 10px; border-radius: 6px; margin: 10px 0; }
+        .success { background: #d1fae5; color: #065f46; }
+        .info { background: #dbeafe; color: #1e40af; }
+        a { color: #2563eb; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="test-card">
+        <h1>🚀 Vercel Deployment Test</h1>
+        <div class="status success">✅ Site is successfully deployed to Vercel!</div>
+        <div class="status info">📍 Domain connection working</div>
+        <div class="status info">🔒 SSL certificate active</div>
+        
+        <h2>Domain Status:</h2>
+        <p><strong>Current URL:</strong> <span id="currentUrl"></span></p>
+        <p><strong>Timestamp:</strong> <span id="timestamp"></span></p>
+        
+        <h2>Language Switcher Test:</h2>
+        <div style="display: flex; gap: 10px; justify-content: center; margin: 20px 0;">
+            <a href="./en/" style="padding: 8px 16px; background: #2563eb; color: white; border-radius: 6px;">🇺🇸 EN</a>
+            <a href="./it/" style="padding: 8px 16px; background: #2563eb; color: white; border-radius: 6px;">🇮🇹 IT</a>
+            <a href="./de/" style="padding: 8px 16px; background: #2563eb; color: white; border-radius: 6px;">🇩🇪 DE</a>
+        </div>
+        
+        <p><a href="./index.html">← Back to Main Blog</a></p>
+    </div>
+    
+    <script>
+        document.getElementById('currentUrl').textContent = window.location.href;
+        document.getElementById('timestamp').textContent = new Date().toISOString();
+    </script>
+</body>
+</html>
