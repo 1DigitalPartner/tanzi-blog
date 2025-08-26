@@ -10,7 +10,7 @@ on:
     inputs:
       deploy_type:
         description: 'Deployment type'
-        required: true
+        required: false
         default: 'full'
         type: choice
         options:
