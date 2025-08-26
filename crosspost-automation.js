@@ -484,7 +484,7 @@ class CrosspostingManager {
   // Generate blog URL for the post
   generateBlogUrl(postPath, language) {
     const filename = path.basename(postPath);
-    const baseUrl = 'https://blog.tanzitech.com'; // Your custom domain
+    const baseUrl = 'https://tanzitech.com'; // Your actual custom domain
     return `${baseUrl}/${language}/posts/${filename}`;
   }
 
