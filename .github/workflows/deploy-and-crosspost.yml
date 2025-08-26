@@ -282,5 +282,7 @@ jobs:
       run: |
         echo "🌐 Website deployed successfully!"
         echo "📅 Deployment time: $(date)"
-        echo "🔗 Live URL: ${{ steps.deployment.outputs.page_url }}"
-        echo "🎉 Your blog is now live!"
+        echo "🔗 Live URL: https://blog.tanzitech.com"
+        echo "🎉 Your blog is now live at blog.tanzitech.com!"
+        echo "🏠 Main site: https://tanzitech.com (unchanged)"
+        echo "📝 Blog: https://blog.tanzitech.com (new automated blog)"
