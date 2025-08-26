@@ -1,0 +1,29 @@
+{
+  "date": "2025-08-26",
+  "posts": [
+    {
+      "filename": "2025-08-17-programming-trends-content-analysis.html",
+      "language": "en",
+      "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+      "scheduledAt": "2025-08-26T14:19:57.202Z"
+    },
+    {
+      "filename": "2025-08-16-shocking-truth-about-ai-technology.html",
+      "language": "en",
+      "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+      "scheduledAt": "2025-08-26T14:19:57.202Z"
+    },
+    {
+      "filename": "2025-08-17-analisi-tendenze-programmazione.html",
+      "language": "it",
+      "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+      "scheduledAt": "2025-08-26T14:19:57.202Z"
+    },
+    {
+      "filename": "2025-08-17-programmiertrends-content-analyse.html",
+      "language": "de",
+      "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+      "scheduledAt": "2025-08-26T14:19:57.203Z"
+    }
+  ]
+}

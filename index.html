@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanziTech Blog - AI, Social Media & Technology Insights</title>
+    <meta name="description" content="Cutting-edge insights on AI, social media growth, and technology trends in multiple languages. Data-driven analysis for global professionals.">
+    <meta name="author" content="Gabriele Tanzi">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Hreflang for SEO -->
+    <link rel="alternate" hreflang="en" href="https://tanzitech.com/en/">
+    <link rel="alternate" hreflang="it" href="https://tanzitech.com/it/">
+    <link rel="alternate" hreflang="de" href="https://tanzitech.com/de/">
+    <link rel="alternate" hreflang="x-default" href="https://tanzitech.com/">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-container {
+            text-align: center;
+            color: white;
+            max-width: 800px;
+            padding: 40px 20px;
+        }
+
+        .logo {
+            font-size: 4rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            letter-spacing: -0.02em;
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            margin-bottom: 3rem;
+            font-weight: 300;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .language-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .language-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 2rem;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .language-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 0%, rgba(255,255,255,0.1) 50%, transparent 100%);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+        }
+
+        .language-card:hover::before {
+            transform: translateX(100%);
+        }
+
+        .language-card:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.4);
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+
+        .language-flag {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .language-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .language-desc {
+            opacity: 0.8;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .posts-count {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin: 3rem 0;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 900;
+            display: block;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .stat-label {
+            opacity: 0.8;
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+        .footer-links {
+            margin-top: 3rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-link {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .footer-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 3rem;
+            }
+            
+            .tagline {
+                font-size: 1.2rem;
+            }
+            
+            .language-selector {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .stats-bar {
+                gap: 2rem;
+            }
+            
+            .stat-number {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="logo">TanziTech</h1>
+        <p class="tagline">AI & Social Media Intelligence<br>Data-driven insights in multiple languages</p>
+        
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-number">12+</span>
+                <span class="stat-label">Blog Posts</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Languages</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">118K+</span>
+                <span class="stat-label">Data Points</span>
+            </div>
+        </div>
+
+        <div class="language-selector">
+            <a href="en/" class="language-card">
+                <span class="language-flag">🇺🇸</span>
+                <div class="language-name">English</div>
+                <div class="language-desc">Global insights for international professionals</div>
+                <span class="posts-count">4+ Posts Available</span>
+            </a>
+
+            <a href="it/" class="language-card">
+                <span class="language-flag">🇮🇹</span>
+                <div class="language-name">Italiano</div>
+                <div class="language-desc">Analisi approfondite per professionisti italiani</div>
+                <span class="posts-count">4+ Post Disponibili</span>
+            </a>
+
+            <a href="de/" class="language-card">
+                <span class="language-flag">🇩🇪</span>
+                <div class="language-name">Deutsch</div>
+                <div class="language-desc">Datenbasierte Einblicke für deutsche Fachkräfte</div>
+                <span class="posts-count">4+ Beiträge Verfügbar</span>
+            </a>
+        </div>
+
+        <div class="footer-links">
+            <a href="links.html" class="footer-link">Bio Links</a>
+            <a href="mailto:contact@tanzitech.com" class="footer-link">Contact</a>
+            <a href="#" class="footer-link">About</a>
+        </div>
+    </div>
+
+    <script>
+        // Auto-detect browser language and suggest appropriate version
+        const userLang = navigator.language || navigator.userLanguage;
+        const langCode = userLang.substring(0, 2).toLowerCase();
+        
+        // Store language preference
+        if (langCode === 'it' || langCode === 'de') {
+            localStorage.setItem('preferredLanguage', langCode);
+            
+            // Optional: Show a subtle notification
+            setTimeout(() => {
+                const notification = document.createElement('div');
+                notification.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    background: rgba(0,0,0,0.8);
+                    color: white;
+                    padding: 15px;
+                    border-radius: 10px;
+                    font-size: 0.9rem;
+                    z-index: 1000;
+                    max-width: 300px;
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+                    cursor: pointer;
+                `;
+                
+                const messages = {
+                    'it': 'Detected Italian browser. Click here for Italian content! 🇮🇹',
+                    'de': 'Deutsche Sprache erkannt. Hier klicken für deutsche Inhalte! 🇩🇪'
+                };
+                
+                if (messages[langCode]) {
+                    notification.textContent = messages[langCode];
+                    notification.onclick = () => window.location.href = `${langCode}/`;
+                    document.body.appendChild(notification);
+                    
+                    // Auto-hide after 5 seconds
+                    setTimeout(() => notification.remove(), 5000);
+                }
+            }, 2000);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,263 @@
+name: 🚀 Blog Deployment & Crossposting
+
+on:
+  # Schedule: Monday, Wednesday, Friday at 9 AM UTC
+  schedule:
+    - cron: '0 9 * * 1,3,5'
+  
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      deploy_type:
+        description: 'Deployment type'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - full
+          - blog-only
+          - crosspost-only
+  
+  # Trigger on push to main branch
+  push:
+    branches: [ main ]
+    paths:
+      - 'en/posts/**'
+      - 'it/posts/**'
+      - 'de/posts/**'
+      - 'deploy-schedule.js'
+      - 'crosspost-automation.js'
+
+jobs:
+  deploy-blog:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: 🟢 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: 📦 Install dependencies
+      run: |
+        npm ci
+        npm install --save-dev @types/node
+    
+    - name: 🕒 Set timezone
+      run: |
+        sudo timedatectl set-timezone Europe/Rome
+        echo "Current time: $(date)"
+    
+    - name: 🚀 Deploy blog posts
+      run: |
+        echo "🚀 Starting blog deployment..."
+        npm run deploy
+        echo "✅ Blog deployment completed"
+      env:
+        NODE_ENV: production
+    
+    - name: 🌐 Schedule crossposting
+      if: github.event.inputs.deploy_type != 'blog-only'
+      run: |
+        echo "🌐 Scheduling crossposting..."
+        npm run crosspost:schedule
+        echo "✅ Crossposting scheduled"
+      env:
+        # Social Media API Keys (stored in GitHub Secrets)
+        TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+        TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+        TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+        TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+        LINKEDIN_CLIENT_ID: ${{ secrets.LINKEDIN_CLIENT_ID }}
+        LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
+        LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+        MEDIUM_INTEGRATION_TOKEN: ${{ secrets.MEDIUM_INTEGRATION_TOKEN }}
+        REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+        REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
+        REDDIT_PASSWORD: ${{ secrets.REDDIT_PASSWORD }}
+        DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+    
+    - name: 📊 Generate deployment report
+      run: |
+        echo "📊 Generating deployment report..."
+        npm run analytics > deployment-report.txt || echo "No analytics available yet"
+        npm run stats >> deployment-report.txt
+        echo "📋 Deployment completed at $(date)" >> deployment-report.txt
+        cat deployment-report.txt
+    
+    - name: 📈 Upload deployment artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: deployment-logs-${{ github.run_number }}
+        path: |
+          deployment-log.json
+          crosspost-queue.json
+          integrated-report.json
+          deployment-report.txt
+        retention-days: 30
+    
+    - name: 🎯 Execute immediate crossposts (Twitter, LinkedIn)
+      if: github.event.inputs.deploy_type != 'blog-only'
+      run: |
+        echo "🎯 Executing immediate crossposts..."
+        # Wait 2 minutes to allow for proper scheduling
+        sleep 120
+        
+        # Execute immediate platforms
+        node -e "
+        const fs = require('fs');
+        const CrosspostManager = require('./crosspost-automation.js');
+        
+        async function executeImmediate() {
+          if (!fs.existsSync('crosspost-queue.json')) return;
+          
+          const manager = new CrosspostManager();
+          const queueData = JSON.parse(fs.readFileSync('crosspost-queue.json', 'utf8'));
+          const now = new Date();
+          
+          const immediateJobs = queueData.queue.filter(job => {
+            const scheduledTime = new Date(job.scheduledTime);
+            const delay = scheduledTime.getTime() - now.getTime();
+            return ['twitter', 'linkedin'].includes(job.platform) && 
+                   job.status === 'scheduled' &&
+                   delay <= 60 * 60 * 1000; // Within 1 hour
+          });
+          
+          console.log(\`🚀 Executing \${immediateJobs.length} immediate crossposts\`);
+          
+          for (const job of immediateJobs) {
+            try {
+              await manager.executeCrosspost(job);
+              console.log(\`✅ Posted to \${job.platform}: \${job.contentAnalysis.title}\`);
+            } catch (error) {
+              console.log(\`❌ Failed \${job.platform}: \${error.message}\`);
+            }
+          }
+          
+          fs.writeFileSync('crosspost-queue.json', JSON.stringify(queueData, null, 2));
+          console.log('📱 Immediate crossposting completed');
+        }
+        
+        executeImmediate().catch(console.error);
+        "
+    
+    - name: 📧 Send notification
+      if: always()
+      run: |
+        echo "📧 Deployment notification would be sent here"
+        echo "Status: ${{ job.status }}"
+        echo "Blog posts deployed: $(cat deployment-log.json | jq -r '.[-1].totalPosts // 0' 2>/dev/null || echo '0')"
+        echo "Crossposts scheduled: $(cat crosspost-queue.json | jq -r '.totalCrossposts // 0' 2>/dev/null || echo '0')"
+
+  # Delayed crossposting job (runs 2-6 hours after main deployment)
+  delayed-crossposting:
+    needs: deploy-blog
+    runs-on: ubuntu-latest
+    # Run 2 hours after the main job
+    if: github.event.inputs.deploy_type != 'blog-only'
+    
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: 🟢 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: 📦 Install dependencies
+      run: npm ci
+    
+    - name: ⏳ Wait for delayed posting time
+      run: |
+        echo "⏳ Waiting for delayed crossposting window..."
+        # In production, you'd schedule this as a separate workflow
+        sleep 60  # Short delay for demo
+    
+    - name: 🌐 Execute delayed crossposts
+      run: |
+        echo "🌐 Executing delayed crossposts (Medium, Reddit, Dev.to)..."
+        
+        node -e "
+        const fs = require('fs');
+        const CrosspostManager = require('./crosspost-automation.js');
+        
+        async function executeDelayed() {
+          if (!fs.existsSync('crosspost-queue.json')) {
+            console.log('No crosspost queue found');
+            return;
+          }
+          
+          const manager = new CrosspostManager();
+          const queueData = JSON.parse(fs.readFileSync('crosspost-queue.json', 'utf8'));
+          const now = new Date();
+          
+          const delayedJobs = queueData.queue.filter(job => {
+            const scheduledTime = new Date(job.scheduledTime);
+            const timeDiff = Math.abs(now.getTime() - scheduledTime.getTime());
+            return ['medium', 'reddit', 'devto', 'hackernews'].includes(job.platform) &&
+                   job.status === 'scheduled' &&
+                   timeDiff <= 30 * 60 * 1000; // Within 30 minutes of scheduled time
+          });
+          
+          console.log(\`🚀 Executing \${delayedJobs.length} delayed crossposts\`);
+          
+          for (const job of delayedJobs) {
+            try {
+              await manager.executeCrosspost(job);
+              console.log(\`✅ Posted to \${job.platform}: \${job.contentAnalysis.title}\`);
+              
+              // Delay between posts to avoid rate limits
+              await new Promise(resolve => setTimeout(resolve, 5000));
+            } catch (error) {
+              console.log(\`❌ Failed \${job.platform}: \${error.message}\`);
+            }
+          }
+          
+          fs.writeFileSync('crosspost-queue.json', JSON.stringify(queueData, null, 2));
+          console.log('🌐 Delayed crossposting completed');
+        }
+        
+        executeDelayed().catch(console.error);
+        "
+      env:
+        MEDIUM_INTEGRATION_TOKEN: ${{ secrets.MEDIUM_INTEGRATION_TOKEN }}
+        REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+        REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+
+  # Deploy to hosting platform (GitHub Pages, Netlify, Vercel)
+  deploy-hosting:
+    needs: deploy-blog
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: 🌐 Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./
+        exclude_assets: |
+          node_modules/**
+          .github/**
+          *.md
+          package*.json
+          *.sh
+          *.js
+        cname: gabrieletanzi.com  # Replace with your domain
+    
+    - name: 📝 Update deployment status
+      run: |
+        echo "🌐 Website deployed to: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+        echo "📅 Deployment time: $(date)"
+        echo "🔗 Live URL: https://gabrieletanzi.com"  # Replace with your domain

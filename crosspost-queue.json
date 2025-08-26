@@ -1,0 +1,3241 @@
+{
+  "generated": "2025-08-26T14:19:57.222Z",
+  "totalCrossposts": 111,
+  "platforms": [
+    "linkedin",
+    "twitter",
+    "reddit",
+    "hackernews",
+    "devto"
+  ],
+  "languages": [
+    "en",
+    "it",
+    "de"
+  ],
+  "queue": [
+    {
+      "id": "1756217997206_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "📈 Market Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.203Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:20:03.232Z"
+    },
+    {
+      "id": "1756217997206_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "🚨 Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.203Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:20:09.235Z"
+    },
+    {
+      "id": "1756217997206_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\nData-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.203Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997206_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Analysis: Why 95% of Programming Trends Content Fails (And How to Be in the 5%) – https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "scheduledTime": "2025-08-26T18:19:57.203Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997207_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🚀 New Analysis: The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nKey insights:\n• 🚨 The Shocking Discovery\n• The Numbers Don't Lie: What Actually Works\n• Platform Performance Breakdown\n\nRead the full analysis: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\n#ArtificialIntelligence #AIAnalysis #MachineLearning #TechInnovation\n\n#DataScience #AI #Analytics #SocialMedia #TechInsights",
+      "scheduledTime": "2025-08-26T14:49:57.206Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:20:15.238Z"
+    },
+    {
+      "id": "1756217997207_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🧠 The Shocking Truth About AI Technology (Based on Real Data)\n\n{SHORT_EXCERPT}\n\nThread below 👇\n\n#AI #MachineLearning #TechAnalysis\n\nhttps://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T14:34:57.206Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:20:21.247Z"
+    },
+    {
+      "id": "1756217997207_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.206Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997207_devto_en",
+      "platform": "devto",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "---\ntitle: The Shocking Truth About AI Technology (Based on Real Data)\npublished: true\ntags: ai, datascience, analytics, programming\ncanonical_url: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\ncover_image: {COVER_IMAGE}\n---\n\n{MARKDOWN_CONTENT}\n\n---\n\n*Originally published on [TanziTech Blog](https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html)*",
+      "scheduledTime": "2025-08-26T20:19:57.206Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997207_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data) – https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T18:19:57.206Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997207_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "📈 Market Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.207Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:20:27.250Z"
+    },
+    {
+      "id": "1756217997208_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "🚨 Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.207Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:20:33.265Z"
+    },
+    {
+      "id": "1756217997208_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\nData-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.207Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997208_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Analysis: Why 95% of Programming Trends Content Fails (And How to Be in the 5%) – https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "scheduledTime": "2025-08-26T18:19:57.207Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997209_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🚀 New Analysis: The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nKey insights:\n• 🚨 The Shocking Discovery\n• The Numbers Don't Lie: What Actually Works\n• Platform Performance Breakdown\n\nRead the full analysis: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\n#ArtificialIntelligence #AIAnalysis #MachineLearning #TechInnovation\n\n#DataScience #AI #Analytics #SocialMedia #TechInsights",
+      "scheduledTime": "2025-08-26T14:49:57.208Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:20:39.269Z"
+    },
+    {
+      "id": "1756217997209_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🧠 The Shocking Truth About AI Technology (Based on Real Data)\n\n{SHORT_EXCERPT}\n\nThread below 👇\n\n#AI #MachineLearning #TechAnalysis\n\nhttps://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T14:34:57.208Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:20:45.272Z"
+    },
+    {
+      "id": "1756217997209_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.208Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997209_devto_en",
+      "platform": "devto",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "---\ntitle: The Shocking Truth About AI Technology (Based on Real Data)\npublished: true\ntags: ai, datascience, analytics, programming\ncanonical_url: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\ncover_image: {COVER_IMAGE}\n---\n\n{MARKDOWN_CONTENT}\n\n---\n\n*Originally published on [TanziTech Blog](https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html)*",
+      "scheduledTime": "2025-08-26T20:19:57.208Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997209_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data) – https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T18:19:57.208Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997209_linkedin_it",
+      "platform": "linkedin",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "📈 Market Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.209Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:20:51.276Z"
+    },
+    {
+      "id": "1756217997209_twitter_it",
+      "platform": "twitter",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "🚨 Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.209Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:20:57.279Z"
+    },
+    {
+      "id": "1756217997209_reddit_it",
+      "platform": "reddit",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\nAnalisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.209Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997209_hackernews_it",
+      "platform": "hackernews",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Analysis: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce – https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "scheduledTime": "2025-08-26T18:19:57.209Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997210_linkedin_de",
+      "platform": "linkedin",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "📈 Market Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.209Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:21:03.295Z"
+    },
+    {
+      "id": "1756217997210_twitter_de",
+      "platform": "twitter",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "🚨 Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.209Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:21:09.300Z"
+    },
+    {
+      "id": "1756217997210_reddit_de",
+      "platform": "reddit",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Warum 95% der Programmiertrends-Inhalte Versagen\n\nDatengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.209Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997210_hackernews_de",
+      "platform": "hackernews",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Analysis: Warum 95% der Programmiertrends-Inhalte Versagen – https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "scheduledTime": "2025-08-26T18:19:57.209Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997211_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "📈 Market Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.210Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:21:15.306Z"
+    },
+    {
+      "id": "1756217997211_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "🚨 Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.210Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:21:21.310Z"
+    },
+    {
+      "id": "1756217997211_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\nData-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.210Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997211_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Analysis: Why 95% of Programming Trends Content Fails (And How to Be in the 5%) – https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "scheduledTime": "2025-08-26T18:19:57.210Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997212_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🚀 New Analysis: The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nKey insights:\n• 🚨 The Shocking Discovery\n• The Numbers Don't Lie: What Actually Works\n• Platform Performance Breakdown\n\nRead the full analysis: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\n#ArtificialIntelligence #AIAnalysis #MachineLearning #TechInnovation\n\n#DataScience #AI #Analytics #SocialMedia #TechInsights",
+      "scheduledTime": "2025-08-26T14:49:57.211Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:21:27.324Z"
+    },
+    {
+      "id": "1756217997212_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🧠 The Shocking Truth About AI Technology (Based on Real Data)\n\n{SHORT_EXCERPT}\n\nThread below 👇\n\n#AI #MachineLearning #TechAnalysis\n\nhttps://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T14:34:57.211Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:21:33.339Z"
+    },
+    {
+      "id": "1756217997212_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.211Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997212_devto_en",
+      "platform": "devto",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "---\ntitle: The Shocking Truth About AI Technology (Based on Real Data)\npublished: true\ntags: ai, datascience, analytics, programming\ncanonical_url: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\ncover_image: {COVER_IMAGE}\n---\n\n{MARKDOWN_CONTENT}\n\n---\n\n*Originally published on [TanziTech Blog](https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html)*",
+      "scheduledTime": "2025-08-26T20:19:57.211Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997212_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data) – https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T18:19:57.211Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997212_linkedin_it",
+      "platform": "linkedin",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "📈 Market Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.212Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:21:39.344Z"
+    },
+    {
+      "id": "1756217997212_twitter_it",
+      "platform": "twitter",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "🚨 Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.212Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:21:45.348Z"
+    },
+    {
+      "id": "1756217997212_reddit_it",
+      "platform": "reddit",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\nAnalisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.212Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997212_hackernews_it",
+      "platform": "hackernews",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Analysis: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce – https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "scheduledTime": "2025-08-26T18:19:57.212Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997213_linkedin_de",
+      "platform": "linkedin",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "📈 Market Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.212Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:21:51.351Z"
+    },
+    {
+      "id": "1756217997213_twitter_de",
+      "platform": "twitter",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "🚨 Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.212Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:21:57.355Z"
+    },
+    {
+      "id": "1756217997213_reddit_de",
+      "platform": "reddit",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Warum 95% der Programmiertrends-Inhalte Versagen\n\nDatengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.212Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997213_hackernews_de",
+      "platform": "hackernews",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Analysis: Warum 95% der Programmiertrends-Inhalte Versagen – https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "scheduledTime": "2025-08-26T18:19:57.212Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997213_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "📈 Market Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.213Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:22:03.358Z"
+    },
+    {
+      "id": "1756217997213_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "🚨 Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.213Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:22:09.360Z"
+    },
+    {
+      "id": "1756217997213_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\nData-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.213Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997213_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Analysis: Why 95% of Programming Trends Content Fails (And How to Be in the 5%) – https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "scheduledTime": "2025-08-26T18:19:57.213Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997214_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🚀 New Analysis: The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nKey insights:\n• 🚨 The Shocking Discovery\n• The Numbers Don't Lie: What Actually Works\n• Platform Performance Breakdown\n\nRead the full analysis: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\n#ArtificialIntelligence #AIAnalysis #MachineLearning #TechInnovation\n\n#DataScience #AI #Analytics #SocialMedia #TechInsights",
+      "scheduledTime": "2025-08-26T14:49:57.213Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:22:15.364Z"
+    },
+    {
+      "id": "1756217997214_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🧠 The Shocking Truth About AI Technology (Based on Real Data)\n\n{SHORT_EXCERPT}\n\nThread below 👇\n\n#AI #MachineLearning #TechAnalysis\n\nhttps://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T14:34:57.213Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:22:21.367Z"
+    },
+    {
+      "id": "1756217997214_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.213Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997214_devto_en",
+      "platform": "devto",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "---\ntitle: The Shocking Truth About AI Technology (Based on Real Data)\npublished: true\ntags: ai, datascience, analytics, programming\ncanonical_url: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\ncover_image: {COVER_IMAGE}\n---\n\n{MARKDOWN_CONTENT}\n\n---\n\n*Originally published on [TanziTech Blog](https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html)*",
+      "scheduledTime": "2025-08-26T20:19:57.213Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997214_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data) – https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T18:19:57.213Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997215_linkedin_it",
+      "platform": "linkedin",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "📈 Market Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.214Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:22:27.370Z"
+    },
+    {
+      "id": "1756217997215_twitter_it",
+      "platform": "twitter",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "🚨 Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.214Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:22:33.375Z"
+    },
+    {
+      "id": "1756217997215_reddit_it",
+      "platform": "reddit",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\nAnalisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.214Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997215_hackernews_it",
+      "platform": "hackernews",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Analysis: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce – https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "scheduledTime": "2025-08-26T18:19:57.214Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997215_linkedin_de",
+      "platform": "linkedin",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "📈 Market Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.215Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:22:39.380Z"
+    },
+    {
+      "id": "1756217997215_twitter_de",
+      "platform": "twitter",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "🚨 Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.215Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:22:45.385Z"
+    },
+    {
+      "id": "1756217997215_reddit_de",
+      "platform": "reddit",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Warum 95% der Programmiertrends-Inhalte Versagen\n\nDatengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.215Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997215_hackernews_de",
+      "platform": "hackernews",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Analysis: Warum 95% der Programmiertrends-Inhalte Versagen – https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "scheduledTime": "2025-08-26T18:19:57.215Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997216_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "📈 Market Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.215Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:22:51.387Z"
+    },
+    {
+      "id": "1756217997216_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "🚨 Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.215Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:22:57.390Z"
+    },
+    {
+      "id": "1756217997216_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\nData-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.215Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997216_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Analysis: Why 95% of Programming Trends Content Fails (And How to Be in the 5%) – https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "scheduledTime": "2025-08-26T18:19:57.215Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997216_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🚀 New Analysis: The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nKey insights:\n• 🚨 The Shocking Discovery\n• The Numbers Don't Lie: What Actually Works\n• Platform Performance Breakdown\n\nRead the full analysis: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\n#ArtificialIntelligence #AIAnalysis #MachineLearning #TechInnovation\n\n#DataScience #AI #Analytics #SocialMedia #TechInsights",
+      "scheduledTime": "2025-08-26T14:49:57.216Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:23:03.394Z"
+    },
+    {
+      "id": "1756217997216_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🧠 The Shocking Truth About AI Technology (Based on Real Data)\n\n{SHORT_EXCERPT}\n\nThread below 👇\n\n#AI #MachineLearning #TechAnalysis\n\nhttps://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T14:34:57.216Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:23:09.397Z"
+    },
+    {
+      "id": "1756217997216_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.216Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997216_devto_en",
+      "platform": "devto",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "---\ntitle: The Shocking Truth About AI Technology (Based on Real Data)\npublished: true\ntags: ai, datascience, analytics, programming\ncanonical_url: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\ncover_image: {COVER_IMAGE}\n---\n\n{MARKDOWN_CONTENT}\n\n---\n\n*Originally published on [TanziTech Blog](https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html)*",
+      "scheduledTime": "2025-08-26T20:19:57.216Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997216_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data) – https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T18:19:57.216Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997217_linkedin_it",
+      "platform": "linkedin",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "📈 Market Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.216Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:23:15.401Z"
+    },
+    {
+      "id": "1756217997217_twitter_it",
+      "platform": "twitter",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "🚨 Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.216Z",
+      "status": "retry",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 1,
+      "maxAttempts": 3,
+      "error": "Simulated API failure"
+    },
+    {
+      "id": "1756217997217_reddit_it",
+      "platform": "reddit",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\nAnalisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.216Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997217_hackernews_it",
+      "platform": "hackernews",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Analysis: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce – https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "scheduledTime": "2025-08-26T18:19:57.216Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997217_linkedin_de",
+      "platform": "linkedin",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "📈 Market Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.217Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:23:27.410Z"
+    },
+    {
+      "id": "1756217997217_twitter_de",
+      "platform": "twitter",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "🚨 Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.217Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:23:33.415Z"
+    },
+    {
+      "id": "1756217997217_reddit_de",
+      "platform": "reddit",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Warum 95% der Programmiertrends-Inhalte Versagen\n\nDatengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.217Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997217_hackernews_de",
+      "platform": "hackernews",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Analysis: Warum 95% der Programmiertrends-Inhalte Versagen – https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "scheduledTime": "2025-08-26T18:19:57.217Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997218_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "📈 Market Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.217Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:23:39.419Z"
+    },
+    {
+      "id": "1756217997218_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "🚨 Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.217Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:23:45.422Z"
+    },
+    {
+      "id": "1756217997218_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\nData-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.217Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997218_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Analysis: Why 95% of Programming Trends Content Fails (And How to Be in the 5%) – https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "scheduledTime": "2025-08-26T18:19:57.217Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997219_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🚀 New Analysis: The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nKey insights:\n• 🚨 The Shocking Discovery\n• The Numbers Don't Lie: What Actually Works\n• Platform Performance Breakdown\n\nRead the full analysis: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\n#ArtificialIntelligence #AIAnalysis #MachineLearning #TechInnovation\n\n#DataScience #AI #Analytics #SocialMedia #TechInsights",
+      "scheduledTime": "2025-08-26T14:49:57.218Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:23:51.426Z"
+    },
+    {
+      "id": "1756217997219_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🧠 The Shocking Truth About AI Technology (Based on Real Data)\n\n{SHORT_EXCERPT}\n\nThread below 👇\n\n#AI #MachineLearning #TechAnalysis\n\nhttps://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T14:34:57.218Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:23:57.429Z"
+    },
+    {
+      "id": "1756217997219_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.218Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997219_devto_en",
+      "platform": "devto",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "---\ntitle: The Shocking Truth About AI Technology (Based on Real Data)\npublished: true\ntags: ai, datascience, analytics, programming\ncanonical_url: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\ncover_image: {COVER_IMAGE}\n---\n\n{MARKDOWN_CONTENT}\n\n---\n\n*Originally published on [TanziTech Blog](https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html)*",
+      "scheduledTime": "2025-08-26T20:19:57.218Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997219_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data) – https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T18:19:57.218Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997220_linkedin_it",
+      "platform": "linkedin",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "📈 Market Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.219Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:24:03.433Z"
+    },
+    {
+      "id": "1756217997220_twitter_it",
+      "platform": "twitter",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "🚨 Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.219Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:24:09.436Z"
+    },
+    {
+      "id": "1756217997220_reddit_it",
+      "platform": "reddit",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\nAnalisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.219Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997220_hackernews_it",
+      "platform": "hackernews",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Analysis: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce – https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "scheduledTime": "2025-08-26T18:19:57.219Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997220_linkedin_de",
+      "platform": "linkedin",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "📈 Market Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.220Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:24:15.439Z"
+    },
+    {
+      "id": "1756217997220_twitter_de",
+      "platform": "twitter",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "🚨 Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.220Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:24:21.443Z"
+    },
+    {
+      "id": "1756217997220_reddit_de",
+      "platform": "reddit",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Warum 95% der Programmiertrends-Inhalte Versagen\n\nDatengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.220Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997220_hackernews_de",
+      "platform": "hackernews",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Analysis: Warum 95% der Programmiertrends-Inhalte Versagen – https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "scheduledTime": "2025-08-26T18:19:57.220Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997220_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "📈 Market Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.220Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:24:27.446Z"
+    },
+    {
+      "id": "1756217997220_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "🚨 Trend Alert: Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.220Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:24:33.451Z"
+    },
+    {
+      "id": "1756217997220_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)\n\nData-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.220Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997220_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "content": "Analysis: Why 95% of Programming Trends Content Fails (And How to Be in the 5%) – https://gabrieletanzi.com/en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "scheduledTime": "2025-08-26T18:19:57.220Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+        "excerpt": "Data-driven analysis of 125 Programming Trends posts and 118,001 interactions reveals the secrets of high-performing tech content in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown",
+          "What High-Performing Content Actually Looks Like"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7111,
+        "hasVisuals": false,
+        "readingTime": 29
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997221_linkedin_en",
+      "platform": "linkedin",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🚀 New Analysis: The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nKey insights:\n• 🚨 The Shocking Discovery\n• The Numbers Don't Lie: What Actually Works\n• Platform Performance Breakdown\n\nRead the full analysis: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\n#ArtificialIntelligence #AIAnalysis #MachineLearning #TechInnovation\n\n#DataScience #AI #Analytics #SocialMedia #TechInsights",
+      "scheduledTime": "2025-08-26T14:49:57.220Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:24:39.455Z"
+    },
+    {
+      "id": "1756217997221_twitter_en",
+      "platform": "twitter",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "🧠 The Shocking Truth About AI Technology (Based on Real Data)\n\n{SHORT_EXCERPT}\n\nThread below 👇\n\n#AI #MachineLearning #TechAnalysis\n\nhttps://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T14:34:57.220Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:24:45.462Z"
+    },
+    {
+      "id": "1756217997221_reddit_en",
+      "platform": "reddit",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data)\n\nShocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.220Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997221_devto_en",
+      "platform": "devto",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "---\ntitle: The Shocking Truth About AI Technology (Based on Real Data)\npublished: true\ntags: ai, datascience, analytics, programming\ncanonical_url: https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html\ncover_image: {COVER_IMAGE}\n---\n\n{MARKDOWN_CONTENT}\n\n---\n\n*Originally published on [TanziTech Blog](https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html)*",
+      "scheduledTime": "2025-08-26T20:19:57.220Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997221_hackernews_en",
+      "platform": "hackernews",
+      "language": "en",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "originalUrl": "https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "content": "The Shocking Truth About AI Technology (Based on Real Data) – https://gabrieletanzi.com/en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "scheduledTime": "2025-08-26T18:19:57.220Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "ai_analysis",
+      "contentAnalysis": {
+        "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+        "excerpt": "Shocking data-driven analysis of 125 AI Technology posts and 118,001 interactions reveals surprising truths about AI in 2025.",
+        "category": "ai_analysis",
+        "keyPoints": [
+          "🚨 The Shocking Discovery",
+          "The Numbers Don't Lie: What Actually Works",
+          "Platform Performance Breakdown"
+        ],
+        "images": [],
+        "language": "en",
+        "wordCount": 7511,
+        "hasVisuals": false,
+        "readingTime": 31
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997221_linkedin_it",
+      "platform": "linkedin",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "📈 Market Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.221Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:24:51.464Z"
+    },
+    {
+      "id": "1756217997221_twitter_it",
+      "platform": "twitter",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "🚨 Trend Alert: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.221Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:24:57.468Z"
+    },
+    {
+      "id": "1756217997221_reddit_it",
+      "platform": "reddit",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce\n\nAnalisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.221Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997221_hackernews_it",
+      "platform": "hackernews",
+      "language": "it",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "originalUrl": "https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "content": "Analysis: Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce – https://gabrieletanzi.com/it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "scheduledTime": "2025-08-26T18:19:57.221Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+        "excerpt": "Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "I Numeri Non Mentono: Cosa Funziona Davvero",
+          "Breakdown Performance per Piattaforma",
+          "Come Appare Davvero un Contenuto Ad Alte Performance"
+        ],
+        "images": [],
+        "language": "it",
+        "wordCount": 7389,
+        "hasVisuals": false,
+        "readingTime": 30
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997222_linkedin_de",
+      "platform": "linkedin",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "📈 Market Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{SUMMARY}\n\n🔍 What this means for your business:\n{IMPLICATIONS}\n\nDeep dive: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#MarketTrends #TechTrends #IndustryAnalysis #FutureOfWork",
+      "scheduledTime": "2025-08-26T14:49:57.221Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:25:03.474Z"
+    },
+    {
+      "id": "1756217997222_twitter_de",
+      "platform": "twitter",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "🚨 Trend Alert: Warum 95% der Programmiertrends-Inhalte Versagen\n\n{KEY_INSIGHT}\n\nMore: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\n#TechTrends #MarketAnalysis #Innovation",
+      "scheduledTime": "2025-08-26T14:34:57.221Z",
+      "status": "completed",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3,
+      "completedAt": "2025-08-26T14:25:09.478Z"
+    },
+    {
+      "id": "1756217997222_reddit_de",
+      "platform": "reddit",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Warum 95% der Programmiertrends-Inhalte Versagen\n\nDatengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.\n\nI analyzed {DATA_POINTS} to understand {MAIN_TOPIC}. Here are the key findings:\n\n{KEY_FINDINGS}\n\nFull analysis with visualizations: https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html\n\nWhat's your take on these trends?",
+      "scheduledTime": "2025-08-26T17:19:57.221Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    },
+    {
+      "id": "1756217997222_hackernews_de",
+      "platform": "hackernews",
+      "language": "de",
+      "postPath": "/Users/gabrieletanzi/social_media_agent/blog_deploy/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "originalUrl": "https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "content": "Analysis: Warum 95% der Programmiertrends-Inhalte Versagen – https://gabrieletanzi.com/de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "scheduledTime": "2025-08-26T18:19:57.221Z",
+      "status": "scheduled",
+      "priority": "high",
+      "category": "trend_report",
+      "contentAnalysis": {
+        "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+        "excerpt": "Datengestützte Analyse von 125 Programmiertrends-Posts und 118.001 Interaktionen enthüllt die Geheimnisse hochperformanter Tech-Inhalte in 2025.",
+        "category": "trend_report",
+        "keyPoints": [
+          "Die Zahlen Lügen Nicht: Was Wirklich Funktioniert"
+        ],
+        "images": [],
+        "language": "de",
+        "wordCount": 3961,
+        "hasVisuals": false,
+        "readingTime": 16
+      },
+      "attempts": 0,
+      "maxAttempts": 3
+    }
+  ]
+}

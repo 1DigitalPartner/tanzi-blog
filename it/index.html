@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanziTech Blog - Insights su AI, Social Media e Tecnologia</title>
+    <meta name="description" content="Analisi all'avanguardia su AI, strategie di crescita sui social media e trend tecnologici. Analisi basate sui dati e strategie attuabili per imprenditori e professionisti tech.">
+    <meta name="author" content="Gabriele Tanzi">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Hreflang for SEO -->
+    <link rel="alternate" hreflang="en" href="../en/">
+    <link rel="alternate" hreflang="de" href="../de/">
+    <link rel="alternate" hreflang="x-default" href="../">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 800;
+            color: white;
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+        }
+
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .hero {
+            padding: 4rem 0;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+        }
+
+        .main-content {
+            background: white;
+            margin-top: 2rem;
+            border-radius: 20px 20px 0 0;
+            padding: 3rem 0;
+            min-height: 70vh;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .blog-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(102, 126, 234, 0.1);
+        }
+
+        .blog-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .blog-card-content {
+            padding: 2rem;
+        }
+
+        .blog-card-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .blog-card-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .blog-card-excerpt {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .read-more {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .read-more:hover {
+            color: #764ba2;
+            transform: translateX(5px);
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            text-align: center;
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+
+        .lang-selector {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .lang-link {
+            color: white;
+            text-decoration: none;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .lang-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .lang-link.active {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .nav-links {
+                margin-top: 1rem;
+                gap: 1rem;
+            }
+            
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 0 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="../" class="logo">TanziTech</a>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="../links.html">Bio Links</a></li>
+                        <li><a href="#contact">Contatti</a></li>
+                    </ul>
+                </nav>
+                <div class="lang-selector">
+                    <a href="../en/" class="lang-link">EN</a>
+                    <a href="#" class="lang-link active">IT</a>
+                    <a href="../de/" class="lang-link">DE</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>AI & Social Media Intelligence</h1>
+            <p>Insights basati sui dati su tecnologia AI, strategie di crescita sui social media e trend tecnologici emergenti per il tuo business</p>
+            <a href="#blog" class="cta-button">Esplora gli Ultimi Post</a>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <div class="container">
+            <section id="blog">
+                <h2 class="section-title">Ultimi Post del Blog</h2>
+                <p class="section-subtitle">Analisi all'avanguardia e insights attuabili da dati reali</p>
+                
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="blog-card-content">
+                            <h3 class="blog-card-title">Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce</h3>
+                            <div class="blog-card-meta">
+                                <span>💻 Analisi Programmazione</span>
+                                <span>17 Ago 2025</span>
+                            </div>
+                            <p class="blog-card-excerpt">Analisi data-driven di 125 post sui trend di programmazione e 118.001 interazioni rivela i segreti dei contenuti tech ad alte performance nel 2025.</p>
+                            <a href="posts/2025-08-17-analisi-tendenze-programmazione.html" class="read-more">Leggi l'Analisi Completa →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-card-content">
+                            <h3 class="blog-card-title">La Verità Scioccante sulla Tecnologia AI (Basata su Dati Reali)</h3>
+                            <div class="blog-card-meta">
+                                <span>🤖 Analisi AI</span>
+                                <span>16 Ago 2025</span>
+                            </div>
+                            <p class="blog-card-excerpt">Analisi scioccante basata sui dati di 125 post sulla tecnologia AI e 118.001 interazioni rivela verità sorprendenti sull'AI nel 2025.</p>
+                            <a href="posts/2025-08-16-verita-scioccante-tecnologia-ai.html" class="read-more">Leggi l'Analisi Completa →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-card-content">
+                            <h3 class="blog-card-title">5 Insights sulla Data Science che Cambieranno la Tua Strategia</h3>
+                            <div class="blog-card-meta">
+                                <span>📊 Data Science</span>
+                                <span>15 Ago 2025</span>
+                            </div>
+                            <p class="blog-card-excerpt">Rivelazioni rivoluzionarie dall'analisi di 125 post sulla Data Science e 118.001 interazioni rivelano 5 insights che trasformeranno la tua strategia.</p>
+                            <a href="posts/2025-08-15-5-insights-data-science-strategia.html" class="read-more">Leggi l'Analisi Completa →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-card-content">
+                            <h3 class="blog-card-title">La Strategia di Tecnologia AI che Sta Dominando Silenziosamente nel 2025</h3>
+                            <div class="blog-card-meta">
+                                <span>🎯 Strategia AI</span>
+                                <span>15 Ago 2025</span>
+                            </div>
+                            <p class="blog-card-excerpt">L'analisi basata sui dati rivela la strategia AI silenziosa che sta dominando nel 2025. Scopri la rivoluzione silenziosa che sta rimodellando l'approccio delle aziende all'AI.</p>
+                            <a href="posts/2025-08-15-strategia-ai-dominante-2025.html" class="read-more">Leggi l'Analisi Completa →</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 TanziTech. Tutti i diritti riservati. | <a href="../links.html" style="color: white;">Bio Links</a> | <a href="mailto:contact@tanzitech.com" style="color: white;">Contatti</a></p>
+        </div>
+    </footer>
+</body>
+</html>
