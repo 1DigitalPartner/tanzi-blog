@@ -3,9 +3,9 @@
 ## 🎯 **Custom Domain Options**
 
 ### **Option 1: Use Your Existing Domain**
-If you already own `gabrieletanzi.com` or another domain, you can use:
-- `blog.gabrieletanzi.com` (subdomain)
-- `gabrieletanzi.com` (root domain)
+If you already own `tanzitech.com` or another domain, you can use:
+- `blog.tanzitech.com` (subdomain)
+- `tanzitech.com` (root domain)
 - `tanzi.blog` (if you buy a new domain)
 
 ### **Option 2: Get a New Domain**
@@ -98,8 +98,8 @@ Value: 185.199.111.153
 - **Benefits**: Fast CDN, great security, easy setup
 
 ### **Example Setup:**
-If you own `gabrieletanzi.com`:
-- **Blog URL**: `blog.gabrieletanzi.com`
+If you own `tanzitech.com`:
+- **Blog URL**: `blog.tanzitech.com`
 - **Setup**: Just one CNAME record
 - **Result**: Professional, memorable, fast
 
