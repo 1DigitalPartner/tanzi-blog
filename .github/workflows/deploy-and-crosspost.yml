@@ -232,32 +232,55 @@ jobs:
         REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
 
-  # Deploy to hosting platform (GitHub Pages, Netlify, Vercel)
+  # Deploy to hosting platform (GitHub Pages)
   deploy-hosting:
     needs: deploy-blog
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     
+    # Set permissions for GitHub Pages deployment
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    
     steps:
     - name: 📥 Checkout repository
       uses: actions/checkout@v4
     
-    - name: 🌐 Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: 🔧 Setup Pages
+      uses: actions/configure-pages@v4
+    
+    - name: 📦 Prepare deployment files
+      run: |
+        echo "📦 Preparing files for deployment..."
+        # Create a clean directory for deployment
+        mkdir -p _site
+        # Copy HTML files and assets
+        cp index.html _site/ 2>/dev/null || echo "No main index.html found"
+        cp -r en _site/ 2>/dev/null || echo "No en folder found"
+        cp -r it _site/ 2>/dev/null || echo "No it folder found"
+        cp -r de _site/ 2>/dev/null || echo "No de folder found"
+        cp -r assets _site/ 2>/dev/null || echo "No assets folder found"
+        cp -r css _site/ 2>/dev/null || echo "No css folder found"
+        cp -r js _site/ 2>/dev/null || echo "No js folder found"
+        cp -r images _site/ 2>/dev/null || echo "No images folder found"
+        
+        echo "📋 Files prepared for deployment:"
+        ls -la _site/
+    
+    - name: 📤 Upload Pages artifact
+      uses: actions/upload-pages-artifact@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./
-        exclude_assets: |
-          node_modules/**
-          .github/**
-          *.md
-          package*.json
-          *.sh
-          *.js
-        cname: gabrieletanzi.com  # Replace with your domain
+        path: _site
+    
+    - name: 🌐 Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
     
     - name: 📝 Update deployment status
       run: |
-        echo "🌐 Website deployed to: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+        echo "🌐 Website deployed successfully!"
         echo "📅 Deployment time: $(date)"
-        echo "🔗 Live URL: https://gabrieletanzi.com"  # Replace with your domain
+        echo "🔗 Live URL: ${{ steps.deployment.outputs.page_url }}"
+        echo "🎉 Your blog is now live!"
