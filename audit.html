@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Intelligence Audit - Gabriele Tanzi | €797 Professional Analysis</title>
+    <meta name="description" content="Discover why your competitors get 10x more engagement. Professional Social Media Intelligence Audit with competitor analysis, viral content assessment, and growth strategies. €797 investment.">
+    <meta name="keywords" content="social media audit, competitor analysis, engagement optimization, viral content strategy, social media intelligence">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Social Media Intelligence Audit - Beat Your Competition">
+    <meta property="og:description" content="Discover why your competitors get 10x more engagement and exactly how to beat them with data-driven insights.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tanzitech.com/audit.html">
+    
+    <style>
+        :root {
+            --primary-blue: #2563eb;
+            --primary-dark: #1e40af;
+            --success-green: #059669;
+            --accent-teal: #0d9488;
+            --orange-accent: #ea580c;
+            --golden-yellow: #d97706;
+            --dark-gray: #374151;
+            --medium-gray: #6b7280;
+            --light-gray: #f3f4f6;
+            --white: #ffffff;
+            --off-white: #fafafa;
+            --gradient-primary: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            --gradient-hero: linear-gradient(135deg, #2563eb 0%, #0d9488 50%, #ea580c 100%);
+            --gradient-success: linear-gradient(135deg, #059669 0%, #0d9488 100%);
+            --gradient-warm: linear-gradient(135deg, #ea580c 0%, #d97706 100%);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            --shadow-glow: 0 0 20px rgba(37, 99, 235, 0.3);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-gray);
+            background: linear-gradient(135deg, var(--off-white) 0%, var(--light-gray) 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        /* Navigation */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(37, 99, 235, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: var(--dark-gray);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-blue);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: var(--gradient-hero);
+            color: white;
+            padding: 8rem 0 6rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            margin-top: 80px;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            font-weight: 300;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .price-highlight {
+            background: rgba(255,255,255,0.2);
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        
+        .hero-cta {
+            margin-top: 2rem;
+        }
+        
+        .btn-primary {
+            background: rgba(255,255,255,0.2);
+            color: var(--white);
+            padding: 1.25rem 3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.25rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255,255,255,0.3);
+            display: inline-block;
+        }
+        
+        .btn-primary:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        /* Problem Section */
+        .problem-section {
+            padding: 4rem 0;
+            background: white;
+        }
+        
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .problem-card {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: 16px;
+            text-align: center;
+            border-left: 4px solid var(--orange-accent);
+        }
+        
+        .problem-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 1rem;
+            color: var(--dark-gray);
+        }
+        
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: var(--medium-gray);
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 2rem auto;
+        }
+        
+        /* Solution Section */
+        .solution-section {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, var(--off-white) 0%, var(--light-gray) 100%);
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .benefit-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+            border: 1px solid rgba(37, 99, 235, 0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-xl), var(--shadow-glow);
+        }
+        
+        .benefit-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--success-green);
+        }
+        
+        .benefit-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--dark-gray);
+        }
+        
+        /* Proof Section */
+        .proof-section {
+            padding: 4rem 0;
+            background: var(--dark-gray);
+            color: white;
+        }
+        
+        .proof-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .proof-item {
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .proof-number {
+            font-size: 3rem;
+            font-weight: 800;
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--golden-yellow);
+        }
+        
+        .proof-label {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        
+        /* Package Section */
+        .package-section {
+            padding: 4rem 0;
+            background: white;
+        }
+        
+        .package-card {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 3rem;
+            border-radius: 24px;
+            max-width: 600px;
+            margin: 2rem auto;
+            text-align: center;
+            box-shadow: var(--shadow-xl);
+        }
+        
+        .package-price {
+            font-size: 4rem;
+            font-weight: 900;
+            margin-bottom: 0.5rem;
+        }
+        
+        .package-price-note {
+            font-size: 1.1rem;
+            opacity: 0.8;
+            margin-bottom: 2rem;
+        }
+        
+        .package-features {
+            list-style: none;
+            text-align: left;
+            margin: 2rem 0;
+        }
+        
+        .package-features li {
+            padding: 0.75rem 0;
+            position: relative;
+            padding-left: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .package-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--golden-yellow);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            padding: 4rem 0;
+            background: var(--gradient-warm);
+            color: white;
+            text-align: center;
+        }
+        
+        .cta-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .btn-cta {
+            background: white;
+            color: var(--orange-accent);
+            padding: 1.25rem 3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.25rem;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-lg);
+            display: inline-block;
+        }
+        
+        .btn-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-xl);
+            background: var(--off-white);
+        }
+        
+        /* Guarantee Section */
+        .guarantee-section {
+            padding: 3rem 0;
+            background: var(--success-green);
+            color: white;
+            text-align: center;
+        }
+        
+        .guarantee-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            padding: 4rem 0;
+            background: white;
+        }
+        
+        .faq-item {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+        }
+        
+        .faq-question {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: var(--dark-gray);
+        }
+        
+        .faq-answer {
+            color: var(--medium-gray);
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--dark-gray);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .benefits-grid,
+            .problem-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">🚀 Gabriele Tanzi</a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>🔥 Social Media Intelligence Audit</h1>
+                <p class="hero-subtitle">
+                    Discover why your competitors are getting 10x more engagement<br>
+                    (and exactly how to beat them)
+                </p>
+                
+                <div class="price-highlight">
+                    Professional Analysis: €797 Investment
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="#book-audit" class="btn-primary">BOOK YOUR AUDIT NOW →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <h2 class="section-title">Are You Struggling With These Problems?</h2>
+            <p class="section-subtitle">Most businesses are missing critical engagement triggers that their competitors use to dominate social media</p>
+            
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">📉</div>
+                    <h3>Low Engagement Rates</h3>
+                    <p>Your posts get 10-50 likes while competitors get thousands of interactions with similar content</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">🤷‍♂️</div>
+                    <h3>No Clear Strategy</h3>
+                    <p>You're posting randomly without understanding what psychology triggers actually drive engagement in your industry</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">📊</div>
+                    <h3>Guessing Game</h3>
+                    <p>You don't have data-driven insights about what content formats and topics perform best for your audience</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">🏃‍♂️</div>
+                    <h3>Competitors Winning</h3>
+                    <p>Your competition is consistently outperforming you but you don't know their secret strategies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Solution Section -->
+    <section class="solution-section">
+        <div class="container">
+            <h2 class="section-title">What You'll Get in Your Audit</h2>
+            <p class="section-subtitle">A comprehensive analysis using the same methodology that identified 589 winning trends from 125+ viral posts</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">📊</div>
+                    <h3 class="benefit-title">Content Performance Analysis</h3>
+                    <p>I'll analyze your top 20 posts using advanced engagement metrics to identify what works and what doesn't. You'll see exactly which content types, formats, and topics drive the highest engagement in your specific niche.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3 class="benefit-title">Competitor Benchmark Report</h3>
+                    <p>Deep dive analysis of your top 5 competitors' social media strategies. I'll reveal their best-performing content, posting patterns, and engagement tactics that you can adapt for your business.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🧠</div>
+                    <h3 class="benefit-title">Viral Potential Assessment</h3>
+                    <p>Using psychological triggers and data patterns from viral content analysis, I'll assess your content's viral potential and show you exactly how to create posts that explode with engagement.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🚀</div>
+                    <h3 class="benefit-title">3 Specific Growth Strategies</h3>
+                    <p>Actionable, step-by-step strategies tailored to your business that can increase engagement by 200-500%. Each strategy includes implementation timelines and expected results.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">📞</div>
+                    <h3 class="benefit-title">30-Minute Strategy Call</h3>
+                    <p>Personal consultation to discuss your audit results, answer questions, and create an implementation plan. This alone is worth €300+ but included in your audit.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3 class="benefit-title">Quick Wins Checklist</h3>
+                    <p>Immediate actions you can take within 24 hours to start seeing better engagement. These are proven tactics that typically increase engagement by 50-100% immediately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Proof Section -->
+    <section class="proof-section">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Proven Track Record</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">My analysis methodology is based on real data from successful social media campaigns</p>
+            
+            <div class="proof-grid">
+                <div class="proof-item">
+                    <span class="proof-number">125+</span>
+                    <span class="proof-label">Viral Posts Analyzed</span>
+                </div>
+                
+                <div class="proof-item">
+                    <span class="proof-number">118K+</span>
+                    <span class="proof-label">Engagement Data Points</span>
+                </div>
+                
+                <div class="proof-item">
+                    <span class="proof-number">589</span>
+                    <span class="proof-label">Trends Identified</span>
+                </div>
+                
+                <div class="proof-item">
+                    <span class="proof-number">25K+</span>
+                    <span class="proof-label">Highest Post Performance</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Package Section -->
+    <section class="package-section">
+        <div class="container">
+            <h2 class="section-title">Complete Audit Package</h2>
+            
+            <div class="package-card">
+                <div class="package-price">€797</div>
+                <div class="package-price-note">One-time investment • 5-day delivery</div>
+                
+                <ul class="package-features">
+                    <li>Comprehensive analysis of your top 20 posts</li>
+                    <li>Detailed competitor benchmark report (5 competitors)</li>
+                    <li>Viral content potential assessment</li>
+                    <li>3 specific growth strategies with implementation guide</li>
+                    <li>Psychology-based audience engagement analysis</li>
+                    <li>30-minute personal strategy consultation</li>
+                    <li>Quick wins checklist for immediate results</li>
+                    <li>Platform-specific optimization recommendations</li>
+                    <li>Content calendar suggestions for next 30 days</li>
+                    <li>ROI projections based on recommended strategies</li>
+                </ul>
+                
+                <a href="#book-audit" class="btn-primary">SECURE YOUR AUDIT SLOT →</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Guarantee Section -->
+    <section class="guarantee-section">
+        <div class="container">
+            <div class="guarantee-icon">🛡️</div>
+            <h2>100% Satisfaction Guarantee</h2>
+            <p>If you don't find at least 3 actionable insights that can improve your social media performance by 200%+, I'll refund your entire investment. No questions asked.</p>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta-section" id="book-audit">
+        <div class="container">
+            <h2 class="cta-title">Ready to Dominate Your Competition?</h2>
+            <p class="cta-subtitle">Stop letting competitors get ahead while you guess what works. Get data-driven insights that actually move the needle.</p>
+            
+            <!-- Replace this with your actual Calendly or booking link -->
+            <a href="mailto:info@tanzitech.com?subject=Social Media Intelligence Audit Booking&body=Hi Gabriele,%0D%0A%0D%0AI'm interested in booking a Social Media Intelligence Audit for my business.%0D%0A%0D%0ACompany: %0D%0AWebsite: %0D%0AMain social platforms: %0D%0ABiggest challenge: %0D%0A%0D%0APlease send me booking details.%0D%0A%0D%0AThank you!" class="btn-cta">
+                BOOK YOUR AUDIT NOW - €797 →
+            </a>
+            
+            <div style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.8;">
+                📅 Limited slots available • ⚡ 5-day delivery • 📞 Strategy call included
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">How long does the audit take?</div>
+                <div class="faq-answer">Your complete audit will be delivered within 5 business days. The 30-minute strategy call will be scheduled within 7 days of delivery to discuss implementation.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">What if I'm not satisfied with the results?</div>
+                <div class="faq-answer">I offer a 100% satisfaction guarantee. If you don't find actionable insights that can improve your performance by 200%+, I'll provide a full refund.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Do you work with all industries?</div>
+                <div class="faq-answer">Yes, my methodology works across all industries. I've analyzed content from tech, healthcare, finance, e-commerce, consulting, and many other sectors.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">What social media platforms do you analyze?</div>
+                <div class="faq-answer">I analyze LinkedIn, Instagram, Twitter, Facebook, and TikTok. The audit will focus on the platforms most relevant to your business and audience.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Is this suitable for small businesses?</div>
+                <div class="faq-answer">Absolutely. The strategies are scalable and work for businesses of all sizes. Small businesses often see the biggest impact because they can implement changes quickly.</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Gabriele Tanzi - Social Media Intelligence Expert</p>
+            <p>📧 info@tanzitech.com | 🌐 tanzitech.com</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Add navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1)';
+            } else {
+                navbar.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
