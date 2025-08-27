@@ -32,6 +32,13 @@ jobs:
   deploy-blog:
     runs-on: ubuntu-latest
     
+    # Add permissions for GitHub Actions
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+      actions: read
+    
     steps:
     - name: 📥 Checkout repository
       uses: actions/checkout@v4

@@ -108,5 +108,18 @@
     },
     "totalPosts": 4,
     "timestamp": "2025-08-26T14:19:57.198Z"
+  },
+  {
+    "date": "2025-08-27",
+    "deployedPosts": {
+      "en": [
+        "2025-08-15-5-data-science-insights-change-strategy.html",
+        "2025-08-15-ai-technology-strategy-quietly-dominating.html"
+      ],
+      "it": [],
+      "de": []
+    },
+    "totalPosts": 2,
+    "timestamp": "2025-08-27T07:00:05.291Z"
   }
 ]

@@ -1,29 +1,17 @@
 {
-  "date": "2025-08-26",
+  "date": "2025-08-27",
   "posts": [
     {
-      "filename": "2025-08-17-programming-trends-content-analysis.html",
+      "filename": "2025-08-15-5-data-science-insights-change-strategy.html",
       "language": "en",
-      "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
-      "scheduledAt": "2025-08-26T14:19:57.202Z"
+      "title": "5 Data Science Insights That Will Change Your Strategy",
+      "scheduledAt": "2025-08-27T07:00:05.297Z"
     },
     {
-      "filename": "2025-08-16-shocking-truth-about-ai-technology.html",
+      "filename": "2025-08-15-ai-technology-strategy-quietly-dominating.html",
       "language": "en",
-      "title": "The Shocking Truth About AI Technology (Based on Real Data)",
-      "scheduledAt": "2025-08-26T14:19:57.202Z"
-    },
-    {
-      "filename": "2025-08-17-analisi-tendenze-programmazione.html",
-      "language": "it",
-      "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
-      "scheduledAt": "2025-08-26T14:19:57.202Z"
-    },
-    {
-      "filename": "2025-08-17-programmiertrends-content-analyse.html",
-      "language": "de",
-      "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
-      "scheduledAt": "2025-08-26T14:19:57.203Z"
+      "title": "The AI Technology Strategy That's Quietly Dominating in 2025",
+      "scheduledAt": "2025-08-27T07:00:05.299Z"
     }
   ]
 }
