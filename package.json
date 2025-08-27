@@ -21,7 +21,10 @@
     "social:queue": "cat social-promotion-queue.json 2>/dev/null || echo 'No social media queue'",
     "backup": "tar -czf backup-$(date +%Y%m%d).tar.gz posts/ *.html *.json *.js",
     "analytics": "node -e \"const report = require('./integrated-report.json'); console.log('📊 Deployment Analytics:', JSON.stringify(report, null, 2));\"",
-    "stats": "node -e \"const fs = require('fs'); let totalPosts = 0; ['en', 'it', 'de'].forEach(lang => { if (fs.existsSync(lang + '/posts')) totalPosts += fs.readdirSync(lang + '/posts').length; }); console.log('📊 Blog Statistics:\\n- Total Posts:', totalPosts, '\\n- Last Modified:', fs.statSync('index.html').mtime.toISOString().split('T')[0]);\""
+    "stats": "node -e \"const fs = require('fs'); let totalPosts = 0; ['en', 'it', 'de'].forEach(lang => { if (fs.existsSync(lang + '/posts')) totalPosts += fs.readdirSync(lang + '/posts').length; }); console.log('📊 Blog Statistics:\\n- Total Posts:', totalPosts, '\\n- Last Modified:', fs.statSync('index.html').mtime.toISOString().split('T')[0]);\"",
+    "format:medium": "node medium-formatter.js",
+    "format:medium:single": "node medium-formatter.js",
+    "medium:check": "ls -la medium-formatted/ 2>/dev/null || echo 'No Medium formatted posts yet. Run: npm run format:medium'"
   },
   "keywords": [
     "blog",

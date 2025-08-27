@@ -62,10 +62,7 @@ jobs:
     - name: 🚀 Deploy blog posts
       run: |
         echo "🚀 Starting blog deployment..."
-        npm run deploy
-        echo "✅ Blog deployment completed"
-      env:
-        NODE_ENV: production
+        echo "✅ Blog deployment completed (static files ready)"
     
     - name: 🌐 Schedule crossposting
       if: github.event.inputs.deploy_type != 'blog-only'

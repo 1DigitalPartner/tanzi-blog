@@ -121,5 +121,31 @@
     },
     "totalPosts": 2,
     "timestamp": "2025-08-27T07:00:05.291Z"
+  },
+  {
+    "date": "2025-08-27",
+    "deployedPosts": {
+      "en": [
+        "2025-08-15-5-data-science-insights-change-strategy.html",
+        "2025-08-15-ai-technology-strategy-quietly-dominating.html"
+      ],
+      "it": [],
+      "de": []
+    },
+    "totalPosts": 2,
+    "timestamp": "2025-08-27T09:29:50.890Z"
+  },
+  {
+    "date": "2025-08-27",
+    "deployedPosts": {
+      "en": [
+        "2025-08-15-5-data-science-insights-change-strategy.html",
+        "2025-08-15-ai-technology-strategy-quietly-dominating.html"
+      ],
+      "it": [],
+      "de": []
+    },
+    "totalPosts": 2,
+    "timestamp": "2025-08-27T09:29:56.274Z"
   }
 ]
