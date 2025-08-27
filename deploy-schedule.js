@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+// Removed execSync to avoid git operations in GitHub Actions
 
 // Deployment configuration
 const DEPLOYMENT_SCHEDULE = {
@@ -170,25 +170,32 @@ class BlogDeploymentManager {
     this.scheduleSocialPromotion();
   }
 
-  // Deploy individual post
+  // Deploy individual post (GitHub Actions compatible - no git operations)
   async deployPost(postInfo) {
     try {
-      console.log(`📝 Deploying: ${postInfo.language}/${postInfo.file}`);
+      console.log(`📝 Processing: ${postInfo.language}/${postInfo.file}`);
       
-      // Here you would add your actual deployment logic
-      // Examples:
-      // - Upload to hosting service
-      // - Update CDN
-      // - Notify subscribers
+      // Verify post exists and is accessible
+      const postPath = path.join(__dirname, postInfo.language, 'posts', postInfo.file);
+      if (fs.existsSync(postPath)) {
+        const stats = fs.statSync(postPath);
+        console.log(`   📄 File size: ${Math.round(stats.size / 1024)}KB`);
+        
+        // Read and validate post content
+        const content = fs.readFileSync(postPath, 'utf8');
+        const hasTitle = content.includes('<title>');
+        const hasContent = content.length > 1000;
+        
+        console.log(`   ✅ Post validated: Title=${hasTitle}, Content=${hasContent}`);
+      }
       
-      // For demonstration, we'll just log
-      console.log(`✅ Successfully deployed: ${postInfo.language}/${postInfo.file}`);
+      console.log(`✅ Successfully processed: ${postInfo.language}/${postInfo.file}`);
       
-      // Add a small delay between deployments
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      // Small delay between processing
+      await new Promise(resolve => setTimeout(resolve, 500));
       
     } catch (error) {
-      console.error(`❌ Failed to deploy ${postInfo.language}/${postInfo.file}:`, error.message);
+      console.error(`❌ Failed to process ${postInfo.language}/${postInfo.file}:`, error.message);
     }
   }
 

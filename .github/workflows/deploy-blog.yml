@@ -33,6 +33,9 @@ jobs:
       id: date
       run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
       
+    - name: Run deployment preparation
+      run: node deploy-schedule.js
+        
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
@@ -45,4 +48,15 @@ jobs:
         echo "## 🚀 Blog Deployment Summary" >> $GITHUB_STEP_SUMMARY
         echo "**Date:** ${{ steps.date.outputs.date }}" >> $GITHUB_STEP_SUMMARY
         echo "**Status:** ✅ Successfully deployed" >> $GITHUB_STEP_SUMMARY
-        echo "**Posts Available:** $(find posts/ -name "*.html" | wc -l) blog posts" >> $GITHUB_STEP_SUMMARY
+        
+        # Count posts by language
+        EN_POSTS=$(find en/posts/ -name "*.html" 2>/dev/null | wc -l || echo "0")
+        IT_POSTS=$(find it/posts/ -name "*.html" 2>/dev/null | wc -l || echo "0")
+        DE_POSTS=$(find de/posts/ -name "*.html" 2>/dev/null | wc -l || echo "0")
+        TOTAL_POSTS=$((EN_POSTS + IT_POSTS + DE_POSTS))
+        
+        echo "**Posts Available:**" >> $GITHUB_STEP_SUMMARY
+        echo "- English: $EN_POSTS posts" >> $GITHUB_STEP_SUMMARY
+        echo "- Italian: $IT_POSTS posts" >> $GITHUB_STEP_SUMMARY
+        echo "- German: $DE_POSTS posts" >> $GITHUB_STEP_SUMMARY
+        echo "- **Total: $TOTAL_POSTS posts**" >> $GITHUB_STEP_SUMMARY

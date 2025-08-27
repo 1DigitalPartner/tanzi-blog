@@ -8,7 +8,7 @@
     "deploy:full": "node integrated-deploy-crosspost.js",
     "crosspost:schedule": "node crosspost-automation.js",
     "crosspost:execute": "./execute-scheduled-crossposts.sh",
-    "deploy:github": "git add . && git commit -m 'Blog update' && git push origin main",
+    "deploy:status": "node -e \"console.log('📊 Deployment Status:'); const fs = require('fs'); if (fs.existsSync('deployment-log.json')) { const logs = JSON.parse(fs.readFileSync('deployment-log.json')); console.log('Last deployment:', logs[logs.length-1]?.date || 'Never'); } else { console.log('No deployment logs found'); }\"",
     "deploy:netlify": "netlify deploy --prod --dir=.",
     "deploy:vercel": "vercel --prod",
     "schedule:setup": "node -e \"console.log('Add to crontab:\\n0 9 * * 1,3,5 cd $(pwd) && npm run deploy:full')\"",
