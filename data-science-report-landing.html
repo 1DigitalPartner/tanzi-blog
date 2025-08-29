@@ -388,7 +388,7 @@
     </div>
 
     <script>
-        document.getElementById('downloadForm').addEventListener('submit', function(e) {
+        document.getElementById('downloadForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             
             // Get form data
@@ -403,32 +403,103 @@
                 utmCampaign: new URLSearchParams(window.location.search).get('utm_campaign') || 'data_science_insights'
             };
             
-            // In production, send this data to your lead capture system
-            console.log('Lead captured:', data);
+            console.log('📝 Submitting lead:', data);
             
-            // Show success message
-            document.getElementById('downloadForm').style.display = 'none';
-            document.getElementById('successMessage').classList.add('show');
+            // Disable submit button and show loading
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '⏳ Sending Report...';
+            submitBtn.disabled = true;
             
-            // In production, you would:
-            // 1. Send data to your CRM/lead management system
-            // 2. Trigger email with the actual report
-            // 3. Add to nurture sequence
-            // 4. Track conversion in analytics
-            
-            // For now, simulate the process
-            setTimeout(() => {
-                alert('In production, this would:\n1. Save lead to database\n2. Send report via email\n3. Add to nurture sequence\n4. Track in analytics');
-            }, 2000);
+            try {
+                // Try to submit to backend API first (for local server)
+                let response;
+                try {
+                    response = await fetch('/api/send-report', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data)
+                    });
+                    
+                    if (response.ok) {
+                        const result = await response.json();
+                        console.log('✅ API Response:', result);
+                        
+                        // Show success message
+                        document.getElementById('downloadForm').style.display = 'none';
+                        document.getElementById('successMessage').classList.add('show');
+                        return;
+                    }
+                } catch (apiError) {
+                    console.log('ℹ️ Backend API not available, using fallback method');
+                }
+                
+                // Fallback: Send email directly using mailto (for static deployment)
+                const emailSubject = encodeURIComponent('Data Science Intelligence Report Request');
+                const emailBody = encodeURIComponent(
+                    `New lead from landing page:\n\n` +
+                    `Name: ${data.firstName}\n` +
+                    `Email: ${data.email}\n` +
+                    `Role: ${data.role}\n` +
+                    `Source: ${data.source}\n` +
+                    `UTM Source: ${data.utmSource}\n` +
+                    `UTM Campaign: ${data.utmCampaign}\n` +
+                    `Timestamp: ${data.timestamp}\n\n` +
+                    `Please send the Data Science Intelligence Report to this lead.`
+                );
+                
+                // Create a hidden form to submit the lead info
+                const hiddenForm = document.createElement('form');
+                hiddenForm.style.display = 'none';
+                hiddenForm.action = `mailto:gabriele.tanzitech@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+                hiddenForm.method = 'get';
+                document.body.appendChild(hiddenForm);
+                hiddenForm.submit();
+                document.body.removeChild(hiddenForm);
+                
+                // Show success message
+                document.getElementById('downloadForm').style.display = 'none';
+                document.getElementById('successMessage').classList.add('show');
+                
+                // Also save to localStorage for tracking
+                const leads = JSON.parse(localStorage.getItem('landingPageLeads') || '[]');
+                leads.push(data);
+                localStorage.setItem('landingPageLeads', JSON.stringify(leads));
+                
+                console.log('📧 Lead submitted via email fallback');
+                
+            } catch (error) {
+                console.error('❌ Submission error:', error);
+                alert('There was an error submitting your request. Please try again or contact us directly at gabriele.tanzitech@gmail.com');
+                
+                // Reset button
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }
         });
         
         // Track page view
-        console.log('Landing page view:', {
+        console.log('📊 Landing page view:', {
             timestamp: new Date().toISOString(),
             page: 'data-science-report-landing',
             utmSource: new URLSearchParams(window.location.search).get('utm_source'),
-            utmCampaign: new URLSearchParams(window.location.search).get('utm_campaign')
+            utmCampaign: new URLSearchParams(window.location.search).get('utm_campaign'),
+            referrer: document.referrer
         });
+        
+        // Save page view to localStorage for analytics
+        const pageViews = JSON.parse(localStorage.getItem('landingPageViews') || '[]');
+        pageViews.push({
+            timestamp: new Date().toISOString(),
+            page: 'data-science-report-landing',
+            utmSource: new URLSearchParams(window.location.search).get('utm_source'),
+            utmCampaign: new URLSearchParams(window.location.search).get('utm_campaign'),
+            referrer: document.referrer,
+            userAgent: navigator.userAgent
+        });
+        localStorage.setItem('landingPageViews', JSON.stringify(pageViews));
     </script>
 </body>
 </html>
