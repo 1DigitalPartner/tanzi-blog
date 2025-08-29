@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-08-27T09:35:31.261Z",
+  "totalConverted": 12,
+  "byLanguage": {
+    "en": 8,
+    "it": 2,
+    "de": 2
+  },
+  "files": [
+    {
+      "original": "en/posts/2025-08-15-5-data-science-insights-change-strategy.html",
+      "converted": "medium-formatted/en/2025-08-15-5-data-science-insights-change-strategy.md",
+      "language": "en"
+    },
+    {
+      "original": "en/posts/2025-08-15-ai-technology-strategy-quietly-dominating.html",
+      "converted": "medium-formatted/en/2025-08-15-ai-technology-strategy-quietly-dominating.md",
+      "language": "en"
+    },
+    {
+      "original": "en/posts/2025-08-16-shocking-truth-about-ai-technology.html",
+      "converted": "medium-formatted/en/2025-08-16-shocking-truth-about-ai-technology.md",
+      "language": "en"
+    },
+    {
+      "original": "en/posts/2025-08-17-programming-trends-content-analysis.html",
+      "converted": "medium-formatted/en/2025-08-17-programming-trends-content-analysis.md",
+      "language": "en"
+    },
+    {
+      "original": "en/posts/2025-08-26-advanced-lead-generation-strategies-social-media-intelligence.html",
+      "converted": "medium-formatted/en/2025-08-26-advanced-lead-generation-strategies-social-media-intelligence.md",
+      "language": "en"
+    },
+    {
+      "original": "en/posts/2025-08-26-hidden-psychology-ai-content-viral-posts-analysis.html",
+      "converted": "medium-formatted/en/2025-08-26-hidden-psychology-ai-content-viral-posts-analysis.md",
+      "language": "en"
+    },
+    {
+      "original": "en/posts/2025-08-26-high-value-social-media-intelligence-report.html",
+      "converted": "medium-formatted/en/2025-08-26-high-value-social-media-intelligence-report.md",
+      "language": "en"
+    },
+    {
+      "original": "en/posts/2025-08-26-linkedin-lead-generation-viral-social-media-strategy.html",
+      "converted": "medium-formatted/en/2025-08-26-linkedin-lead-generation-viral-social-media-strategy.md",
+      "language": "en"
+    },
+    {
+      "original": "it/posts/2025-08-17-analisi-tendenze-programmazione.html",
+      "converted": "medium-formatted/it/2025-08-17-analisi-tendenze-programmazione.md",
+      "language": "it"
+    },
+    {
+      "original": "it/posts/2025-08-26-rapporto-intelligence-social-media-alto-valore.html",
+      "converted": "medium-formatted/it/2025-08-26-rapporto-intelligence-social-media-alto-valore.md",
+      "language": "it"
+    },
+    {
+      "original": "de/posts/2025-08-17-programmiertrends-content-analyse.html",
+      "converted": "medium-formatted/de/2025-08-17-programmiertrends-content-analyse.md",
+      "language": "de"
+    },
+    {
+      "original": "de/posts/2025-08-26-hochwertige-social-media-intelligence-bericht.html",
+      "converted": "medium-formatted/de/2025-08-26-hochwertige-social-media-intelligence-bericht.md",
+      "language": "de"
+    }
+  ]
+}

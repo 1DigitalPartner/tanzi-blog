@@ -1,0 +1,51 @@
+{
+  "name": "tanzitech-blog",
+  "version": "1.0.0",
+  "description": "Gabriele Tanzi's data-driven blog with automated deployment",
+  "main": "deploy-schedule.js",
+  "scripts": {
+    "deploy": "node deploy-schedule.js",
+    "deploy:full": "node integrated-deploy-crosspost.js",
+    "crosspost:schedule": "node crosspost-automation.js",
+    "crosspost:execute": "./execute-scheduled-crossposts.sh",
+    "deploy:status": "node -e \"console.log('📊 Deployment Status:'); const fs = require('fs'); if (fs.existsSync('deployment-log.json')) { const logs = JSON.parse(fs.readFileSync('deployment-log.json')); console.log('Last deployment:', logs[logs.length-1]?.date || 'Never'); } else { console.log('No deployment logs found'); }\"",
+    "deploy:netlify": "netlify deploy --prod --dir=.",
+    "deploy:vercel": "vercel --prod",
+    "schedule:setup": "node -e \"console.log('Add to crontab:\\n0 9 * * 1,3,5 cd $(pwd) && npm run deploy:full')\"",
+    "test:deploy": "node deploy-schedule.js --dry-run",
+    "logs": "tail -f deployment.log",
+    "logs:crosspost": "cat crosspost-queue.json | jq '.queue[] | select(.status != \"scheduled\")' 2>/dev/null || echo 'No crosspost logs'",
+    "clean:logs": "echo '' > deployment.log && echo '{}' > crosspost-queue.json",
+    "preview": "python3 -m http.server 8000",
+    "validate": "node -e \"const posts = require('fs').readdirSync('posts'); console.log('Posts ready:', posts.length); posts.forEach(p => console.log('- ', p));\"",
+    "social:queue": "cat social-promotion-queue.json 2>/dev/null || echo 'No social media queue'",
+    "backup": "tar -czf backup-$(date +%Y%m%d).tar.gz posts/ *.html *.json *.js",
+    "analytics": "node -e \"const report = require('./integrated-report.json'); console.log('📊 Deployment Analytics:', JSON.stringify(report, null, 2));\"",
+    "stats": "node -e \"const fs = require('fs'); let totalPosts = 0; ['en', 'it', 'de'].forEach(lang => { if (fs.existsSync(lang + '/posts')) totalPosts += fs.readdirSync(lang + '/posts').length; }); console.log('📊 Blog Statistics:\\n- Total Posts:', totalPosts, '\\n- Last Modified:', fs.statSync('index.html').mtime.toISOString().split('T')[0]);\"",
+    "format:medium": "node medium-formatter.js",
+    "format:medium:single": "node medium-formatter.js",
+    "medium:check": "ls -la medium-formatted/ 2>/dev/null || echo 'No Medium formatted posts yet. Run: npm run format:medium'"
+  },
+  "keywords": [
+    "blog",
+    "deployment",
+    "automation",
+    "ai",
+    "data-science",
+    "social-media",
+    "analytics"
+  ],
+  "author": "Gabriele Tanzi",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "node-cron": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/tanzitech-blog.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

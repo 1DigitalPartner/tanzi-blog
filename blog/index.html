@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanziTech Blog - Data-Driven Social Media Insights</title>
+    <meta name="description" content="Expert analysis, market intelligence, and data-driven insights for social media professionals and businesses.">
+    <style>
+        :root {
+            --primary-blue: #2563eb;
+            --primary-dark: #1e40af;
+            --success-green: #059669;
+            --accent-teal: #0d9488;
+            --orange-accent: #ea580c;
+            --dark-gray: #374151;
+            --medium-gray: #6b7280;
+            --light-gray: #f3f4f6;
+            --white: #ffffff;
+            --gradient-primary: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            --gradient-hero: linear-gradient(135deg, #2563eb 0%, #0d9488 50%, #ea580c 100%);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-gray);
+            background: linear-gradient(135deg, #fafafa 0%, var(--light-gray) 100%);
+        }
+        
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(37, 99, 235, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: var(--dark-gray);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-blue);
+        }
+        
+        .hero {
+            background: var(--gradient-hero);
+            color: white;
+            padding: 8rem 0 4rem 0;
+            text-align: center;
+            margin-top: 80px;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .blog-section {
+            padding: 4rem 0;
+        }
+        
+        .language-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+        
+        .tab-button {
+            background: transparent;
+            border: 2px solid var(--primary-blue);
+            color: var(--primary-blue);
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        
+        .tab-button.active,
+        .tab-button:hover {
+            background: var(--primary-blue);
+            color: white;
+        }
+        
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .post-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: var(--shadow-lg);
+            transition: transform 0.3s ease;
+        }
+        
+        .post-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .post-meta {
+            color: var(--medium-gray);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        
+        .post-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--dark-gray);
+        }
+        
+        .post-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        .post-title a:hover {
+            color: var(--primary-blue);
+        }
+        
+        .post-excerpt {
+            color: var(--medium-gray);
+            margin-bottom: 1.5rem;
+        }
+        
+        .post-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .tag {
+            background: var(--light-gray);
+            color: var(--dark-gray);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">🚀 Gabriele Tanzi</a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>TanziTech Blog</h1>
+            <p>Data-driven insights, market intelligence, and social media analysis to help you dominate your competition.</p>
+        </div>
+    </section>
+    
+    <!-- Blog Content -->
+    <section class="blog-section">
+        <div class="container">
+            <!-- Language Tabs -->
+            <div class="language-tabs">
+                <button class="tab-button active" onclick="showTab('en')">🇺🇸 English</button>
+                <button class="tab-button" onclick="showTab('it')">🇮🇹 Italiano</button>
+                <button class="tab-button" onclick="showTab('de')">🇩🇪 Deutsch</button>
+            </div>
+            
+            <!-- English Posts -->
+            <div id="en" class="tab-content active">
+                <h2 style="text-align: center; margin-bottom: 2rem; color: var(--dark-gray);">Latest English Posts</h2>
+                <div class="posts-grid">
+                    <div class="post-card">
+                        <div class="post-meta">August 26, 2025 • Psychology</div>
+                        <h3 class="post-title">
+                            <a href="/en/posts/2025-08-26-hidden-psychology-ai-content-viral-posts-analysis.html">
+                                The Hidden Psychology Behind AI Content: What Makes 125 Viral Posts Work
+                            </a>
+                        </h3>
+                        <p class="post-excerpt">Deep psychological analysis of viral AI content reveals the hidden triggers that make some posts explode while others fail.</p>
+                        <div class="post-tags">
+                            <span class="tag">AI Analysis</span>
+                            <span class="tag">Psychology</span>
+                            <span class="tag">Viral Content</span>
+                        </div>
+                    </div>
+                    
+                    <div class="post-card">
+                        <div class="post-meta">August 17, 2025 • Trends</div>
+                        <h3 class="post-title">
+                            <a href="/en/posts/2025-08-17-programming-trends-content-analysis.html">
+                                Why 95% of Programming Trends Content Fails (And How to Be in the 5%)
+                            </a>
+                        </h3>
+                        <p class="post-excerpt">Data-driven analysis of 125 programming trends posts reveals the secrets of high-performing tech content.</p>
+                        <div class="post-tags">
+                            <span class="tag">Programming</span>
+                            <span class="tag">Content Strategy</span>
+                            <span class="tag">Data Analysis</span>
+                        </div>
+                    </div>
+                    
+                    <div class="post-card">
+                        <div class="post-meta">August 16, 2025 • AI Technology</div>
+                        <h3 class="post-title">
+                            <a href="/en/posts/2025-08-16-shocking-truth-about-ai-technology.html">
+                                The Shocking Truth About AI Technology (Based on Real Data)
+                            </a>
+                        </h3>
+                        <p class="post-excerpt">Shocking data-driven analysis of 125 AI Technology posts reveals surprising truths about AI in 2025.</p>
+                        <div class="post-tags">
+                            <span class="tag">AI Technology</span>
+                            <span class="tag">Market Analysis</span>
+                            <span class="tag">Data Insights</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Italian Posts -->
+            <div id="it" class="tab-content">
+                <h2 style="text-align: center; margin-bottom: 2rem; color: var(--dark-gray);">Ultimi Post in Italiano</h2>
+                <div class="posts-grid">
+                    <div class="post-card">
+                        <div class="post-meta">17 Agosto 2025 • Tendenze</div>
+                        <h3 class="post-title">
+                            <a href="/it/posts/2025-08-17-analisi-tendenze-programmazione.html">
+                                Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce
+                            </a>
+                        </h3>
+                        <p class="post-excerpt">Analisi data-driven di 125 post sui trend di programmazione rivela i segreti dei contenuti tech ad alte performance.</p>
+                        <div class="post-tags">
+                            <span class="tag">Programmazione</span>
+                            <span class="tag">Strategia</span>
+                            <span class="tag">Analisi Dati</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- German Posts -->
+            <div id="de" class="tab-content">
+                <h2 style="text-align: center; margin-bottom: 2rem; color: var(--dark-gray);">Neueste Deutsche Beiträge</h2>
+                <div class="posts-grid">
+                    <div class="post-card">
+                        <div class="post-meta">17. August 2025 • Trends</div>
+                        <h3 class="post-title">
+                            <a href="/de/posts/2025-08-17-programmiertrends-content-analyse.html">
+                                Warum 95% der Programmiertrends-Inhalte Versagen
+                            </a>
+                        </h3>
+                        <p class="post-excerpt">Datengestützte Analyse von 125 Programmiertrends-Posts enthüllt die Geheimnisse hochperformanter Tech-Inhalte.</p>
+                        <div class="post-tags">
+                            <span class="tag">Programmierung</span>
+                            <span class="tag">Content-Strategie</span>
+                            <span class="tag">Datenanalyse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        function showTab(language) {
+            // Hide all tab contents
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Remove active class from all buttons
+            document.querySelectorAll('.tab-button').forEach(button => {
+                button.classList.remove('active');
+            });
+            
+            // Show selected tab content
+            document.getElementById(language).classList.add('active');
+            
+            // Add active class to clicked button
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
