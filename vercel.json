@@ -1,6 +1,10 @@
 {
   "routes": [
     {
+      "src": "/data-science-report-landing.html",
+      "dest": "/data-science-report-landing.html"
+    },
+    {
       "src": "/data-science-report-landing",
       "dest": "/data-science-report-landing.html"
     },
