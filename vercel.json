@@ -1,31 +1,24 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/data-science-report-landing.html",
-      "dest": "/data-science-report-landing.html"
+      "source": "/data-science-report-landing",
+      "destination": "/data-science-report-landing.html"
     },
     {
-      "src": "/data-science-report-landing",
-      "dest": "/data-science-report-landing.html"
+      "source": "/blog/:path*",
+      "destination": "https://1digitalpartner.github.io/tanzi-blog/:path*"
     },
     {
-      "src": "/blog/(.*)",
-      "dest": "https://1digitalpartner.github.io/tanzi-blog/$1",
-      "headers": {
-        "Cache-Control": "public, max-age=3600"
-      }
+      "source": "/blog",
+      "destination": "https://1digitalpartner.github.io/tanzi-blog/"
     },
     {
-      "src": "/blog",
-      "dest": "https://1digitalpartner.github.io/tanzi-blog/"
+      "source": "/audit",
+      "destination": "https://1digitalpartner.github.io/tanzi-blog/audit.html"
     },
     {
-      "src": "/audit",
-      "dest": "https://1digitalpartner.github.io/tanzi-blog/audit.html"
-    },
-    {
-      "src": "/portfolio",
-      "dest": "/portfolio.html"
+      "source": "/portfolio",
+      "destination": "/portfolio.html"
     }
   ]
 }
