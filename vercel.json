@@ -1,0 +1,27 @@
+{
+  "routes": [
+    {
+      "src": "/data-science-report-landing",
+      "dest": "/data-science-report-landing.html"
+    },
+    {
+      "src": "/blog/(.*)",
+      "dest": "https://1digitalpartner.github.io/tanzi-blog/$1",
+      "headers": {
+        "Cache-Control": "public, max-age=3600"
+      }
+    },
+    {
+      "src": "/blog",
+      "dest": "https://1digitalpartner.github.io/tanzi-blog/"
+    },
+    {
+      "src": "/audit",
+      "dest": "https://1digitalpartner.github.io/tanzi-blog/audit.html"
+    },
+    {
+      "src": "/portfolio",
+      "dest": "/portfolio.html"
+    }
+  ]
+}
