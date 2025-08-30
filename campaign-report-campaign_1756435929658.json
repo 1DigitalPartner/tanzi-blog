@@ -1,0 +1,22 @@
+{
+  "campaignId": "campaign_1756435929658",
+  "generated": "2025-08-29T02:52:09.667Z",
+  "duration": 0,
+  "postsScheduled": 0,
+  "expectedLeads": 0,
+  "platformBreakdown": {},
+  "timeline": {
+    "started": "2025-08-29T02:52:09.658Z",
+    "postsDeployed": [],
+    "monitoring": "Active for 24 hours",
+    "followUp": "Scheduled based on engagement"
+  },
+  "nextActions": [
+    "Monitor post engagement for first 2 hours",
+    "Respond to high-value comments within 30 minutes",
+    "Send promised resources within 1 hour of comment",
+    "Schedule strategy calls with qualified leads",
+    "Analyze performance after 24 hours",
+    "Optimize next campaign based on results"
+  ]
+}

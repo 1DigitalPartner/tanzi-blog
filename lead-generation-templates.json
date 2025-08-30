@@ -1,0 +1,113 @@
+{
+  "viral_post_templates": {
+    "data_revelation": {
+      "template": "🚨 I analyzed [NUMBER] [TOPIC] posts and found something shocking...\n\nThe 'experts' are wrong about [COMMON_BELIEF].\n\nEveryone teaches you to:\n❌ [WRONG_ADVICE_1]\n❌ [WRONG_ADVICE_2] \n❌ [WRONG_ADVICE_3]\n\nBut my data analysis of [BIG_NUMBER]+ interactions reveals the truth:\n\n✅ [INSIGHT_1]\n✅ [INSIGHT_2]\n✅ [INSIGHT_3]\n\nHere's what actually works:\n🔹 [EXAMPLE_1]\n🔹 [EXAMPLE_2] \n🔹 [EXAMPLE_3]\n\nThe pattern? [KEY_INSIGHT]\n\nMost companies are leaving millions of impressions on the table because they're following outdated advice.\n\n**Want the full analysis report?**\n\nComment '[TRIGGER_WORD]' and I'll send you the complete breakdown of:\n- [BENEFIT_1]\n- [BENEFIT_2]\n- [BENEFIT_3]\n- [HIGH_VALUE_OFFER]\n\nP.S. This took me [TIME_INVESTMENT] to compile. Sharing it free for the next [URGENCY] only.\n\n#LeadGeneration #B2BMarketing #SalesStrategy #BusinessGrowth",
+      "conversion_rate": "5-10%",
+      "expected_leads": "50-100 per viral post",
+      "best_platforms": ["linkedin", "reddit", "hackernews"]
+    },
+    "shocking_discovery": {
+      "template": "🔥 SHOCKING: [INDUSTRY] companies are losing $[AMOUNT] monthly because of [SPECIFIC_MISTAKE]\n\nI just analyzed [NUMBER] companies and found [SPECIFIC_STAT]% are making this critical error.\n\n❌ What they're doing wrong:\n[MISTAKE_DESCRIPTION]\n\n✅ What the top performers do instead:\n[SOLUTION_DESCRIPTION]\n\nReal case study:\nClient went from [BEFORE_METRIC] to [AFTER_METRIC] in [TIMEFRAME] using this approach.\n\nROI: [SPECIFIC_RETURN]\n\n**Ready to stop losing money?**\n\nComment '[TRIGGER]' for:\n📊 Free company audit\n💡 Custom improvement plan\n🚀 Proven templates that work\n\nLimited to first [NUMBER] companies only.\n\n#[INDUSTRY]Intelligence #MarketingROI #BusinessGrowth",
+      "conversion_rate": "8-15%",
+      "expected_leads": "25-50 per post",
+      "best_platforms": ["linkedin", "twitter", "medium"]
+    },
+    "contrarian_take": {
+      "template": "Unpopular opinion: [CONTROVERSIAL_STATEMENT]\n\nAfter [TIME_PERIOD] analyzing [TOPIC], here's why everyone's approach is backwards:\n\n🚫 Industry standard: [COMMON_APPROACH]\n✅ What actually works: [CONTRARIAN_APPROACH]\n\nThe data from [SAMPLE_SIZE] shows:\n• [STAT_1]\n• [STAT_2] \n• [STAT_3]\n\nThis is why [SUCCESS_STORY].\n\nMost [INDUSTRY] professionals waste [RESOURCE] on [INEFFECTIVE_ACTIVITY] when they should focus on [EFFECTIVE_ACTIVITY].\n\n**Think I'm wrong?**\n\nComment '[TRIGGER]' and I'll send you:\n📈 The full research data\n🎯 Step-by-step implementation guide\n💰 ROI calculator\n\nProve me wrong with your results 😉\n\n#[INDUSTRY] #DataDriven #MarketingStrategy",
+      "conversion_rate": "12-20%",
+      "expected_leads": "30-75 per post",
+      "best_platforms": ["hackernews", "reddit", "twitter"]
+    }
+  },
+  "lead_magnets": {
+    "industry_intelligence_report": {
+      "title": "[Industry] Intelligence Report 2025",
+      "description": "Complete analysis of [NUMBER] companies, [ENGAGEMENT_TOTAL] interactions, revealing [KEY_INSIGHTS]",
+      "format": "PDF report + interactive dashboard",
+      "pages": "25-35 pages",
+      "value_proposition": "$2,997 value - Free for limited time",
+      "conversion_elements": [
+        "Executive summary with key findings",
+        "Competitive analysis of top performers", 
+        "Industry benchmarks and KPIs",
+        "Implementation roadmap",
+        "ROI calculator tool"
+      ]
+    },
+    "strategy_audit_toolkit": {
+      "title": "[Topic] Strategy Audit Toolkit",
+      "description": "Complete audit framework used by top consulting firms",
+      "format": "Toolkit + templates + checklist",
+      "components": [
+        "60-point audit checklist",
+        "Performance benchmarking tool",
+        "Gap analysis framework",
+        "Improvement priority matrix",
+        "Implementation timeline template"
+      ],
+      "value_proposition": "$1,497 value - Free for subscribers"
+    },
+    "case_study_collection": {
+      "title": "Million Dollar [Topic] Case Studies",
+      "description": "Real client results and exact strategies that generated [RESULTS]",
+      "format": "Case study library + templates",
+      "contents": [
+        "5 detailed case studies with ROI",
+        "Before/after metrics",
+        "Exact strategies and tactics used",
+        "Replicable templates and frameworks",
+        "Implementation guides"
+      ],
+      "value_proposition": "$997 value - Limited time free access"
+    }
+  },
+  "lead_capture_sequences": {
+    "comment_to_dm": {
+      "step_1": "User comments trigger word",
+      "step_2": "Auto-reply: 'Sending you the [RESOURCE] now! Check your DMs 📨'",
+      "step_3": "Send DM with resource + qualification question",
+      "step_4": "Follow up with strategy call booking link",
+      "conversion_rate": "15-25%"
+    },
+    "email_nurture": {
+      "day_1": "Welcome + instant resource delivery",
+      "day_3": "Case study: '[CLIENT_RESULT] in [TIMEFRAME]'", 
+      "day_5": "Tool recommendation: 'The [TOOL] that changed everything'",
+      "day_7": "Controversial insight: 'Why [COMMON_BELIEF] is wrong'",
+      "day_10": "Behind-the-scenes: 'My exact process'",
+      "day_14": "Soft pitch: 'Want help implementing this?'"
+    }
+  },
+  "platform_specific_optimizations": {
+    "hackernews": {
+      "title_format": "Analysis: [Insight] – [URL]",
+      "best_posting_time": "13:36 UTC",
+      "key_success_factors": [
+        "Technical depth",
+        "Data-driven insights",
+        "Minimal marketing language",
+        "Genuine value contribution"
+      ]
+    },
+    "reddit": {
+      "title_format": "[Insight/Question] based on analyzing [DATA_POINTS]",
+      "best_posting_time": "12:36 UTC", 
+      "key_success_factors": [
+        "Community-first approach",
+        "Detailed analysis in comments",
+        "Interactive discussion",
+        "Genuine expertise demonstration"
+      ]
+    },
+    "linkedin": {
+      "format": "Hook + Problem + Solution + CTA",
+      "best_posting_time": "10:06 UTC",
+      "key_success_factors": [
+        "Professional tone with personality", 
+        "Visual appeal with emojis",
+        "Clear value proposition",
+        "Strong call-to-action"
+      ]
+    }
+  }
+}

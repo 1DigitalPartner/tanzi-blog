@@ -1,0 +1,26 @@
+[
+  {
+    "email": "maria.gonzalez@techstartup.io",
+    "firstName": "Maria",
+    "lastName": "Gonzalez",
+    "title": "President",
+    "company": "TechStartup",
+    "industry": "Technology",
+    "name": "Maria Gonzalez",
+    "originalSegment": "business_owners",
+    "segment": "startup",
+    "segmentScore": 6
+  },
+  {
+    "email": "amy.zhang@healthtech.com",
+    "firstName": "Amy",
+    "lastName": "Zhang",
+    "title": "CTO & Co-Founder",
+    "company": "HealthTech",
+    "industry": "Healthtech",
+    "name": "Amy Zhang",
+    "originalSegment": "startup_founders",
+    "segment": "startup",
+    "segmentScore": 4
+  }
+]

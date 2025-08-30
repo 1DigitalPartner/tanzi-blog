@@ -1,0 +1,97 @@
+[
+  {
+    "audienceSegment": "data_science_professionals",
+    "campaignId": "campaign_1756463684389",
+    "templateUsed": "data_science_professionals",
+    "prospectsCount": 3,
+    "launchDate": "2025-08-29T10:34:47.739Z",
+    "status": "launched",
+    "totalEmails": 3,
+    "templateType": "data_science_data_science_professionals",
+    "estimatedCompletion": "2025-08-29T10:49:47.739Z",
+    "blogPost": "https://tanzitech.com/en/posts/2025-08-15-5-data-science-insights-change-strategy.html",
+    "trackingParams": {
+      "utm_source": "cold_email",
+      "utm_medium": "email",
+      "utm_campaign": "data_science_insights_2025",
+      "utm_content": "blog_post_promotion"
+    },
+    "timestamp": "2025-08-29T10:34:47.740Z"
+  },
+  {
+    "audienceSegment": "marketing_executives",
+    "campaignId": "campaign_1756464047163",
+    "templateUsed": "marketing_executives",
+    "prospectsCount": 3,
+    "launchDate": "2025-08-29T10:40:49.608Z",
+    "status": "launched",
+    "totalEmails": 3,
+    "templateType": "data_science_marketing_executives",
+    "estimatedCompletion": "2025-08-29T10:55:49.608Z",
+    "blogPost": "https://tanzitech.com/en/posts/2025-08-15-5-data-science-insights-change-strategy.html",
+    "trackingParams": {
+      "utm_source": "cold_email",
+      "utm_medium": "email",
+      "utm_campaign": "data_science_insights_2025",
+      "utm_content": "blog_post_promotion"
+    },
+    "timestamp": "2025-08-29T10:40:49.608Z"
+  },
+  {
+    "audienceSegment": "startup_founders",
+    "campaignId": "campaign_1756464056736",
+    "templateUsed": "startup_founders",
+    "prospectsCount": 3,
+    "launchDate": "2025-08-29T10:40:59.730Z",
+    "status": "launched",
+    "totalEmails": 3,
+    "templateType": "data_science_startup_founders",
+    "estimatedCompletion": "2025-08-29T10:55:59.730Z",
+    "blogPost": "https://tanzitech.com/en/posts/2025-08-15-5-data-science-insights-change-strategy.html",
+    "trackingParams": {
+      "utm_source": "cold_email",
+      "utm_medium": "email",
+      "utm_campaign": "data_science_insights_2025",
+      "utm_content": "blog_post_promotion"
+    },
+    "timestamp": "2025-08-29T10:40:59.731Z"
+  },
+  {
+    "audienceSegment": "marketing_executives",
+    "campaignId": "campaign_1756464964149",
+    "templateUsed": "marketing_executives",
+    "prospectsCount": 5,
+    "launchDate": "2025-08-29T10:56:07.638Z",
+    "status": "launched",
+    "totalEmails": 5,
+    "templateType": "data_science_marketing_executives",
+    "estimatedCompletion": "2025-08-29T11:11:07.638Z",
+    "blogPost": "https://tanzitech.com/en/posts/2025-08-15-5-data-science-insights-change-strategy.html",
+    "trackingParams": {
+      "utm_source": "cold_email",
+      "utm_medium": "email",
+      "utm_campaign": "data_science_insights_2025",
+      "utm_content": "blog_post_promotion"
+    },
+    "timestamp": "2025-08-29T10:56:07.639Z"
+  },
+  {
+    "audienceSegment": "startup_founders",
+    "campaignId": "campaign_1756464974693",
+    "templateUsed": "startup_founders",
+    "prospectsCount": 5,
+    "launchDate": "2025-08-29T10:56:17.775Z",
+    "status": "launched",
+    "totalEmails": 5,
+    "templateType": "data_science_startup_founders",
+    "estimatedCompletion": "2025-08-29T11:11:17.775Z",
+    "blogPost": "https://tanzitech.com/en/posts/2025-08-15-5-data-science-insights-change-strategy.html",
+    "trackingParams": {
+      "utm_source": "cold_email",
+      "utm_medium": "email",
+      "utm_campaign": "data_science_insights_2025",
+      "utm_content": "blog_post_promotion"
+    },
+    "timestamp": "2025-08-29T10:56:17.775Z"
+  }
+]

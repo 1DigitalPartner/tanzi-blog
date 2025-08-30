@@ -1,0 +1,59 @@
+{
+  "created": "2025-08-29T00:36:10.723Z",
+  "alerts": [
+    {
+      "type": "PLATFORM_FAILURE",
+      "priority": "high",
+      "message": "twitter has low engagement rate: 16",
+      "details": {
+        "platform": "twitter",
+        "engagementRate": 16.125,
+        "posts": 8,
+        "threshold": 20
+      },
+      "id": "1756427770727",
+      "timestamp": "2025-08-29T00:36:10.727Z",
+      "acknowledged": false
+    },
+    {
+      "type": "QUEUE_BACKLOG",
+      "priority": "medium",
+      "message": "Queue has 41 overdue jobs",
+      "details": {
+        "overdueCount": 41,
+        "totalQueued": 41,
+        "platforms": [
+          "linkedin",
+          "medium",
+          "twitter",
+          "reddit",
+          "devto",
+          "hackernews"
+        ]
+      },
+      "id": "1756427770727",
+      "timestamp": "2025-08-29T00:36:10.727Z",
+      "acknowledged": false
+    },
+    {
+      "type": "QUEUE_BACKLOG",
+      "priority": "medium",
+      "message": "Queue has 45 overdue jobs",
+      "details": {
+        "overdueCount": 45,
+        "totalQueued": 45,
+        "platforms": [
+          "linkedin",
+          "medium",
+          "twitter",
+          "reddit",
+          "devto",
+          "hackernews"
+        ]
+      },
+      "id": "1756461902974",
+      "timestamp": "2025-08-29T10:05:02.974Z",
+      "acknowledged": false
+    }
+  ]
+}

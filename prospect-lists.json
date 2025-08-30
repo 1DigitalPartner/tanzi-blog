@@ -1,0 +1,324 @@
+{
+  "data_science_professionals": {
+    "title_keywords": [
+      "Data Scientist",
+      "ML Engineer",
+      "Data Engineer",
+      "Research Scientist",
+      "AI Engineer",
+      "Analytics Manager"
+    ],
+    "industry_keywords": [
+      "Technology",
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Analytics",
+      "Big Data"
+    ],
+    "company_size": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+    ],
+    "seniority": [
+      "Senior",
+      "Lead",
+      "Principal",
+      "Manager",
+      "Director"
+    ],
+    "sample_prospects": [
+      {
+        "email": "sarah.chen@techcorp.com",
+        "firstName": "Sarah",
+        "lastName": "Chen",
+        "title": "Senior Data Scientist",
+        "company": "TechCorp",
+        "industry": "Technology"
+      },
+      {
+        "email": "mike.rodriguez@aicompany.com",
+        "firstName": "Mike",
+        "lastName": "Rodriguez",
+        "title": "ML Engineer",
+        "company": "AI Company",
+        "industry": "Artificial Intelligence"
+      },
+      {
+        "email": "lisa.wong@dataflow.io",
+        "firstName": "Lisa",
+        "lastName": "Wong",
+        "title": "Principal Data Scientist",
+        "company": "DataFlow",
+        "industry": "Analytics"
+      }
+    ]
+  },
+  "marketing_executives": {
+    "title_keywords": [
+      "Marketing Director",
+      "CMO",
+      "VP Marketing",
+      "Marketing Manager",
+      "Brand Manager",
+      "Digital Marketing"
+    ],
+    "industry_keywords": [
+      "B2B Software",
+      "SaaS",
+      "Technology",
+      "Marketing",
+      "Advertising"
+    ],
+    "company_size": [
+      "201-500",
+      "501-1000",
+      "1001-5000",
+      "5001+"
+    ],
+    "seniority": [
+      "Director",
+      "VP",
+      "C-Suite",
+      "Manager"
+    ],
+    "sample_prospects": [
+      {
+        "email": "john.miller@saascompany.com",
+        "firstName": "John",
+        "lastName": "Miller",
+        "title": "Marketing Director",
+        "company": "SaaS Company",
+        "industry": "B2B Software"
+      },
+      {
+        "email": "emily.davis@growthcorp.com",
+        "firstName": "Emily",
+        "lastName": "Davis",
+        "title": "VP Marketing",
+        "company": "GrowthCorp",
+        "industry": "Technology"
+      },
+      {
+        "email": "alex.thompson@brandco.com",
+        "firstName": "Alex",
+        "lastName": "Thompson",
+        "title": "CMO",
+        "company": "BrandCo",
+        "industry": "Marketing"
+      }
+    ]
+  },
+  "business_owners": {
+    "title_keywords": [
+      "CEO",
+      "President",
+      "Owner",
+      "Co-Founder",
+      "Managing Partner"
+    ],
+    "industry_keywords": [
+      "B2B Services",
+      "Technology",
+      "Consulting",
+      "Software",
+      "Professional Services"
+    ],
+    "company_size": [
+      "11-50",
+      "51-200",
+      "201-500",
+      "501-1000"
+    ],
+    "seniority": [
+      "C-Suite",
+      "Owner",
+      "Founder"
+    ],
+    "sample_prospects": [
+      {
+        "email": "david.kim@consultfirm.com",
+        "firstName": "David",
+        "lastName": "Kim",
+        "title": "CEO",
+        "company": "ConsultFirm",
+        "industry": "B2B Services"
+      },
+      {
+        "email": "maria.gonzalez@techstartup.io",
+        "firstName": "Maria",
+        "lastName": "Gonzalez",
+        "title": "President",
+        "company": "TechStartup",
+        "industry": "Technology"
+      },
+      {
+        "email": "robert.lee@serviceco.com",
+        "firstName": "Robert",
+        "lastName": "Lee",
+        "title": "Owner",
+        "company": "ServiceCo",
+        "industry": "Professional Services"
+      }
+    ]
+  },
+  "startup_founders": {
+    "title_keywords": [
+      "Founder",
+      "Co-Founder",
+      "CEO",
+      "CTO",
+      "CPO"
+    ],
+    "industry_keywords": [
+      "Startup",
+      "Technology",
+      "SaaS",
+      "Fintech",
+      "Healthtech",
+      "AI/ML"
+    ],
+    "company_size": [
+      "1-10",
+      "11-50",
+      "51-200"
+    ],
+    "seniority": [
+      "Founder",
+      "C-Suite"
+    ],
+    "sample_prospects": [
+      {
+        "email": "jessica.patel@aistart.com",
+        "firstName": "Jessica",
+        "lastName": "Patel",
+        "title": "Co-Founder",
+        "company": "AIStart",
+        "industry": "AI/ML"
+      },
+      {
+        "email": "tom.wilson@fintechco.io",
+        "firstName": "Tom",
+        "lastName": "Wilson",
+        "title": "Founder & CEO",
+        "company": "FintechCo",
+        "industry": "Fintech"
+      },
+      {
+        "email": "amy.zhang@healthtech.com",
+        "firstName": "Amy",
+        "lastName": "Zhang",
+        "title": "CTO & Co-Founder",
+        "company": "HealthTech",
+        "industry": "Healthtech"
+      }
+    ]
+  },
+  "consultants_agencies": {
+    "title_keywords": [
+      "Consultant",
+      "Agency Owner",
+      "Principal",
+      "Managing Director",
+      "Account Director"
+    ],
+    "industry_keywords": [
+      "Marketing Agency",
+      "Digital Agency",
+      "Consulting",
+      "Business Services",
+      "Strategy"
+    ],
+    "company_size": [
+      "1-10",
+      "11-50",
+      "51-200"
+    ],
+    "seniority": [
+      "Principal",
+      "Director",
+      "Owner"
+    ],
+    "sample_prospects": [
+      {
+        "email": "chris.martin@digitalagency.com",
+        "firstName": "Chris",
+        "lastName": "Martin",
+        "title": "Agency Owner",
+        "company": "Digital Agency",
+        "industry": "Marketing Agency"
+      },
+      {
+        "email": "stephanie.brown@consultgroup.com",
+        "firstName": "Stephanie",
+        "lastName": "Brown",
+        "title": "Principal Consultant",
+        "company": "ConsultGroup",
+        "industry": "Consulting"
+      },
+      {
+        "email": "andrew.taylor@strategyfirm.com",
+        "firstName": "Andrew",
+        "lastName": "Taylor",
+        "title": "Managing Director",
+        "company": "Strategy Firm",
+        "industry": "Strategy"
+      }
+    ]
+  },
+  "tech_professionals": {
+    "title_keywords": [
+      "Software Engineer",
+      "Developer",
+      "Technical Lead",
+      "Engineering Manager",
+      "Product Manager"
+    ],
+    "industry_keywords": [
+      "Technology",
+      "Software",
+      "SaaS",
+      "Tech Services",
+      "IT"
+    ],
+    "company_size": [
+      "51-200",
+      "201-500",
+      "501-1000",
+      "1001-5000"
+    ],
+    "seniority": [
+      "Senior",
+      "Lead",
+      "Principal",
+      "Manager"
+    ],
+    "sample_prospects": [
+      {
+        "email": "kevin.anderson@softwarecompany.com",
+        "firstName": "Kevin",
+        "lastName": "Anderson",
+        "title": "Senior Software Engineer",
+        "company": "Software Company",
+        "industry": "Technology"
+      },
+      {
+        "email": "rachel.garcia@techservices.com",
+        "firstName": "Rachel",
+        "lastName": "Garcia",
+        "title": "Engineering Manager",
+        "company": "Tech Services",
+        "industry": "Tech Services"
+      },
+      {
+        "email": "daniel.moore@saasplatform.io",
+        "firstName": "Daniel",
+        "lastName": "Moore",
+        "title": "Technical Lead",
+        "company": "SaaS Platform",
+        "industry": "SaaS"
+      }
+    ]
+  }
+}

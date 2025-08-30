@@ -1,0 +1,561 @@
+{
+  "lastUpdated": "2025-08-29T10:04:50.265Z",
+  "platforms": {
+    "linkedin": {
+      "enabled": false,
+      "totalPosts": 14,
+      "totalEngagement": 1310,
+      "avgEngagementRate": 93.57142857142857,
+      "posts": [
+        {
+          "id": "1756287408872_linkedin_en",
+          "title": "5 Data Science Insights That Will Change Your Strategy",
+          "publishedDate": "2025-08-27T10:06:48.870Z",
+          "engagement": 41,
+          "platform": "linkedin",
+          "language": "en",
+          "category": "lead_generation",
+          "priority": "medium",
+          "lastUpdated": "2025-08-29T10:04:50.248Z"
+        },
+        {
+          "id": "1756287408875_linkedin_en",
+          "title": "The AI Technology Strategy That's Quietly Dominating in 2025",
+          "publishedDate": "2025-08-27T10:06:48.874Z",
+          "engagement": 46,
+          "platform": "linkedin",
+          "language": "en",
+          "category": "lead_generation",
+          "priority": "medium",
+          "lastUpdated": "2025-08-29T10:04:50.252Z"
+        },
+        {
+          "id": "1756287408876_linkedin_en",
+          "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+          "publishedDate": "2025-08-27T10:06:48.875Z",
+          "engagement": 21,
+          "platform": "linkedin",
+          "language": "en",
+          "category": "ai_analysis",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.253Z"
+        },
+        {
+          "id": "1756287408877_linkedin_en",
+          "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+          "publishedDate": "2025-08-27T10:06:48.876Z",
+          "engagement": 45,
+          "platform": "linkedin",
+          "language": "en",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.255Z"
+        },
+        {
+          "id": "1756287408878_linkedin_en",
+          "title": "Advanced Lead Generation Strategies for Social Media Intelligence Business - TanziTech",
+          "publishedDate": "2025-08-27T10:06:48.877Z",
+          "engagement": 25,
+          "platform": "linkedin",
+          "language": "en",
+          "category": "lead_generation",
+          "priority": "medium",
+          "lastUpdated": "2025-08-29T10:04:50.256Z"
+        },
+        {
+          "id": "1756287408881_linkedin_en",
+          "title": "The Hidden Psychology of AI Content: What 125 Viral Posts Reveal About Engagement - TanziTech",
+          "publishedDate": "2025-08-27T10:06:48.880Z",
+          "engagement": 57,
+          "platform": "linkedin",
+          "language": "en",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.257Z"
+        },
+        {
+          "id": "1756287408883_linkedin_en",
+          "title": "High-Value Social Media Intelligence Report & Content Strategy - TanziTech",
+          "publishedDate": "2025-08-27T10:06:48.882Z",
+          "engagement": 47,
+          "platform": "linkedin",
+          "language": "en",
+          "category": "lead_generation",
+          "priority": "medium",
+          "lastUpdated": "2025-08-29T10:04:50.258Z"
+        },
+        {
+          "id": "1756287408885_linkedin_en",
+          "title": "LinkedIn Lead Generation: Viral Social Media Strategy That Converts - TanziTech",
+          "publishedDate": "2025-08-27T10:06:48.884Z",
+          "engagement": 81,
+          "platform": "linkedin",
+          "language": "en",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.259Z"
+        },
+        {
+          "id": "1756287408886_linkedin_it",
+          "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+          "publishedDate": "2025-08-27T10:06:48.885Z",
+          "engagement": 52,
+          "platform": "linkedin",
+          "language": "it",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.260Z"
+        },
+        {
+          "id": "1756287408887_linkedin_it",
+          "title": "Rapporto Intelligence Social Media Alto Valore & Strategia di Contenuti - TanziTech",
+          "publishedDate": "2025-08-27T10:06:48.886Z",
+          "engagement": 64,
+          "platform": "linkedin",
+          "language": "it",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.261Z"
+        },
+        {
+          "id": "1756287408888_linkedin_de",
+          "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+          "publishedDate": "2025-08-27T10:06:48.888Z",
+          "engagement": 54,
+          "platform": "linkedin",
+          "language": "de",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.262Z"
+        },
+        {
+          "id": "1756287408889_linkedin_de",
+          "title": "Hochwertiger Social Media Intelligence Bericht & Content-Strategie - TanziTech",
+          "publishedDate": "2025-08-27T10:06:48.888Z",
+          "engagement": 66,
+          "platform": "linkedin",
+          "language": "de",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.263Z"
+        },
+        {
+          "id": "lead_post_1756435980095_linkedin",
+          "title": "Unknown",
+          "publishedDate": "2025-08-29T04:53:00.095Z",
+          "engagement": 75,
+          "platform": "linkedin",
+          "category": "lead_generation",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.264Z"
+        },
+        {
+          "id": "lead_post_1756453773552_linkedin",
+          "title": "Unknown",
+          "publishedDate": "2025-08-29T09:49:33.552Z",
+          "engagement": 66,
+          "platform": "linkedin",
+          "category": "lead_generation",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.265Z"
+        }
+      ]
+    },
+    "twitter": {
+      "enabled": false,
+      "totalPosts": 8,
+      "totalEngagement": 375,
+      "avgEngagementRate": 46.875,
+      "posts": [
+        {
+          "id": "1756287408876_twitter_en",
+          "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+          "publishedDate": "2025-08-27T09:51:48.875Z",
+          "engagement": 45,
+          "platform": "twitter",
+          "language": "en",
+          "category": "ai_analysis",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.253Z"
+        },
+        {
+          "id": "1756287408877_twitter_en",
+          "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+          "publishedDate": "2025-08-27T09:51:48.876Z",
+          "engagement": 24,
+          "platform": "twitter",
+          "language": "en",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.255Z"
+        },
+        {
+          "id": "1756287408881_twitter_en",
+          "title": "The Hidden Psychology of AI Content: What 125 Viral Posts Reveal About Engagement - TanziTech",
+          "publishedDate": "2025-08-27T09:51:48.880Z",
+          "engagement": 9,
+          "platform": "twitter",
+          "language": "en",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.257Z"
+        },
+        {
+          "id": "1756287408885_twitter_en",
+          "title": "LinkedIn Lead Generation: Viral Social Media Strategy That Converts - TanziTech",
+          "publishedDate": "2025-08-27T09:51:48.884Z",
+          "engagement": 30,
+          "platform": "twitter",
+          "language": "en",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.259Z"
+        },
+        {
+          "id": "1756287408886_twitter_it",
+          "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+          "publishedDate": "2025-08-27T09:51:48.885Z",
+          "engagement": 16,
+          "platform": "twitter",
+          "language": "it",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.260Z"
+        },
+        {
+          "id": "1756287408887_twitter_it",
+          "title": "Rapporto Intelligence Social Media Alto Valore & Strategia di Contenuti - TanziTech",
+          "publishedDate": "2025-08-27T09:51:48.886Z",
+          "engagement": 39,
+          "platform": "twitter",
+          "language": "it",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.261Z"
+        },
+        {
+          "id": "1756287408888_twitter_de",
+          "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+          "publishedDate": "2025-08-27T09:51:48.888Z",
+          "engagement": 43,
+          "platform": "twitter",
+          "language": "de",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.262Z"
+        },
+        {
+          "id": "1756287408889_twitter_de",
+          "title": "Hochwertiger Social Media Intelligence Bericht & Content-Strategie - TanziTech",
+          "publishedDate": "2025-08-27T09:51:48.888Z",
+          "engagement": 40,
+          "platform": "twitter",
+          "language": "de",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.263Z"
+        }
+      ]
+    },
+    "reddit": {
+      "enabled": true,
+      "totalPosts": 6,
+      "totalEngagement": 1781,
+      "avgEngagementRate": 296.8333333333333,
+      "posts": [
+        {
+          "id": "1756287408876_reddit_en",
+          "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+          "publishedDate": "2025-08-27T12:36:48.875Z",
+          "engagement": 280,
+          "platform": "reddit",
+          "language": "en",
+          "category": "ai_analysis",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.254Z"
+        },
+        {
+          "id": "1756287408877_reddit_en",
+          "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+          "publishedDate": "2025-08-27T12:36:48.876Z",
+          "engagement": 261,
+          "platform": "reddit",
+          "language": "en",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.256Z"
+        },
+        {
+          "id": "1756287408886_reddit_it",
+          "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+          "publishedDate": "2025-08-27T12:36:48.885Z",
+          "engagement": 175,
+          "platform": "reddit",
+          "language": "it",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.260Z"
+        },
+        {
+          "id": "1756287408888_reddit_de",
+          "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+          "publishedDate": "2025-08-27T12:36:48.888Z",
+          "engagement": 135,
+          "platform": "reddit",
+          "language": "de",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.262Z"
+        },
+        {
+          "id": "lead_post_1756435980096_reddit",
+          "title": "Unknown",
+          "publishedDate": "2025-08-29T03:23:00.096Z",
+          "engagement": 280,
+          "platform": "reddit",
+          "category": "lead_generation",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.264Z"
+        },
+        {
+          "id": "lead_post_1756453773552_reddit",
+          "title": "Unknown",
+          "publishedDate": "2025-08-29T08:19:33.552Z",
+          "engagement": 76,
+          "platform": "reddit",
+          "category": "lead_generation",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.265Z"
+        }
+      ]
+    },
+    "medium": {
+      "enabled": false,
+      "totalPosts": 8,
+      "totalEngagement": 1549,
+      "avgEngagementRate": 193.625,
+      "posts": [
+        {
+          "id": "1756287408872_medium_en",
+          "title": "5 Data Science Insights That Will Change Your Strategy",
+          "publishedDate": "2025-08-27T11:36:48.870Z",
+          "engagement": 108,
+          "platform": "medium",
+          "language": "en",
+          "category": "lead_generation",
+          "priority": "medium",
+          "lastUpdated": "2025-08-29T10:04:50.252Z"
+        },
+        {
+          "id": "1756287408875_medium_en",
+          "title": "The AI Technology Strategy That's Quietly Dominating in 2025",
+          "publishedDate": "2025-08-27T11:36:48.874Z",
+          "engagement": 93,
+          "platform": "medium",
+          "language": "en",
+          "category": "lead_generation",
+          "priority": "medium",
+          "lastUpdated": "2025-08-29T10:04:50.253Z"
+        },
+        {
+          "id": "1756287408878_medium_en",
+          "title": "Advanced Lead Generation Strategies for Social Media Intelligence Business - TanziTech",
+          "publishedDate": "2025-08-27T11:36:48.877Z",
+          "engagement": 94,
+          "platform": "medium",
+          "language": "en",
+          "category": "lead_generation",
+          "priority": "medium",
+          "lastUpdated": "2025-08-29T10:04:50.256Z"
+        },
+        {
+          "id": "1756287408881_medium_en",
+          "title": "The Hidden Psychology of AI Content: What 125 Viral Posts Reveal About Engagement - TanziTech",
+          "publishedDate": "2025-08-27T11:36:48.880Z",
+          "engagement": 144,
+          "platform": "medium",
+          "language": "en",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.257Z"
+        },
+        {
+          "id": "1756287408883_medium_en",
+          "title": "High-Value Social Media Intelligence Report & Content Strategy - TanziTech",
+          "publishedDate": "2025-08-27T11:36:48.882Z",
+          "engagement": 110,
+          "platform": "medium",
+          "language": "en",
+          "category": "lead_generation",
+          "priority": "medium",
+          "lastUpdated": "2025-08-29T10:04:50.258Z"
+        },
+        {
+          "id": "1756287408885_medium_en",
+          "title": "LinkedIn Lead Generation: Viral Social Media Strategy That Converts - TanziTech",
+          "publishedDate": "2025-08-27T11:36:48.884Z",
+          "engagement": 123,
+          "platform": "medium",
+          "language": "en",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.259Z"
+        },
+        {
+          "id": "1756287408887_medium_it",
+          "title": "Rapporto Intelligence Social Media Alto Valore & Strategia di Contenuti - TanziTech",
+          "publishedDate": "2025-08-27T11:36:48.886Z",
+          "engagement": 102,
+          "platform": "medium",
+          "language": "it",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.261Z"
+        },
+        {
+          "id": "1756287408889_medium_de",
+          "title": "Hochwertiger Social Media Intelligence Bericht & Content-Strategie - TanziTech",
+          "publishedDate": "2025-08-27T11:36:48.888Z",
+          "engagement": 135,
+          "platform": "medium",
+          "language": "de",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.264Z"
+        }
+      ]
+    },
+    "devto": {
+      "enabled": true,
+      "totalPosts": 5,
+      "totalEngagement": 512,
+      "avgEngagementRate": 102.4,
+      "posts": [
+        {
+          "id": "1756287408876_devto_en",
+          "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+          "publishedDate": "2025-08-27T15:36:48.875Z",
+          "engagement": 43,
+          "platform": "devto",
+          "language": "en",
+          "category": "ai_analysis",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.254Z"
+        },
+        {
+          "id": "1756287408882_devto_en",
+          "title": "The Hidden Psychology of AI Content: What 125 Viral Posts Reveal About Engagement - TanziTech",
+          "publishedDate": "2025-08-27T15:36:48.880Z",
+          "engagement": 27,
+          "platform": "devto",
+          "language": "en",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.258Z"
+        },
+        {
+          "id": "1756287408885_devto_en",
+          "title": "LinkedIn Lead Generation: Viral Social Media Strategy That Converts - TanziTech",
+          "publishedDate": "2025-08-27T15:36:48.884Z",
+          "engagement": 36,
+          "platform": "devto",
+          "language": "en",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.259Z"
+        },
+        {
+          "id": "1756287408887_devto_it",
+          "title": "Rapporto Intelligence Social Media Alto Valore & Strategia di Contenuti - TanziTech",
+          "publishedDate": "2025-08-27T15:36:48.886Z",
+          "engagement": 64,
+          "platform": "devto",
+          "language": "it",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.262Z"
+        },
+        {
+          "id": "1756287408889_devto_de",
+          "title": "Hochwertiger Social Media Intelligence Bericht & Content-Strategie - TanziTech",
+          "publishedDate": "2025-08-27T15:36:48.888Z",
+          "engagement": 22,
+          "platform": "devto",
+          "language": "de",
+          "category": "visual_article",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.264Z"
+        }
+      ]
+    },
+    "hackernews": {
+      "enabled": true,
+      "totalPosts": 4,
+      "totalEngagement": 1090,
+      "avgEngagementRate": 272.5,
+      "posts": [
+        {
+          "id": "1756287408876_hackernews_en",
+          "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+          "publishedDate": "2025-08-27T13:36:48.875Z",
+          "engagement": 174,
+          "platform": "hackernews",
+          "language": "en",
+          "category": "ai_analysis",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.255Z"
+        },
+        {
+          "id": "1756287408877_hackernews_en",
+          "title": "Why 95% of Programming Trends Content Fails (And How to Be in the 5%)",
+          "publishedDate": "2025-08-27T13:36:48.876Z",
+          "engagement": 90,
+          "platform": "hackernews",
+          "language": "en",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.256Z"
+        },
+        {
+          "id": "1756287408886_hackernews_it",
+          "title": "Perché il 95% dei Contenuti sui Trend di Programmazione Fallisce",
+          "publishedDate": "2025-08-27T13:36:48.885Z",
+          "engagement": 60,
+          "platform": "hackernews",
+          "language": "it",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.261Z"
+        },
+        {
+          "id": "1756287408888_hackernews_de",
+          "title": "Warum 95% der Programmiertrends-Inhalte Versagen",
+          "publishedDate": "2025-08-27T13:36:48.888Z",
+          "engagement": 106,
+          "platform": "hackernews",
+          "language": "de",
+          "category": "trend_report",
+          "priority": "high",
+          "lastUpdated": "2025-08-29T10:04:50.263Z"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "totalPosts": 45,
+    "totalEngagement": 6617,
+    "avgEngagementRate": 147.04444444444445,
+    "topPerformingPlatform": "reddit",
+    "topPerformingPost": {
+      "id": "1756287408876_reddit_en",
+      "title": "The Shocking Truth About AI Technology (Based on Real Data)",
+      "platform": "reddit",
+      "engagement": 280
+    }
+  },
+  "trends": {
+    "daily": [],
+    "weekly": [],
+    "monthly": []
+  }
+}

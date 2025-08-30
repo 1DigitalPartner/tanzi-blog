@@ -85,6 +85,14 @@ jobs:
         REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
         REDDIT_PASSWORD: ${{ secrets.REDDIT_PASSWORD }}
         DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+
+    - name: 📊 Monitor crosspost performance (collect)
+      run: |
+        node crosspost-monitor.js collect || true
+
+    - name: 📋 Generate performance report
+      run: |
+        node crosspost-monitor.js report || true
     
     - name: 📊 Generate deployment report
       run: |
@@ -247,6 +255,11 @@ jobs:
       contents: read
       pages: write
       id-token: write
+    
+    # Environment required for GitHub Pages deployment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
     - name: 📥 Checkout repository

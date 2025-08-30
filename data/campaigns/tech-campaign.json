@@ -1,0 +1,89 @@
+[
+  {
+    "id": "campaign-tech-1756467800576",
+    "segment": "tech",
+    "segmentName": "Tech Professionals",
+    "template": {
+      "subject": "Why 85% of tech professionals are invisible online (and how to fix it)",
+      "body": "Hi {name},\n\nI analyzed 125 viral tech posts and 118,001 interactions to understand why some developers/engineers build massive personal brands while others remain completely invisible...\n\n**The Uncomfortable Truth:**\n85% of highly skilled tech professionals have zero online presence, while less-skilled developers get promoted, hired, and recognized.\n\n**The Data Shows:**\n\n**Invisible Tech Professionals:**\n• Rely solely on technical skills for career advancement\n• Assume good work speaks for itself\n• Miss 67% of career opportunities that go to \"known\" professionals\n• Average salary growth: 3% annually\n\n**Visible Tech Professionals:**\n• Share insights strategically (110-character posts outperform long articles)\n• Choose platforms based on data (Reddit generates 6.4x more engagement than Twitter)\n• Reference trending technology (40% of viral content mentions current AI/ML tools)\n• Average salary growth: 23% annually\n\n**Case Study - Senior Developer:**\n• Starting point: 8 years experience, invisible online\n• Challenge: Passed over for promotion twice\n• Strategy: Data-driven content strategy targeting Reddit + selective LinkedIn\n• Timeline: 6 months of strategic posting\n• Results: Promoted to Tech Lead, $35K salary increase, 3 job offers\n\n**The Technical Analysis:**\nI've reverse-engineered the exact strategies used by visible tech professionals:\n\n• Platform selection algorithm based on your tech stack\n• Content formulas that establish technical authority\n• Engagement optimization for technical audiences\n• Career advancement through strategic visibility\n• Personal branding for introverted professionals\n• Time-efficient posting strategies (15 minutes daily)\n\n**Why This Matters:**\nWhile 85% of tech professionals remain invisible, AI and automation are making pure technical skills commoditized. Strategic visibility becomes the differentiator.\n\nThe complete intelligence report includes step-by-step implementation for busy technical professionals.\n\nReady to become visible without sacrificing your technical focus?\n\nReply \"VISIBILITY\" and I'll send the complete technical professional's playbook.\n\nBest,\nGabriele Tanzi\nTanziTech - Technical Intelligence\n\nP.S. The playbook includes 5 real case studies of developers/engineers who went from invisible to recognized in their fields within 6 months. All strategies are optimized for technical audiences.",
+      "audience": "tech_professionals",
+      "cta": "Reply 'VISIBILITY' for technical professional's playbook",
+      "segment": "tech"
+    },
+    "prospects": [
+      {
+        "email": "kevin.anderson@softwarecompany.com",
+        "firstName": "Kevin",
+        "lastName": "Anderson",
+        "title": "Senior Software Engineer",
+        "company": "Software Company",
+        "industry": "Technology",
+        "name": "Kevin Anderson",
+        "originalSegment": "tech_professionals",
+        "segment": "tech",
+        "segmentScore": 6
+      },
+      {
+        "email": "john.miller@saascompany.com",
+        "firstName": "John",
+        "lastName": "Miller",
+        "title": "Marketing Director",
+        "company": "SaaS Company",
+        "industry": "B2B Software",
+        "name": "John Miller",
+        "originalSegment": "marketing_executives",
+        "segment": "tech",
+        "segmentScore": 5
+      },
+      {
+        "email": "rachel.garcia@techservices.com",
+        "firstName": "Rachel",
+        "lastName": "Garcia",
+        "title": "Engineering Manager",
+        "company": "Tech Services",
+        "industry": "Tech Services",
+        "name": "Rachel Garcia",
+        "originalSegment": "tech_professionals",
+        "segment": "tech",
+        "segmentScore": 3
+      },
+      {
+        "email": "daniel.moore@saasplatform.io",
+        "firstName": "Daniel",
+        "lastName": "Moore",
+        "title": "Technical Lead",
+        "company": "SaaS Platform",
+        "industry": "SaaS",
+        "name": "Daniel Moore",
+        "originalSegment": "tech_professionals",
+        "segment": "tech",
+        "segmentScore": 3
+      },
+      {
+        "email": "emily.davis@growthcorp.com",
+        "firstName": "Emily",
+        "lastName": "Davis",
+        "title": "VP Marketing",
+        "company": "GrowthCorp",
+        "industry": "Technology",
+        "name": "Emily Davis",
+        "originalSegment": "marketing_executives",
+        "segment": "tech",
+        "segmentScore": 2
+      }
+    ],
+    "status": "queued",
+    "createdAt": "2025-08-29T11:43:20.576Z",
+    "options": {
+      "batchSize": 5,
+      "delayMinutes": 60,
+      "testMode": true
+    },
+    "stats": {
+      "totalProspects": 5,
+      "sent": 0,
+      "responses": 0,
+      "opens": 0
+    }
+  }
+]

@@ -1,9 +1,17 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/data-science-report-landing",
-      "destination": "/data-science-report-landing.html"
+      "destination": "/landing.html",
+      "permanent": false
     },
+    {
+      "source": "/insights",
+      "destination": "/landing.html",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
     {
       "source": "/blog/:path*",
       "destination": "https://1digitalpartner.github.io/tanzi-blog/:path*"
@@ -13,7 +21,7 @@
       "destination": "https://1digitalpartner.github.io/tanzi-blog/"
     },
     {
-      "source": "/audit",
+      "source": "/audit", 
       "destination": "https://1digitalpartner.github.io/tanzi-blog/audit.html"
     },
     {

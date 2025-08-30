@@ -24,7 +24,17 @@
     "stats": "node -e \"const fs = require('fs'); let totalPosts = 0; ['en', 'it', 'de'].forEach(lang => { if (fs.existsSync(lang + '/posts')) totalPosts += fs.readdirSync(lang + '/posts').length; }); console.log('📊 Blog Statistics:\\n- Total Posts:', totalPosts, '\\n- Last Modified:', fs.statSync('index.html').mtime.toISOString().split('T')[0]);\"",
     "format:medium": "node medium-formatter.js",
     "format:medium:single": "node medium-formatter.js",
-    "medium:check": "ls -la medium-formatted/ 2>/dev/null || echo 'No Medium formatted posts yet. Run: npm run format:medium'"
+    "medium:check": "ls -la medium-formatted/ 2>/dev/null || echo 'No Medium formatted posts yet. Run: npm run format:medium'",
+    "leads:monitor": "node lead-capture-automation.js monitor",
+    "leads:report": "node lead-capture-automation.js report",
+    "leads:campaign": "node lead-generation-campaign.js",
+    "leads:launch": "node integrated-lead-gen-launcher.js launch",
+    "leads:status": "node integrated-lead-gen-launcher.js status",
+    "leads:optimize": "node integrated-lead-gen-launcher.js optimize",
+    "leads:qualify": "node lead-qualification-system.js process",
+    "leads:nurture": "node email-nurture-automation.js process",
+    "leads:magnets": "node lead-magnet-automation.js deliver",
+    "leads:high-priority": "node lead-qualification-system.js high-priority"
   },
   "keywords": [
     "blog",
@@ -33,11 +43,21 @@
     "ai",
     "data-science",
     "social-media",
-    "analytics"
+    "analytics",
+    "lead-generation",
+    "email-marketing",
+    "lead-qualification",
+    "viral-content"
   ],
   "author": "Gabriele Tanzi",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemailer": "^6.9.8"
+  },
   "devDependencies": {
     "node-cron": "^3.0.2"
   },
