@@ -1,0 +1,25 @@
+[build]
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[redirects]]
+  from = "https://tanzi-tech-insights.netlify.app/*"
+  to = "https://blog.tanzitech.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://68ab7bc0d78d30a20f91f067--tanzi-tech-insights.netlify.app/*"
+  to = "https://blog.tanzitech.com/:splat"
+  status = 301
+  force = true
