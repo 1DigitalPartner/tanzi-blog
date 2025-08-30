@@ -1,0 +1,36 @@
+{
+  "campaignId": "campaign_1756553842885",
+  "generated": "2025-08-30T11:37:22.891Z",
+  "duration": 0,
+  "postsScheduled": 2,
+  "expectedLeads": 263,
+  "platformBreakdown": {
+    "linkedin": 1,
+    "reddit": 1
+  },
+  "timeline": {
+    "started": "2025-08-30T11:37:22.885Z",
+    "postsDeployed": [
+      {
+        "time": "2025-08-30T13:37:22.886Z",
+        "platform": "linkedin",
+        "title": "AI Consulting Market Analysis - Lead Generation Post"
+      },
+      {
+        "time": "2025-08-30T12:07:22.886Z",
+        "platform": "reddit",
+        "title": "I analyzed 1,000 viral social media posts - here's why 90% of marketing advice is wrong"
+      }
+    ],
+    "monitoring": "Active for 24 hours",
+    "followUp": "Scheduled based on engagement"
+  },
+  "nextActions": [
+    "Monitor post engagement for first 2 hours",
+    "Respond to high-value comments within 30 minutes",
+    "Send promised resources within 1 hour of comment",
+    "Schedule strategy calls with qualified leads",
+    "Analyze performance after 24 hours",
+    "Optimize next campaign based on results"
+  ]
+}

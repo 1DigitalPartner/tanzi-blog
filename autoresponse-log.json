@@ -239,5 +239,48 @@
       "send.*report",
       "interesting"
     ]
+  },
+  {
+    "recipientEmail": "sarah.martinez@techstartup.com",
+    "responseType": "report_request",
+    "originalCampaign": "campaign_1756553840788",
+    "subject": "Your Data Science Intelligence Report (instant access)",
+    "sentAt": "2025-08-30T11:37:25.862Z",
+    "messageId": "<78e3e671-d87a-2078-3923-c4ea3a12196f@gmail.com>",
+    "triggers": [
+      "\\bDATA\\b",
+      "\\bSTRATEGY\\b",
+      "\\bREPORT\\b",
+      "\\bANALYSIS\\b",
+      "send.*report",
+      "complete.*analysis"
+    ]
+  },
+  {
+    "recipientEmail": "mike.chen@aicompany.com",
+    "responseType": "report_request",
+    "originalCampaign": "campaign_1756553840788",
+    "subject": "Your Data Science Intelligence Report (instant access)",
+    "sentAt": "2025-08-30T11:37:27.437Z",
+    "messageId": "<d9201ead-4815-9815-4081-df13f5c748bd@gmail.com>",
+    "triggers": [
+      "\\bINSIGHTS\\b",
+      "interesting",
+      "tell me more",
+      "learn more"
+    ]
+  },
+  {
+    "recipientEmail": "lisa.johnson@datacore.com",
+    "responseType": "call_request",
+    "originalCampaign": "campaign_1756553840788",
+    "subject": "Re: Strategy Discussion",
+    "sentAt": "2025-08-30T11:37:29.813Z",
+    "messageId": "<31f2218b-6ffd-116c-85ca-e5c889f3466e@gmail.com>",
+    "triggers": [
+      "\\bCALL\\b",
+      "\\bDISCUSS\\b",
+      "schedule"
+    ]
   }
 ]

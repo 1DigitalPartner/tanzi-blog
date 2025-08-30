@@ -1,6 +1,6 @@
 {
-  "generated": "2025-08-30T11:24:52.691Z",
-  "totalAlerts": 282,
+  "generated": "2025-08-30T14:04:52.712Z",
+  "totalAlerts": 314,
   "alerts": [
     {
       "id": "alert_1756462100329",
@@ -1975,13 +1975,237 @@
       "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
       "timestamp": "2025-08-30T11:24:52.690Z",
       "acknowledged": false
+    },
+    {
+      "id": "alert_1756553692691",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T11:34:52.691Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756553692694",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T11:34:52.694Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756554292642",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T11:44:52.642Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756554292644",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T11:44:52.644Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756554892641",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T11:54:52.641Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756554892643",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T11:54:52.643Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756555492644",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T12:04:52.644Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756555492646",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T12:04:52.646Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756556092540",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T12:14:52.540Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756556092542",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T12:14:52.542Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756556692519",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T12:24:52.520Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756556692521",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T12:24:52.521Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756557292493",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T12:34:52.493Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756557292494",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T12:34:52.495Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756557892488",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T12:44:52.488Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756557892490",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T12:44:52.490Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756558492453",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T12:54:52.453Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756558492455",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T12:54:52.455Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756559092433",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T13:04:52.433Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756559092434",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T13:04:52.434Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756559692409",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T13:14:52.409Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756559692411",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T13:14:52.411Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756560292387",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T13:24:52.387Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756560292387",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T13:24:52.387Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756560892370",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T13:34:52.370Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756560892373",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T13:34:52.373Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756561492365",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T13:44:52.365Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756561492367",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T13:44:52.367Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756562092690",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T13:54:52.690Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756562092691",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T13:54:52.691Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756562692710",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "🚀 MILESTONE: Total campaign engagement reached 200! Strong early performance.",
+      "timestamp": "2025-08-30T14:04:52.710Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alert_1756562692712",
+      "type": "CAMPAIGN_MILESTONE",
+      "message": "✨ MILESTONE: Total campaign engagement reached 100! Campaign is gaining traction.",
+      "timestamp": "2025-08-30T14:04:52.712Z",
+      "acknowledged": false
     }
   ],
   "lastKnownState": {
     "linkedin": 75,
     "reddit": 280,
     "leads": 0,
-    "lastCheck": "2025-08-30T11:14:52.681Z"
+    "lastCheck": "2025-08-30T13:54:52.684Z"
   },
   "isMonitoring": true
 }
