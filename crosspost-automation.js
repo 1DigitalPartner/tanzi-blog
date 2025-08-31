@@ -25,7 +25,13 @@ Read the full analysis: {URL}
 
 {HASHTAGS}
 
-#DataScience #AI #Analytics #SocialMedia #TechInsights`,
+#DataScience #AI #Analytics #SocialMedia #TechInsights
+
+🔗 Connect with me:
+• GitHub: https://github.com/gabrieletanzi
+• Medium: https://medium.com/@TanziTech
+• LinkedIn: https://linkedin.com/in/tanzi-tech-b2766a293
+• Instagram: @tanzi_tech_insights`,
         
         newsletter: `📊 Weekly Intelligence Report: {TITLE}
 
@@ -36,7 +42,9 @@ This week's highlights:
 
 Full report: {URL}
 
-{HASHTAGS}`,
+{HASHTAGS}
+
+🔗 Follow: github.com/gabrieletanzi | medium.com/@TanziTech | @tanzi_tech`,
 
         trend_report: `📈 Market Trend Alert: {TITLE}
 
@@ -47,7 +55,9 @@ Full report: {URL}
 
 Deep dive: {URL}
 
-{HASHTAGS}`
+{HASHTAGS}
+
+📈 More insights: github.com/gabrieletanzi/social_media_agent | @tanzi_tech`
       }
     },
     
@@ -181,7 +191,14 @@ cover_image: {COVER_IMAGE}
 
 ---
 
-*Originally published on [TanziTech Blog]({ORIGINAL_URL})*`
+*Originally published on [TanziTech Blog]({ORIGINAL_URL})*
+
+---
+
+**About the Author:** Gabriele Tanzi  
+🔗 [GitHub](https://github.com/gabrieletanzi) | [Medium](https://medium.com/@TanziTech) | [LinkedIn](https://linkedin.com/in/tanzi-tech-b2766a293) | [X/Twitter](https://twitter.com/tanzi_tech) | [Instagram](https://instagram.com/tanzi_tech_insights)
+
+*Follow @tanzi_tech for insights on AI, Data Science, and Technology trends.*`
       }
     }
   },
@@ -476,6 +493,13 @@ class CrosspostingManager {
 *Originally published on [TanziTech Blog](${originalUrl})*
 
 *Follow me for more insights on AI, Data Science, and Digital Marketing.*
+
+**Connect with me:**
+- [GitHub](https://github.com/gabrieletanzi) - Code & Projects  
+- [Medium](https://medium.com/@TanziTech) - In-depth articles
+- [LinkedIn](https://linkedin.com/in/tanzi-tech-b2766a293) - Professional updates
+- [X/Twitter](https://twitter.com/tanzi_tech) - Latest updates
+- [Instagram](https://instagram.com/tanzi_tech_insights) - Visual insights
 
 ---
 

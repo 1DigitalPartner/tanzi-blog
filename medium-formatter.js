@@ -70,19 +70,44 @@ class MediumFormatter {
 
   // Extract main content (everything inside main article)
   extractMainContent(htmlContent) {
-    // Try to extract main article content
+    // First try to extract content div (more specific)
+    const contentMatch = htmlContent.match(/<div[^>]*class="content"[^>]*>([\s\S]*?)<\/div>(?:\s*<\/div>)*$/i);
+    if (contentMatch) {
+      return contentMatch[1];
+    }
+    
+    // Try to extract the entire container and then get content inside
+    const containerMatch = htmlContent.match(/<div[^>]*class="container"[^>]*>([\s\S]*?)<\/div>(?:\s*<\/body>)?(?:\s*<\/html>)?$/i);
+    if (containerMatch) {
+      let containerContent = containerMatch[1];
+      
+      // Now look for content div inside container
+      const innerContentMatch = containerContent.match(/<div[^>]*class="content"[^>]*>([\s\S]*?)<\/div>/i);
+      if (innerContentMatch) {
+        return innerContentMatch[1];
+      }
+      
+      // If no content div, return the whole container (minus header/hero sections)
+      return containerContent;
+    }
+    
+    // Try main and article tags
     const mainMatch = htmlContent.match(/<main[^>]*>([\s\S]*?)<\/main>/i) ||
-                     htmlContent.match(/<article[^>]*>([\s\S]*?)<\/article>/i) ||
-                     htmlContent.match(/<div[^>]*class="[^"]*content[^"]*"[^>]*>([\s\S]*?)<\/div>/i);
+                     htmlContent.match(/<article[^>]*>([\s\S]*?)<\/article>/i);
     
     if (mainMatch) {
       return mainMatch[1];
     }
     
-    // Fallback: extract body content
+    // Fallback: extract body content but remove scripts and styles
     const bodyMatch = htmlContent.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
     if (bodyMatch) {
-      return bodyMatch[1];
+      let content = bodyMatch[1];
+      // Remove script tags, style tags, and head content
+      content = content.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '');
+      content = content.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '');
+      content = content.replace(/<head[^>]*>[\s\S]*?<\/head>/gi, '');
+      return content;
     }
     
     return htmlContent;
@@ -92,6 +117,17 @@ class MediumFormatter {
   convertToMarkdown(htmlContent) {
     let markdown = htmlContent;
     
+    // First remove unwanted elements completely
+    markdown = markdown.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '');
+    markdown = markdown.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '');
+    markdown = markdown.replace(/<nav[^>]*>[\s\S]*?<\/nav>/gi, '');
+    markdown = markdown.replace(/<header[^>]*>[\s\S]*?<\/header>/gi, '');
+    markdown = markdown.replace(/<footer[^>]*>[\s\S]*?<\/footer>/gi, '');
+    
+    // Convert hero/title sections
+    markdown = markdown.replace(/<div[^>]*class="[^"]*hero-title[^"]*"[^>]*>(.*?)<\/div>/gi, '\n# $1\n');
+    markdown = markdown.replace(/<h1[^>]*class="[^"]*hero-title[^"]*"[^>]*>(.*?)<\/h1>/gi, '\n# $1\n');
+    
     // Convert headers (h1-h6)
     markdown = markdown.replace(/<h1[^>]*>(.*?)<\/h1>/gi, '\n# $1\n');
     markdown = markdown.replace(/<h2[^>]*>(.*?)<\/h2>/gi, '\n## $1\n');
@@ -99,6 +135,31 @@ class MediumFormatter {
     markdown = markdown.replace(/<h4[^>]*>(.*?)<\/h4>/gi, '\n#### $1\n');
     markdown = markdown.replace(/<h5[^>]*>(.*?)<\/h5>/gi, '\n##### $1\n');
     markdown = markdown.replace(/<h6[^>]*>(.*?)<\/h6>/gi, '\n###### $1\n');
+    
+    // Convert special content boxes to emphasized paragraphs
+    markdown = markdown.replace(/<div[^>]*class="[^"]*instagram-box[^"]*"[^>]*>([\s\S]*?)<\/div>/gi, '\n\n**📸 INSTAGRAM INSIGHT:**\n$1\n');
+    markdown = markdown.replace(/<div[^>]*class="[^"]*engagement-box[^"]*"[^>]*>([\s\S]*?)<\/div>/gi, '\n\n**✅ ENGAGEMENT TIP:**\n$1\n');
+    markdown = markdown.replace(/<div[^>]*class="[^"]*warning-box[^"]*"[^>]*>([\s\S]*?)<\/div>/gi, '\n\n**⚠️ IMPORTANT:**\n$1\n');
+    
+    // Convert stats bar to formatted section
+    markdown = markdown.replace(/<div[^>]*class="[^"]*stats-bar[^"]*"[^>]*>([\s\S]*?)<\/div>/gi, (match, content) => {
+      // Extract stat numbers and labels
+      const stats = content.match(/<div[^>]*class="[^"]*stat[^"]*"[^>]*>([\s\S]*?)<\/div>/gi) || [];
+      let statsText = '\n\n**📊 KEY STATISTICS:**\n';
+      
+      stats.forEach(stat => {
+        const numberMatch = stat.match(/<div[^>]*class="[^"]*stat-number[^"]*"[^>]*>([^<]*?)<\/div>/i);
+        const labelMatch = stat.match(/<div[^>]*class="[^"]*stat-label[^"]*"[^>]*>([^<]*?)<\/div>/i);
+        if (numberMatch && labelMatch) {
+          statsText += `• **${numberMatch[1].trim()}** ${labelMatch[1].trim()}\n`;
+        }
+      });
+      
+      return statsText + '\n';
+    });
+    
+    // Convert highlighted data spans
+    markdown = markdown.replace(/<span[^>]*class="[^"]*data-highlight[^"]*"[^>]*>([^<]*?)<\/span>/gi, '**$1**');
     
     // Convert paragraphs
     markdown = markdown.replace(/<p[^>]*>(.*?)<\/p>/gi, '\n$1\n');
@@ -161,6 +222,11 @@ class MediumFormatter {
     // Clean up extra whitespace and lines
     markdown = markdown.replace(/\n{3,}/g, '\n\n');
     markdown = markdown.replace(/^\s+|\s+$/g, '');
+    
+    // Clean up excessive whitespace within lines
+    markdown = markdown.replace(/^\s*$/gm, ''); // Remove empty lines with just whitespace
+    markdown = markdown.replace(/\n\s*\n\s*\n/g, '\n\n'); // Reduce triple+ newlines to double
+    markdown = markdown.replace(/^[ \t]+/gm, ''); // Remove leading whitespace on each line
     
     return markdown;
   }

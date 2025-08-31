@@ -303,3 +303,8 @@ jobs:
         echo "🎉 Your blog is now live at blog.tanzitech.com!"
         echo "🏠 Main site: https://tanzitech.com (unchanged)"
         echo "📝 Blog: https://blog.tanzitech.com (new automated blog)"
+        echo "🔗 GitHub: https://github.com/gabrieletanzi/social_media_agent"
+        echo "✍️ Medium: https://medium.com/@TanziTech"
+        echo "💼 LinkedIn: https://linkedin.com/in/tanzi-tech-b2766a293"
+        echo "🐦 X/Twitter: https://twitter.com/tanzi_tech"
+        echo "📷 Instagram: https://instagram.com/tanzi_tech_insights"
