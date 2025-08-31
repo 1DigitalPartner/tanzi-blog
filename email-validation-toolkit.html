@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation Toolkit - TanziTech | $2M+ Revenue Strategies</title>
+    <meta name="description" content="Complete Email Validation Toolkit with strategies that generated $2M+ in revenue. Step-by-step implementation guide with AI assistant.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tanzitech.com/email-validation-toolkit.html">
+    <meta property="og:title" content="Email Validation Toolkit - $2M+ Revenue Strategies">
+    <meta property="og:description" content="Complete Email Validation Toolkit with strategies that generated $2M+ in revenue. Get step-by-step implementation guidance.">
+    <meta property="og:image" content="https://tanzitech.com/assets/email-toolkit-og.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tanzitech.com/email-validation-toolkit.html">
+    <meta property="twitter:title" content="Email Validation Toolkit - $2M+ Revenue Strategies">
+    <meta property="twitter:description" content="Complete Email Validation Toolkit with strategies that generated $2M+ in revenue. Get step-by-step implementation guidance.">
+    <meta property="twitter:image" content="https://tanzitech.com/assets/email-toolkit-og.jpg">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .main-content {
+            background: white;
+            margin: 2rem auto;
+            max-width: 1000px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            padding: 3rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .toolkit-badge {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #1e293b;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: #64748b;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .download-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem auto;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        .download-btn {
+            background: rgba(255,255,255,0.9);
+            color: #333;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+            margin: 1rem 0;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .download-btn:hover {
+            background: white;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        .content-section {
+            padding: 3rem 2rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: #64748b;
+            margin-bottom: 2rem;
+        }
+
+        .toolkit-contents {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .content-card {
+            background: #f8fafc;
+            border-radius: 15px;
+            padding: 2rem;
+            border-left: 4px solid #667eea;
+        }
+
+        .content-card h3 {
+            color: #1e293b;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .content-card ul {
+            color: #4b5563;
+            margin-left: 1rem;
+        }
+
+        .content-card li {
+            margin-bottom: 0.5rem;
+        }
+
+        .implementation-guide {
+            background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .guide-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .guide-title {
+            color: #92400e;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .bot-helper-btn {
+            background: #667eea;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .bot-helper-btn:hover {
+            background: #5b5bd6;
+            transform: translateY(-1px);
+        }
+
+        .step {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid #f59e0b;
+        }
+
+        .step-number {
+            background: #f59e0b;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            margin-right: 1rem;
+        }
+
+        .step-title {
+            color: #1e293b;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .step-description {
+            color: #4b5563;
+            line-height: 1.6;
+        }
+
+        .results-section {
+            background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .results-title {
+            color: #166534;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #059669;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #374151;
+            font-weight: 500;
+        }
+
+        .cta-section {
+            background: #1e293b;
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .cta-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .cta-btn {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .cta-btn.primary {
+            background: #10b981;
+            color: white;
+        }
+
+        .cta-btn.secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid rgba(255,255,255,0.5);
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .toolkit-contents {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+    
+    <!-- Authentication System CSS -->
+    <link rel="stylesheet" href="auth-styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="en/index.html" class="logo">TanziTech</a>
+            <a href="en/index.html" class="nav-link">← Back to Blog</a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="toolkit-badge">🎯 FREE TOOLKIT</div>
+            <h1 class="hero-title">Email Validation Toolkit</h1>
+            <p class="hero-subtitle">
+                The complete guide to email marketing strategies that generated $2M+ in revenue for our clients. 
+                Now with AI-powered implementation assistance!
+            </p>
+            
+            <div class="download-section">
+                <h3 style="margin-bottom: 1rem;">📥 Download Your Free Toolkit</h3>
+                <p style="margin-bottom: 1rem; opacity: 0.9;">Get instant access to proven email strategies and templates</p>
+                <button onclick="handleDownload('email_validation_toolkit')" class="download-btn">
+                    📥 Download Now (PDF + Templates)
+                </button>
+                <p style="font-size: 0.9rem; opacity: 0.8; margin-top: 1rem;">
+                    Free account required • 2-minute signup • Instant access
+                </p>
+            </div>
+        </section>
+
+        <!-- Toolkit Contents -->
+        <section class="content-section">
+            <h2 class="section-title">📋 What's Included</h2>
+            <p class="section-subtitle">Everything you need to validate and optimize your email marketing strategy</p>
+            
+            <div class="toolkit-contents">
+                <div class="content-card">
+                    <h3>📊 Email Strategy Audit</h3>
+                    <ul>
+                        <li>15-point email validation checklist</li>
+                        <li>ROI calculation templates</li>
+                        <li>Performance benchmarking tools</li>
+                        <li>Deliverability optimization guide</li>
+                    </ul>
+                </div>
+                
+                <div class="content-card">
+                    <h3>🎯 Proven Templates</h3>
+                    <ul>
+                        <li>High-converting welcome sequences</li>
+                        <li>Lead nurturing email series</li>
+                        <li>Re-engagement campaigns</li>
+                        <li>Customer retention templates</li>
+                    </ul>
+                </div>
+                
+                <div class="content-card">
+                    <h3>📈 Growth Strategies</h3>
+                    <ul>
+                        <li>List building tactics that work</li>
+                        <li>Segmentation best practices</li>
+                        <li>A/B testing frameworks</li>
+                        <li>Automation workflow templates</li>
+                    </ul>
+                </div>
+                
+                <div class="content-card">
+                    <h3>🤖 AI Integration</h3>
+                    <ul>
+                        <li>Email personalization with AI</li>
+                        <li>Automated content optimization</li>
+                        <li>Predictive send time optimization</li>
+                        <li>Smart segmentation strategies</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Implementation Guide -->
+        <section class="content-section">
+            <div class="implementation-guide">
+                <div class="guide-header">
+                    <h2 class="guide-title">🎓 Implementation Guide</h2>
+                    <button class="bot-helper-btn" onclick="startBotConversation('implementation')">
+                        🤖 Get AI Assistance
+                    </button>
+                </div>
+                
+                <p style="color: #78350f; margin-bottom: 1.5rem;">
+                    Follow these steps to implement the strategies, or ask our AI assistant for personalized guidance!
+                </p>
+                
+                <div class="step">
+                    <div style="display: flex; align-items: flex-start;">
+                        <span class="step-number">1</span>
+                        <div>
+                            <div class="step-title">Audit Your Current Email Strategy</div>
+                            <div class="step-description">
+                                Use our 15-point checklist to identify gaps and opportunities in your current email marketing setup.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div style="display: flex; align-items: flex-start;">
+                        <span class="step-number">2</span>
+                        <div>
+                            <div class="step-title">Implement High-Converting Templates</div>
+                            <div class="step-description">
+                                Deploy our proven email templates that have generated millions in revenue across different industries.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div style="display: flex; align-items: flex-start;">
+                        <span class="step-number">3</span>
+                        <div>
+                            <div class="step-title">Set Up Advanced Segmentation</div>
+                            <div class="step-description">
+                                Use our segmentation framework to deliver the right message to the right audience at the right time.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div style="display: flex; align-items: flex-start;">
+                        <span class="step-number">4</span>
+                        <div>
+                            <div class="step-title">Optimize with AI Tools</div>
+                            <div class="step-description">
+                                Integrate AI-powered optimization tools to automatically improve your email performance over time.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div style="display: flex; align-items: flex-start;">
+                        <span class="step-number">5</span>
+                        <div>
+                            <div class="step-title">Track & Scale Results</div>
+                            <div class="step-description">
+                                Monitor key metrics and scale successful campaigns using our proven growth framework.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="content-section">
+            <div class="results-section">
+                <h2 class="results-title">📊 Real Results from Real Clients</h2>
+                <p style="color: #166534; margin-bottom: 1rem;">
+                    See what businesses achieved using these exact strategies
+                </p>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">$2M+</div>
+                        <div class="stat-label">Revenue Generated</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">450%</div>
+                        <div class="stat-label">Avg ROI Increase</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">85%</div>
+                        <div class="stat-label">Open Rate Improvement</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">340%</div>
+                        <div class="stat-label">Click Rate Boost</div>
+                    </div>
+                </div>
+                
+                <p style="color: #166534; margin-top: 1.5rem; font-style: italic;">
+                    "This toolkit transformed our email marketing from break-even to our highest ROI channel." 
+                    <strong>- Sarah Chen, Marketing Director</strong>
+                </p>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <h2 class="cta-title">🚀 Ready to Implement These Strategies?</h2>
+            <p style="opacity: 0.9; margin-bottom: 1rem;">
+                Get your toolkit now and let our AI assistant guide you through implementation step-by-step
+            </p>
+            
+            <div class="cta-buttons">
+                <button onclick="handleDownload('email_validation_toolkit')" class="cta-btn primary">
+                    📥 Download Free Toolkit
+                </button>
+                <button onclick="askBotAbout('email strategy implementation')" class="cta-btn secondary">
+                    🤖 Get AI Implementation Help
+                </button>
+                <button onclick="showMembershipModal()" class="cta-btn secondary">
+                    ⭐ Unlock Premium Strategies
+                </button>
+            </div>
+            
+            <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 1.5rem;">
+                Questions? Our AI assistant is available 24/7 to help with implementation!
+            </p>
+        </section>
+    </main>
+
+    <!-- Authentication Modals (same as main site) -->
+    <div id="auth-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="hideAuthModal()">&times;</span>
+                <div class="auth-tabs">
+                    <button id="login-tab" class="auth-tab active" onclick="showAuthTab('login')">Sign In</button>
+                    <button id="register-tab" class="auth-tab" onclick="showAuthTab('register')">Join Now</button>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <!-- Login Form -->
+                <div id="login-content" class="auth-content active">
+                    <h2>Welcome Back</h2>
+                    <p class="auth-subtitle">Sign in to download your toolkit</p>
+                    
+                    <form id="login-form" class="auth-form">
+                        <div class="form-group">
+                            <label for="login-email">Email Address</label>
+                            <input type="email" id="login-email" name="email" required 
+                                   placeholder="your.email@company.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="login-password">Password</label>
+                            <input type="password" id="login-password" name="password" required 
+                                   placeholder="Your password">
+                        </div>
+                        
+                        <button type="submit" class="btn-primary full-width">Sign In & Download</button>
+                    </form>
+                    
+                    <div class="auth-footer">
+                        <p>New here? <a href="#" onclick="showAuthTab('register')">Create free account</a></p>
+                    </div>
+                </div>
+
+                <!-- Registration Form -->
+                <div id="register-content" class="auth-content">
+                    <h2>Get Your Free Toolkit</h2>
+                    <p class="auth-subtitle">Create your account to download instantly</p>
+                    
+                    <form id="registration-form" class="auth-form">
+                        <div class="form-row">
+                            <div class="form-group half-width">
+                                <input type="text" name="firstName" required placeholder="First Name">
+                            </div>
+                            <div class="form-group half-width">
+                                <input type="text" name="lastName" required placeholder="Last Name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" name="email" required placeholder="your.email@company.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="password" name="password" required placeholder="Create password" minlength="8">
+                        </div>
+                        
+                        <button type="submit" class="btn-primary full-width">Create Account & Download</button>
+                    </form>
+                    
+                    <div class="auth-footer">
+                        <p>Already have an account? <a href="#" onclick="showAuthTab('login')">Sign in</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Membership Modal -->
+    <div id="membership-modal" class="modal" style="display: none;">
+        <div class="modal-content large">
+            <div class="modal-header">
+                <span class="close" onclick="hideMembershipModal()">&times;</span>
+                <h2>Unlock Advanced Email Strategies</h2>
+                <p>Get access to premium templates and 1-on-1 implementation guidance</p>
+            </div>
+            
+            <div class="modal-body">
+                <div class="pricing-grid">
+                    <!-- Premium Tier -->
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">Recommended for Email Marketers</div>
+                        <div class="pricing-header">
+                            <h3>Premium Membership</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">29</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="pricing-description">Advanced email strategies + implementation support</p>
+                        </div>
+                        
+                        <div class="pricing-features">
+                            <h4>Everything in this toolkit, plus:</h4>
+                            <ul>
+                                <li><span class="feature-icon">✓</span> Advanced email automation templates</li>
+                                <li><span class="feature-icon">✓</span> Custom segmentation strategies</li>
+                                <li><span class="feature-icon">✓</span> 1-on-1 implementation guidance</li>
+                                <li><span class="feature-icon">✓</span> Industry-specific templates</li>
+                                <li><span class="feature-icon">✓</span> Priority support via chat/email</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="btn-primary" onclick="selectMembership('premium')">
+                            Start 14-Day Free Trial
+                        </button>
+                        <p class="trial-note">Cancel anytime • No commitments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load all systems -->
+    <script src="auth-system.js"></script>
+    <script src="email-automation.js"></script>
+    <script src="payment-system.js"></script>
+    <script src="intelligent-bot.js"></script>
+
+    <script>
+        // Page-specific bot initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize bot with toolkit-specific context
+            setTimeout(() => {
+                if (window.tanziBot) {
+                    window.tanziBot.userContext.currentPage = 'email_toolkit';
+                    
+                    // Show toolkit-specific welcome message
+                    window.tanziBot.sendBotMessage("📥 Welcome to the Email Validation Toolkit page! I'm here to help you implement these $2M+ strategies step-by-step.");
+                    
+                    setTimeout(() => {
+                        window.tanziBot.showSuggestions([
+                            "📥 Download the toolkit",
+                            "🎓 Get implementation help",
+                            "📊 Show me case studies",
+                            "💬 Ask specific questions"
+                        ]);
+                    }, 1500);
+                }
+            }, 2000);
+            
+            // Track page visit
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'page_view', {
+                    page_title: 'Email Validation Toolkit',
+                    page_location: window.location.href
+                });
+            }
+        });
+
+        // Enhanced download handler with bot integration
+        window.handleDownload = function(resource) {
+            if (window.blogAuth && window.blogAuth.isLoggedIn()) {
+                // User is logged in, initiate download
+                const result = window.blogAuth.initiateDownload(resource);
+                if (result.success) {
+                    // Track download for email automation
+                    if (window.emailAutomation) {
+                        window.emailAutomation.trackDownload(window.blogAuth.getCurrentUser().id, resource);
+                    }
+                    
+                    // Trigger bot assistance offer
+                    if (window.tanziBot) {
+                        setTimeout(() => {
+                            window.tanziBot.sendBotMessage("🎉 Download started! Would you like step-by-step implementation guidance?");
+                            window.tanziBot.showSuggestions([
+                                "🎓 Yes, guide me through it",
+                                "📞 Schedule expert consultation", 
+                                "📊 Show success examples",
+                                "💬 Ask specific questions"
+                            ]);
+                        }, 2000);
+                    }
+                } else {
+                    window.blogAuth.showMessage('error', result.error);
+                }
+            } else {
+                // User not logged in, show registration modal
+                showRegisterModal();
+                
+                // Bot explains why registration is needed
+                if (window.tanziBot) {
+                    setTimeout(() => {
+                        window.tanziBot.sendBotMessage("🔐 Quick registration helps us provide personalized implementation guidance and track your progress!");
+                    }, 1000);
+                }
+            }
+        };
+
+        // Add floating action for bot help
+        window.addEventListener('scroll', () => {
+            const scrolled = window.scrollY;
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight;
+            
+            // Show bot help hint when user scrolls to implementation section
+            if (scrolled > windowHeight * 0.5 && !window.tanziBot.isOpen) {
+                const notification = document.getElementById('bot-notification');
+                if (notification && notification.style.display === 'none') {
+                    notification.innerHTML = '<span>Need help implementing? Ask me! 🤖</span>';
+                    notification.style.display = 'block';
+                    
+                    setTimeout(() => {
+                        notification.style.display = 'none';
+                    }, 5000);
+                }
+            }
+        });
+    </script>
+</body>
+</html>
