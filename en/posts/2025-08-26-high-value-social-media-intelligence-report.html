@@ -22,9 +22,6 @@
     <meta property="twitter:description" content="Analysis of 125 high-engagement posts reveals the three critical patterns successful brands leverage.">
     <meta property="twitter:image" content="https://tanzitech.com/assets/social-media-intelligence.jpg">
 
-    <!-- Authentication System CSS -->
-    <link rel="stylesheet" href="../../auth-styles.css">
-    
     <style>
         * {
             margin: 0;
@@ -89,30 +86,6 @@
         .nav-links a:hover {
             background: rgba(255, 255, 255, 0.2);
             transform: translateY(-2px);
-        }
-        
-        /* Lead Capture Styling */
-        .lead-capture-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 3rem 2rem;
-            margin: 3rem 0;
-            border-radius: 16px;
-            text-align: center;
-        }
-        
-        .premium-gate {
-            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
-            border: 2px solid #e2e8f0;
-            border-radius: 16px;
-            padding: 3rem 2rem;
-            text-align: center;
-            margin: 3rem 0;
-        }
-        
-        .gate-icon {
-            font-size: 4rem;
-            margin-bottom: 1rem;
         }
 
         .lang-selector {
@@ -444,16 +417,6 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
-                
-                <!-- User Authentication Navigation -->
-                <div class="auth-nav">
-                    <button class="login-btn" onclick="showLoginModal()">Sign In</button>
-                    <button class="register-btn" onclick="showRegisterModal()">Join Now</button>
-                    <div class="user-menu" style="display: none;">
-                        <span class="user-info">Welcome, User!</span>
-                        <button class="logout-btn">Sign Out</button>
-                    </div>
-                </div>
                 <div class="lang-selector">
                     <a href="#" class="lang-link active">EN</a>
                     <a href="../../it/posts/2025-08-26-rapporto-intelligence-social-media-alto-valore.html" class="lang-link">IT</a>
@@ -537,16 +500,6 @@
                 </ul>
             </div>
 
-            <!-- Lead Capture Section -->
-            <div class="lead-capture-section">
-                <h3 style="color: white; font-size: 1.8rem; margin-bottom: 1rem;">🎯 Download the Complete Template Library</h3>
-                <p style="font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.9;">Get our complete collection of 15+ proven content templates, including the exact frameworks that generated these results. Plus weekly data insights delivered to your inbox.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                    <button onclick="trackDownload('social_media_intelligence_templates'); showRegisterModal();" style="background: rgba(255,255,255,0.9); color: #333; padding: 1rem 2rem; border: none; border-radius: 50px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Download Templates Free</button>
-                    <button onclick="showLoginModal()" style="background: transparent; color: white; padding: 1rem 2rem; border: 2px solid rgba(255,255,255,0.5); border-radius: 50px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Already a Member?</button>
-                </div>
-            </div>
-
             <h2>🚀 Monetization Opportunities Revealed by Data</h2>
             <div class="stats-grid">
                 <div class="stat-card">
@@ -622,30 +575,12 @@
 
             <h2>💡 Advanced Intelligence: What Your Competitors Miss</h2>
             
-            <!-- Premium Content Gate -->
-            <div class="premium-gate" data-premium-only>
-                <div class="gate-icon">🔒</div>
-                <h3 style="color: #2d3748; margin-bottom: 1rem;">Premium Member Exclusive</h3>
-                <p style="color: #4a5568; margin-bottom: 2rem;">This advanced competitive intelligence section is available only to Premium and Pro members. Unlock detailed competitor analysis, hidden engagement patterns, and actionable insights that drive results.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                    <button onclick="showMembershipModal()" style="background: #2563eb; color: white; padding: 1rem 2rem; border: none; border-radius: 50px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Upgrade to Premium</button>
-                    <button onclick="showLoginModal()" style="background: transparent; color: #666; padding: 1rem 2rem; border: 1px solid #ccc; border-radius: 50px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Sign In</button>
-                </div>
-            </div>
-            
-            <!-- Premium Content (shown to premium members) -->
-            <div class="premium-content" data-premium-content style="display: none;">
-                <div class="action-section">
-                    <p><strong>Hidden Pattern #1:</strong> Posts mentioning specific people (Mark Zuckerberg, Steve Wozniak) get 3x more engagement than generic company mentions.</p>
-                    
-                    <p><strong>Hidden Pattern #2:</strong> Technical posts with emotional hooks ("terrifying," "bad decision") outperform purely rational content.</p>
-                    
-                    <p><strong>Hidden Pattern #3:</strong> The engagement sweet spot is 48 hours after posting - track and re-promote high performers.</p>
-                    
-                    <p><strong>Exclusive Insight #4:</strong> Posts targeting specific competitors ("Why [Competitor] is wrong about [topic]") generate 4x more shares and comments.</p>
-                    
-                    <p><strong>Exclusive Insight #5:</strong> Technical breakdowns with visual elements (code snippets, diagrams) see 67% higher saves and bookmarks.</p>
-                </div>
+            <div class="action-section">
+                <p><strong>Hidden Pattern #1:</strong> Posts mentioning specific people (Mark Zuckerberg, Steve Wozniak) get 3x more engagement than generic company mentions.</p>
+                
+                <p><strong>Hidden Pattern #2:</strong> Technical posts with emotional hooks ("terrifying," "bad decision") outperform purely rational content.</p>
+                
+                <p><strong>Hidden Pattern #3:</strong> The engagement sweet spot is 48 hours after posting - track and re-promote high performers.</p>
             </div>
 
             <div class="methodology">
@@ -670,7 +605,6 @@
                 <h2>🚨 Your Next Move</h2>
                 <p>Ready to transform your social media ROI with data-driven intelligence?</p>
                 <div class="cta-buttons">
-                    <button onclick="showRegisterModal()" class="cta-button">Get Free Templates & Weekly Insights</button>
                     <a href="mailto:contact@tanzitech.com" class="cta-button">Get Strategy Consultation</a>
                     <a href="../#blog" class="cta-button">Read More Insights</a>
                 </div>
@@ -683,202 +617,5 @@
             <p>&copy; 2025 TanziTech. All rights reserved. | <a href="../links.html" style="color: white;">Bio Links</a> | <a href="mailto:contact@tanzitech.com" style="color: white;">Contact</a></p>
         </div>
     </footer>
-    
-    <!-- Authentication Modals -->
-    <div id="auth-modal" class="modal" style="display: none;">
-        <div class="modal-content">
-            <div class="modal-header">
-                <span class="close" onclick="hideAuthModal()">&times;</span>
-                <div class="auth-tabs">
-                    <button id="login-tab" class="auth-tab active" onclick="showAuthTab('login')">Sign In</button>
-                    <button id="register-tab" class="auth-tab" onclick="showAuthTab('register')">Join Now</button>
-                </div>
-            </div>
-
-            <div class="modal-body">
-                <!-- Login Form -->
-                <div id="login-content" class="auth-content active">
-                    <h2>Welcome Back</h2>
-                    <p class="auth-subtitle">Sign in to access exclusive content and tools</p>
-                    
-                    <form id="login-form" class="auth-form">
-                        <div class="form-group">
-                            <label for="login-email">Email Address</label>
-                            <input type="email" id="login-email" name="email" required 
-                                   placeholder="your.email@company.com">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="login-password">Password</label>
-                            <input type="password" id="login-password" name="password" required 
-                                   placeholder="Your password">
-                        </div>
-                        
-                        <div class="form-options">
-                            <label class="checkbox-wrapper">
-                                <input type="checkbox" name="remember" checked>
-                                <span class="checkmark"></span>
-                                Remember me
-                            </label>
-                            <a href="#" class="forgot-link">Forgot Password?</a>
-                        </div>
-                        
-                        <button type="submit" class="btn-primary full-width">Sign In</button>
-                    </form>
-                    
-                    <div class="auth-footer">
-                        <p>New to the community? <a href="#" onclick="showAuthTab('register')">Join now</a></p>
-                    </div>
-                </div>
-
-                <!-- Registration Form -->
-                <div id="register-content" class="auth-content">
-                    <h2>Get Your Free Templates</h2>
-                    <p class="auth-subtitle">Join thousands of marketers getting weekly data-driven insights</p>
-                    
-                    <form id="registration-form" class="auth-form">
-                        <div class="form-row">
-                            <div class="form-group half-width">
-                                <label for="reg-firstname">First Name</label>
-                                <input type="text" id="reg-firstname" name="firstName" required 
-                                       placeholder="John">
-                            </div>
-                            <div class="form-group half-width">
-                                <label for="reg-lastname">Last Name</label>
-                                <input type="text" id="reg-lastname" name="lastName" required 
-                                       placeholder="Smith">
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="reg-email">Email Address</label>
-                            <input type="email" id="reg-email" name="email" required 
-                                   placeholder="john.smith@company.com">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="reg-password">Password</label>
-                            <input type="password" id="reg-password" name="password" required 
-                                   placeholder="Create a strong password" minlength="8">
-                        </div>
-                        
-                        <div class="form-row">
-                            <div class="form-group half-width">
-                                <label for="reg-company">Company</label>
-                                <input type="text" id="reg-company" name="company" 
-                                       placeholder="Your Company">
-                            </div>
-                            <div class="form-group half-width">
-                                <label for="reg-title">Job Title</label>
-                                <input type="text" id="reg-title" name="title" 
-                                       placeholder="Marketing Director">
-                            </div>
-                        </div>
-                        
-                        <div class="form-preferences">
-                            <label class="checkbox-wrapper">
-                                <input type="checkbox" name="newsletter" checked>
-                                <span class="checkmark"></span>
-                                Send me weekly data insights & templates
-                            </label>
-                            
-                            <label class="checkbox-wrapper">
-                                <input type="checkbox" name="notifications" checked>
-                                <span class="checkmark"></span>
-                                Notify me of new case studies
-                            </label>
-                        </div>
-                        
-                        <button type="submit" class="btn-primary full-width">Get Free Templates Now</button>
-                    </form>
-                    
-                    <div class="auth-footer">
-                        <p>Already have an account? <a href="#" onclick="showAuthTab('login')">Sign in</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Membership Modal -->
-    <div id="membership-modal" class="modal" style="display: none;">
-        <div class="modal-content large">
-            <div class="modal-header">
-                <span class="close" onclick="hideMembershipModal()">&times;</span>
-                <h2>Unlock Premium Intelligence</h2>
-                <p>Get advanced competitive insights and data-driven strategies</p>
-            </div>
-            
-            <div class="modal-body">
-                <div class="pricing-grid">
-                    <!-- Premium Tier -->
-                    <div class="pricing-card featured">
-                        <div class="popular-badge">Best Value</div>
-                        <div class="pricing-header">
-                            <h3>Premium Access</h3>
-                            <div class="price">
-                                <span class="currency">$</span>
-                                <span class="amount">29</span>
-                                <span class="period">/month</span>
-                            </div>
-                            <p class="pricing-description">Perfect for marketing teams & agencies</p>
-                        </div>
-                        
-                        <div class="pricing-features">
-                            <h4>Unlock immediately:</h4>
-                            <ul>
-                                <li><span class="feature-icon">✓</span> Premium intelligence reports</li>
-                                <li><span class="feature-icon">✓</span> Competitor analysis dashboards</li>
-                                <li><span class="feature-icon">✓</span> Advanced content templates</li>
-                                <li><span class="feature-icon">✓</span> Weekly strategy insights</li>
-                                <li><span class="feature-icon">✓</span> Priority email support</li>
-                            </ul>
-                        </div>
-                        
-                        <button class="btn-primary" onclick="selectMembership('premium')">
-                            Start 14-Day Free Trial
-                        </button>
-                        <p class="trial-note">Cancel anytime, no commitments</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Authentication System Scripts -->
-    <script src="../../auth-system.js"></script>
-    <script src="../../email-automation.js"></script>
-    
-    <script>
-        // Track download attempts
-        function trackDownload(resource) {
-            if (window.blogAuth && window.blogAuth.getCurrentUser()) {
-                window.trackDownload(window.blogAuth.getCurrentUser().id, resource);
-            }
-        }
-        
-        // Show/hide premium content based on user status
-        function updatePremiumContent() {
-            const user = window.blogAuth ? window.blogAuth.getCurrentUser() : null;
-            const premiumGates = document.querySelectorAll('[data-premium-only]');
-            const premiumContent = document.querySelectorAll('[data-premium-content]');
-            
-            if (user && (user.membershipTier === 'premium' || user.membershipTier === 'pro')) {
-                premiumGates.forEach(gate => gate.style.display = 'none');
-                premiumContent.forEach(content => content.style.display = 'block');
-            } else {
-                premiumGates.forEach(gate => gate.style.display = 'block');
-                premiumContent.forEach(content => content.style.display = 'none');
-            }
-        }
-        
-        // Update content when page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            setTimeout(updatePremiumContent, 1000); // Wait for auth system to initialize
-        });
-        
-        // Listen for auth state changes
-        document.addEventListener('authStateChanged', updatePremiumContent);
-    </script>
 </body>
 </html>

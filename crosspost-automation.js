@@ -100,9 +100,16 @@ More: {URL}
       maxLength: 100000,
       supportImages: true,
       supportVideos: false,
-      useCustomFormatter: true,  // Flag to use MediumFormatter
       template: {
-        visual_article: `{MEDIUM_FORMATTED_CONTENT}`,  // Will be replaced by MediumFormatter output
+        visual_article: `# {TITLE}
+
+{FULL_CONTENT}
+
+---
+
+*Originally published on [TanziTech Blog]({ORIGINAL_URL})*
+
+{TAGS}`,
         
         newsletter: `# {TITLE}
 
@@ -393,11 +400,6 @@ class CrosspostingManager {
     const category = contentAnalysis.category;
     const template = config.template[category] || config.template.visual_article;
     
-    // Special handling for Medium using the MediumFormatter
-    if (platform === 'medium' && config.useCustomFormatter) {
-      return this.getMediumFormattedContent(contentAnalysis.postPath, originalUrl, contentAnalysis.language);
-    }
-    
     let content = template
       .replace(/{TITLE}/g, contentAnalysis.title)
       .replace(/{EXCERPT}/g, this.truncateText(contentAnalysis.excerpt, platform === 'twitter' ? 100 : 300))
@@ -433,55 +435,6 @@ class CrosspostingManager {
     return hashtags.slice(0, maxTags).join(' ');
   }
 
-  // Get Medium-formatted content using the MediumFormatter
-  getMediumFormattedContent(postPath, originalUrl, language = 'en') {
-    try {
-      const MediumFormatter = require('./medium-formatter.js');
-      const formatter = new MediumFormatter();
-      
-      // Read HTML content
-      const htmlContent = fs.readFileSync(postPath, 'utf8');
-      
-      // Convert to Medium format
-      const mediumContent = formatter.htmlToMedium(htmlContent, originalUrl, language);
-      
-      if (mediumContent) {
-        console.log(`✅ Generated Medium-formatted content for ${path.basename(postPath)}`);
-        return mediumContent;
-      } else {
-        console.log(`⚠️  Using fallback template for ${path.basename(postPath)}`);
-        return this.getFallbackMediumContent(postPath, originalUrl);
-      }
-      
-    } catch (error) {
-      console.log(`⚠️  Medium formatter error for ${path.basename(postPath)}: ${error.message}`);
-      return this.getFallbackMediumContent(postPath, originalUrl);
-    }
-  }
-
-  // Fallback Medium content if formatter fails
-  getFallbackMediumContent(postPath, originalUrl) {
-    const htmlContent = fs.readFileSync(postPath, 'utf8');
-    const title = this.extractTitle(htmlContent);
-    const excerpt = this.extractExcerpt(htmlContent);
-    
-    return `# ${title}
-
-*${excerpt}*
-
-{FULL_CONTENT}
-
----
-
-*Originally published on [TanziTech Blog](${originalUrl})*
-
-*Follow me for more insights on AI, Data Science, and Digital Marketing.*
-
----
-
-**Tags**: #DataScience #AI #Analytics #TechInsights #DigitalMarketing`;
-  }
-
   // Truncate text to fit platform limits
   truncateText(text, maxLength) {
     if (text.length <= maxLength) return text;
@@ -492,9 +445,6 @@ class CrosspostingManager {
   scheduleCrosspost(postPath, language, deploymentDate) {
     const contentAnalysis = this.analyzeContent(postPath, language);
     if (!contentAnalysis) return;
-
-    // Add postPath to contentAnalysis for Medium formatter
-    contentAnalysis.postPath = postPath;
 
     const category = contentAnalysis.category;
     const categoryConfig = CONTENT_CATEGORIES[category];

@@ -8,7 +8,7 @@
     "deploy:full": "node integrated-deploy-crosspost.js",
     "crosspost:schedule": "node crosspost-automation.js",
     "crosspost:execute": "./execute-scheduled-crossposts.sh",
-    "deploy:status": "node -e \"console.log('📊 Deployment Status:'); const fs = require('fs'); if (fs.existsSync('deployment-log.json')) { const logs = JSON.parse(fs.readFileSync('deployment-log.json')); console.log('Last deployment:', logs[logs.length-1]?.date || 'Never'); } else { console.log('No deployment logs found'); }\"",
+    "deploy:github": "git add . && git commit -m 'Blog update' && git push origin main",
     "deploy:netlify": "netlify deploy --prod --dir=.",
     "deploy:vercel": "vercel --prod",
     "schedule:setup": "node -e \"console.log('Add to crontab:\\n0 9 * * 1,3,5 cd $(pwd) && npm run deploy:full')\"",
@@ -21,20 +21,7 @@
     "social:queue": "cat social-promotion-queue.json 2>/dev/null || echo 'No social media queue'",
     "backup": "tar -czf backup-$(date +%Y%m%d).tar.gz posts/ *.html *.json *.js",
     "analytics": "node -e \"const report = require('./integrated-report.json'); console.log('📊 Deployment Analytics:', JSON.stringify(report, null, 2));\"",
-    "stats": "node -e \"const fs = require('fs'); let totalPosts = 0; ['en', 'it', 'de'].forEach(lang => { if (fs.existsSync(lang + '/posts')) totalPosts += fs.readdirSync(lang + '/posts').length; }); console.log('📊 Blog Statistics:\\n- Total Posts:', totalPosts, '\\n- Last Modified:', fs.statSync('index.html').mtime.toISOString().split('T')[0]);\"",
-    "format:medium": "node medium-formatter.js",
-    "format:medium:single": "node medium-formatter.js",
-    "medium:check": "ls -la medium-formatted/ 2>/dev/null || echo 'No Medium formatted posts yet. Run: npm run format:medium'",
-    "leads:monitor": "node lead-capture-automation.js monitor",
-    "leads:report": "node lead-capture-automation.js report",
-    "leads:campaign": "node lead-generation-campaign.js",
-    "leads:launch": "node integrated-lead-gen-launcher.js launch",
-    "leads:status": "node integrated-lead-gen-launcher.js status",
-    "leads:optimize": "node integrated-lead-gen-launcher.js optimize",
-    "leads:qualify": "node lead-qualification-system.js process",
-    "leads:nurture": "node email-nurture-automation.js process",
-    "leads:magnets": "node lead-magnet-automation.js deliver",
-    "leads:high-priority": "node lead-qualification-system.js high-priority"
+    "stats": "node -e \"const fs = require('fs'); let totalPosts = 0; ['en', 'it', 'de'].forEach(lang => { if (fs.existsSync(lang + '/posts')) totalPosts += fs.readdirSync(lang + '/posts').length; }); console.log('📊 Blog Statistics:\\n- Total Posts:', totalPosts, '\\n- Last Modified:', fs.statSync('index.html').mtime.toISOString().split('T')[0]);\""
   },
   "keywords": [
     "blog",
@@ -43,21 +30,11 @@
     "ai",
     "data-science",
     "social-media",
-    "analytics",
-    "lead-generation",
-    "email-marketing",
-    "lead-qualification",
-    "viral-content"
+    "analytics"
   ],
   "author": "Gabriele Tanzi",
   "license": "MIT",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "csv-parser": "^3.2.0",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "nodemailer": "^6.10.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "node-cron": "^3.0.2"
   },
