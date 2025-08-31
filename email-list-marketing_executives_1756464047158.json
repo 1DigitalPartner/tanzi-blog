@@ -1,0 +1,20 @@
+[
+  {
+    "email": "john.miller@saascompany.com",
+    "imported": "2025-08-29T10:40:47.160Z",
+    "campaign": "marketing_executives_1756464047158",
+    "status": "pending"
+  },
+  {
+    "email": "emily.davis@growthcorp.com",
+    "imported": "2025-08-29T10:40:47.161Z",
+    "campaign": "marketing_executives_1756464047158",
+    "status": "pending"
+  },
+  {
+    "email": "alex.thompson@brandco.com",
+    "imported": "2025-08-29T10:40:47.162Z",
+    "campaign": "marketing_executives_1756464047158",
+    "status": "pending"
+  }
+]

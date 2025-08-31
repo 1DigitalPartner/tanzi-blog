@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanziTech - Crosspost Performance Analytics</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .refresh-btn {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .refresh-btn:hover {
+            background: #45a049;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .stat-subtitle {
+            font-size: 0.9em;
+            color: #999;
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .chart-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .canvas-container {
+            position: relative;
+            height: 400px;
+        }
+
+        .insights-section {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .insights-title {
+            font-size: 1.6em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .insight-item {
+            background: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .top-posts {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .top-posts-title {
+            font-size: 1.6em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .post-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            margin-bottom: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .post-item:hover {
+            background: #e9ecef;
+        }
+
+        .post-title {
+            font-weight: 600;
+            color: #333;
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .post-platform {
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            margin-right: 15px;
+        }
+
+        .post-engagement {
+            font-weight: bold;
+            color: #4CAF50;
+            min-width: 80px;
+            text-align: right;
+        }
+
+        .loading {
+            text-align: center;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        .error {
+            background: #ff6b6b;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .platform-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            color: white;
+            margin-right: 5px;
+        }
+
+        .platform-linkedin { background: #0077b5; }
+        .platform-twitter { background: #1da1f2; }
+        .platform-reddit { background: #ff4500; }
+        .platform-medium { background: #00ab6b; }
+        .platform-devto { background: #0a0a0a; }
+        .platform-hackernews { background: #ff6600; }
+
+        .last-updated {
+            text-align: center;
+            color: white;
+            opacity: 0.8;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Crosspost Performance Analytics</h1>
+            <p>Real-time monitoring of social media engagement across all platforms</p>
+        </div>
+
+        <button class="refresh-btn" onclick="loadData()">🔄 Refresh Data</button>
+
+        <div id="loading" class="loading">Loading analytics data...</div>
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div id="content" style="display: none;">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="total-posts">0</div>
+                    <div class="stat-label">Total Posts</div>
+                    <div class="stat-subtitle">Across all platforms</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="total-engagement">0</div>
+                    <div class="stat-label">Total Engagement</div>
+                    <div class="stat-subtitle">Likes, shares, comments</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="avg-engagement">0</div>
+                    <div class="stat-label">Avg. Engagement</div>
+                    <div class="stat-subtitle">Per post across platforms</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="top-platform">-</div>
+                    <div class="stat-label">Top Platform</div>
+                    <div class="stat-subtitle">Highest average engagement</div>
+                </div>
+            </div>
+
+            <div class="charts-grid">
+                <div class="chart-container">
+                    <div class="chart-title">📊 Platform Performance Comparison</div>
+                    <div class="canvas-container">
+                        <canvas id="platformChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <div class="chart-title">📈 Engagement by Category</div>
+                    <div class="canvas-container">
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="insights-section">
+                <div class="insights-title">💡 Performance Insights</div>
+                <div id="insights-container"></div>
+            </div>
+
+            <div class="top-posts">
+                <div class="top-posts-title">🏆 Top Performing Posts</div>
+                <div id="top-posts-container"></div>
+            </div>
+
+            <div class="last-updated" id="last-updated"></div>
+        </div>
+    </div>
+
+    <script>
+        let platformChart = null;
+        let categoryChart = null;
+
+        // Mock data for demonstration (replace with real API calls)
+        function generateMockData() {
+            return {
+                lastUpdated: new Date().toISOString(),
+                summary: {
+                    totalPosts: 41,
+                    totalEngagement: 3247,
+                    avgEngagementRate: 79,
+                    topPerformingPlatform: 'reddit',
+                    topPerformingPost: {
+                        title: 'The Hidden Psychology of AI Content',
+                        platform: 'reddit',
+                        engagement: 312
+                    }
+                },
+                platformBreakdown: {
+                    linkedin: { totalPosts: 8, avgEngagement: 45, totalEngagement: 360 },
+                    twitter: { totalPosts: 8, avgEngagement: 23, totalEngagement: 184 },
+                    reddit: { totalPosts: 8, avgEngagement: 156, totalEngagement: 1248 },
+                    medium: { totalPosts: 6, avgEngagement: 78, totalEngagement: 468 },
+                    devto: { totalPosts: 5, avgEngagement: 34, totalEngagement: 170 },
+                    hackernews: { totalPosts: 6, avgEngagement: 136, totalEngagement: 816 }
+                },
+                topPosts: [
+                    {
+                        title: 'The Hidden Psychology of AI Content: What 125 Viral Posts Reveal',
+                        platform: 'reddit',
+                        engagement: 312,
+                        category: 'ai_analysis'
+                    },
+                    {
+                        title: 'Advanced Lead Generation Strategies for Social Media Intelligence',
+                        platform: 'linkedin',
+                        engagement: 89,
+                        category: 'lead_generation'
+                    },
+                    {
+                        title: 'Why 95% of Programming Trends Content Fails',
+                        platform: 'hackernews',
+                        engagement: 267,
+                        category: 'trend_report'
+                    },
+                    {
+                        title: 'LinkedIn Lead Generation: Viral Social Media Strategy That Converts',
+                        platform: 'medium',
+                        engagement: 156,
+                        category: 'lead_generation'
+                    },
+                    {
+                        title: 'The Shocking Truth About AI Technology (Based on Real Data)',
+                        platform: 'twitter',
+                        engagement: 67,
+                        category: 'ai_analysis'
+                    }
+                ],
+                insights: [
+                    'Reddit is your top-performing platform with 156 average engagement per post',
+                    'AI analysis content generates 38% more engagement than other categories',
+                    'Posts published on Tuesday and Friday show 23% higher engagement',
+                    'Long-form content (5000+ words) performs 45% better than shorter posts'
+                ]
+            };
+        }
+
+        function updateStats(data) {
+            document.getElementById('total-posts').textContent = data.summary.totalPosts;
+            document.getElementById('total-engagement').textContent = data.summary.totalEngagement.toLocaleString();
+            document.getElementById('avg-engagement').textContent = Math.round(data.summary.avgEngagementRate);
+            document.getElementById('top-platform').textContent = data.summary.topPerformingPlatform || '-';
+        }
+
+        function createPlatformChart(data) {
+            const ctx = document.getElementById('platformChart').getContext('2d');
+            
+            if (platformChart) {
+                platformChart.destroy();
+            }
+
+            const platforms = Object.keys(data.platformBreakdown);
+            const engagements = platforms.map(platform => data.platformBreakdown[platform].avgEngagement);
+            const posts = platforms.map(platform => data.platformBreakdown[platform].totalPosts);
+
+            platformChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: platforms.map(p => p.charAt(0).toUpperCase() + p.slice(1)),
+                    datasets: [{
+                        label: 'Average Engagement',
+                        data: engagements,
+                        backgroundColor: [
+                            '#0077b5', '#1da1f2', '#ff4500', 
+                            '#00ab6b', '#0a0a0a', '#ff6600'
+                        ],
+                        borderWidth: 0,
+                        borderRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                color: '#f0f0f0'
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function createCategoryChart(data) {
+            const ctx = document.getElementById('categoryChart').getContext('2d');
+            
+            if (categoryChart) {
+                categoryChart.destroy();
+            }
+
+            const categories = {};
+            data.topPosts.forEach(post => {
+                categories[post.category] = (categories[post.category] || 0) + post.engagement;
+            });
+
+            categoryChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(categories).map(cat => 
+                        cat.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())
+                    ),
+                    datasets: [{
+                        data: Object.values(categories),
+                        backgroundColor: [
+                            '#667eea', '#764ba2', '#f093fb', 
+                            '#f5576c', '#4facfe', '#00f2fe'
+                        ],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 20,
+                                usePointStyle: true
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function displayInsights(insights) {
+            const container = document.getElementById('insights-container');
+            container.innerHTML = insights.map(insight => 
+                `<div class="insight-item">${insight}</div>`
+            ).join('');
+        }
+
+        function displayTopPosts(posts) {
+            const container = document.getElementById('top-posts-container');
+            container.innerHTML = posts.map(post => `
+                <div class="post-item">
+                    <div class="post-title">${post.title}</div>
+                    <div class="post-platform platform-${post.platform}">${post.platform}</div>
+                    <div class="post-engagement">${post.engagement}</div>
+                </div>
+            `).join('');
+        }
+
+        function showError(message) {
+            document.getElementById('error').textContent = message;
+            document.getElementById('error').style.display = 'block';
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        function hideError() {
+            document.getElementById('error').style.display = 'none';
+        }
+
+        async function loadData() {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('content').style.display = 'none';
+            hideError();
+
+            try {
+                // For now, use mock data. Replace with real API call:
+                // const response = await fetch('/api/crosspost-metrics');
+                // const data = await response.json();
+                
+                const data = generateMockData();
+                
+                updateStats(data);
+                createPlatformChart(data);
+                createCategoryChart(data);
+                displayInsights(data.insights);
+                displayTopPosts(data.topPosts);
+
+                document.getElementById('last-updated').textContent = 
+                    `Last updated: ${new Date(data.lastUpdated).toLocaleString()}`;
+
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+
+            } catch (error) {
+                console.error('Failed to load data:', error);
+                showError('Failed to load analytics data. Please try again.');
+            }
+        }
+
+        // Load data when page loads
+        window.addEventListener('DOMContentLoaded', loadData);
+
+        // Auto-refresh every 5 minutes
+        setInterval(loadData, 5 * 60 * 1000);
+    </script>
+</body>
+</html>
