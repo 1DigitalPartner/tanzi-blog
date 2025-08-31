@@ -159,5 +159,17 @@
     },
     "totalPosts": 1,
     "timestamp": "2025-08-29T07:00:05.727Z"
+  },
+  {
+    "date": "2025-08-30",
+    "deployedPosts": {
+      "en": [
+        "2025-08-26-hidden-psychology-ai-content-viral-posts-analysis.html"
+      ],
+      "it": [],
+      "de": []
+    },
+    "totalPosts": 1,
+    "timestamp": "2025-08-30T23:43:28.659Z"
   }
 ]
