@@ -28,7 +28,7 @@ class LeadMagnetSystem {
      * Setup email transporter
      */
     setupEmailTransporter() {
-        return nodemailer.createTransporter({
+        return nodemailer.createTransport({
             service: this.emailConfig.service,
             auth: {
                 user: this.emailConfig.user,
