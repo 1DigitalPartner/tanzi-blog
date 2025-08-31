@@ -694,14 +694,14 @@ class TanziBot {
                 "📈 View success metrics"
             ]);
         } else {
-            this.sendBotMessage("📋 Our Email Validation Toolkit includes:
+            this.sendBotMessage(`📋 Our Email Validation Toolkit includes:
 
 ✅ Complete email audit checklist
 ✅ Proven templates that generated $2M+ revenue
 ✅ AI-powered optimization strategies
 ✅ Step-by-step implementation guide
 
-🔐 Quick registration helps us provide personalized implementation guidance and track your progress!");
+🔐 Quick registration helps us provide personalized implementation guidance and track your progress!`);
             this.showSuggestions([
                 "🆓 Create free account (30 sec)",
                 "📋 What else is included?",
