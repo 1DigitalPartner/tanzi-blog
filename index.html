@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriele Tanzi's Data-Driven Blog - Professional Insights & Market Intelligence</title>
-    <meta name="description" content="Competitive insights and market intelligence powered by social media data analysis. Professional insights for tech leaders & data enthusiasts.">
+    <title>Gabriele Tanzi's Data-Driven Blog | Professional Insights & Market Intelligence</title>
+    <meta name="description" content="Competitive insights and market intelligence powered by social media data analysis. Choose your language: English, Italian, or German.">
     <meta name="author" content="Gabriele Tanzi">
-    <meta name="keywords" content="data-driven blog, social media intelligence, competitive analysis, market intelligence, tech insights">
     
-    <!-- Redirect to English blog -->
+    <!-- Immediate redirect to English blog -->
+    <script>
+        // Immediate redirect - no delay
+        window.location.replace('./en/index.html');
+    </script>
+    
+    <!-- Fallback meta refresh for users with JavaScript disabled -->
     <meta http-equiv="refresh" content="0; url=./en/index.html">
     <link rel="canonical" href="https://tanzitech.com/en/">
     
@@ -17,6 +22,54 @@
     <meta property="og:description" content="Competitive insights and market intelligence powered by social media data analysis.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tanzitech.com">
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #2563eb 0%, #0d9488 50%, #ea580c 100%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .redirect-message {
+            max-width: 500px;
+            padding: 2rem;
+        }
+        .spinner {
+            border: 3px solid rgba(255,255,255,0.3);
+            border-top: 3px solid white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 1rem auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .manual-links {
+            margin-top: 2rem;
+        }
+        .manual-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(255,255,255,0.5);
+            border-radius: 25px;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+        .manual-links a:hover {
+            background: rgba(255,255,255,0.2);
+        }
+    </style>
     
     <style>
 /* ============================================
@@ -614,250 +667,17 @@ body {
     </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">
-                🚀 Gabriele Tanzi
-            </a>
-            <ul class="nav-links">
-                <li><a href="#services">Services</a></li>
-                <li><a href="#results">Results</a></li>
-                <li><a href="/en/posts/">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <a href="#contact" class="cta-button">Get Started</a>
+    <div class="redirect-message">
+        <h1>📊 Gabriele Tanzi's Data-Driven Blog</h1>
+        <p>Redirecting to blog...</p>
+        <div class="spinner"></div>
+        
+        <div class="manual-links">
+            <p>If the redirect doesn't work, choose your language:</p>
+            <a href="./en/index.html">🇺🇸 English</a>
+            <a href="./it/index.html">🇮🇹 Italiano</a>
+            <a href="./de/index.html">🇩🇪 Deutsch</a>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-container">
-            <h1>Transform Your Social Media Strategy with Data-Driven Insights</h1>
-            <p class="hero-subtitle">
-                I help businesses dominate their markets using advanced social media intelligence, 
-                competitive analysis, and proven data-driven strategies.
-            </p>
-            
-            <div class="hero-cta">
-                <a href="#services" class="btn-primary">See My Services</a>
-                <a href="/blog/" class="btn-secondary">Read Latest Insights</a>
-            </div>
-            
-            <!-- Social Proof -->
-            <div class="social-proof">
-                <div class="proof-item">
-                    <span class="proof-number">125+</span>
-                    <span class="proof-label">Posts Analyzed</span>
-                </div>
-                <div class="proof-item">
-                    <span class="proof-number">118K+</span>
-                    <span class="proof-label">Engagement Tracked</span>
-                </div>
-                <div class="proof-item">
-                    <span class="proof-number">589</span>
-                    <span class="proof-label">Trends Identified</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">How I Can Help Your Business</h2>
-                <p class="section-subtitle">
-                    Stop guessing. Start winning with data-driven social media strategies 
-                    that your competitors don't know about.
-                </p>
-            </div>
-            
-            <div class="services-grid">
-                <!-- Service 1: Consulting -->
-                <div class="service-card">
-                    <span class="service-icon">📊</span>
-                    <h3 class="service-title">Social Media Intelligence Consulting</h3>
-                    <p class="service-description">
-                        Get personalized strategy sessions based on real data analysis of your industry, 
-                        competitors, and market trends.
-                    </p>
-                    <ul class="service-features">
-                        <li>Competitive analysis of top performers</li>
-                        <li>Platform-specific optimization strategies</li>
-                        <li>Content performance predictions</li>
-                        <li>Engagement optimization tactics</li>
-                        <li>ROI-focused recommendations</li>
-                    </ul>
-                    <a href="#contact" class="service-cta">Start Consultation →</a>
-                </div>
-
-                <!-- Service 2: Reports -->
-                <div class="service-card">
-                    <span class="service-icon">📈</span>
-                    <h3 class="service-title">Custom Data Reports</h3>
-                    <p class="service-description">
-                        Receive detailed analysis reports with actionable insights specific to your 
-                        industry and competitors.
-                    </p>
-                    <ul class="service-features">
-                        <li>Industry trend analysis</li>
-                        <li>Competitor performance metrics</li>
-                        <li>Viral content identification</li>
-                        <li>Hashtag optimization research</li>
-                        <li>Quarterly strategy updates</li>
-                    </ul>
-                    <a href="#contact" class="service-cta">Request Report →</a>
-                </div>
-
-                <!-- Service 3: Training -->
-                <div class="service-card">
-                    <span class="service-icon">🎯</span>
-                    <h3 class="service-title">Team Training & Workshops</h3>
-                    <p class="service-description">
-                        Train your team on data-driven social media strategies and competitive 
-                        intelligence methods.
-                    </p>
-                    <ul class="service-features">
-                        <li>Data analysis methodology training</li>
-                        <li>Social media intelligence tools</li>
-                        <li>Competitive monitoring systems</li>
-                        <li>Performance tracking setup</li>
-                        <li>Ongoing support and guidance</li>
-                    </ul>
-                    <a href="#contact" class="service-cta">Book Workshop →</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Results Section -->
-    <section class="results" id="results">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Proven Results</h2>
-                <p class="section-subtitle">
-                    Real data from actual social media performance analysis
-                </p>
-            </div>
-            
-            <div class="results-grid">
-                <div class="result-card">
-                    <span class="result-number">944</span>
-                    <span class="result-label">Average Engagement Per Analyzed Post</span>
-                </div>
-                <div class="result-card">
-                    <span class="result-number">25K+</span>
-                    <span class="result-label">Highest Performing Post Identified</span>
-                </div>
-                <div class="result-card">
-                    <span class="result-number">9.6%</span>
-                    <span class="result-label">Success Rate for Viral Content</span>
-                </div>
-                <div class="result-card">
-                    <span class="result-number">1,397</span>
-                    <span class="result-label">Average Reddit Engagement</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Final CTA Section -->
-    <section class="final-cta" id="contact">
-        <div class="container">
-            <div class="cta-content">
-                <h2 class="cta-title">Ready to Dominate Your Market?</h2>
-                <p class="cta-subtitle">
-                    Stop letting competitors get ahead. Get your data-driven social media strategy today.
-                </p>
-                <div class="hero-cta">
-                    <a href="mailto:info@tanzitech.com?subject=Social Media Intelligence Consultation" class="btn-primary">
-                        Start Your Strategy Session
-                    </a>
-                    <a href="/blog/" class="btn-secondary">Read Latest Research</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Gabriele Tanzi</h3>
-                    <p>Social Media Intelligence Expert</p>
-                    <p>📧 info@tanzitech.com</p>
-                    <p>🌐 tanzitech.com</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="#services">Strategy Consulting</a></li>
-                        <li><a href="#services">Data Reports</a></li>
-                        <li><a href="#services">Team Training</a></li>
-                        <li><a href="#services">Competitive Analysis</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Resources</h3>
-                    <ul>
-                        <li><a href="/blog/">Data-Driven Blog</a></li>
-                        <li><a href="/blog/">Industry Insights</a></li>
-                        <li><a href="/blog/">Case Studies</a></li>
-                        <li><a href="/blog/">Market Analysis</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Gabriele Tanzi. Powered by Social Media Intelligence & Data-Driven Insights.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Navbar scroll effect
-        window.addEventListener('scroll', function() {
-            const navbar = document.getElementById('navbar');
-            if (window.scrollY > 100) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Simple animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('fade-in-up');
-                }
-            });
-        }, observerOptions);
-
-        // Observe service cards
-        document.querySelectorAll('.service-card, .result-card').forEach(card => {
-            observer.observe(card);
-        });
-    </script>
+    </div>
 </body>
 </html>
