@@ -516,7 +516,11 @@ class BlogAuthSystem {
 
     // Check if user is logged in
     isLoggedIn() {
-        return this.currentUser !== null;
+        if (!this.currentUser) {
+            return false;
+        }
+        // Also check if session is still valid
+        return this.checkSession();
     }
 
     // Initiate download for registered users
@@ -921,6 +925,78 @@ window.showAuthTab = function(tabName) {
     document.getElementById(tabName + '-tab').classList.add('active');
     document.getElementById(tabName + '-content').classList.add('active');
 };
+
+// Membership selection handler
+window.selectMembership = function(tier) {
+    console.log('Selected membership:', tier);
+    
+    if (tier === 'free') {
+        // Close modal and show free account creation
+        hideMembershipModal();
+        showRegisterModal();
+        blogAuth.showMessage('info', 'Create your free account to get started!');
+    } else if (tier === 'premium' || tier === 'pro') {
+        // Trigger payment flow
+        if (window.paymentSystem && window.paymentSystem.createCheckoutSession) {
+            const priceId = tier === 'premium' ? 'price_premium' : 'price_pro';
+            window.paymentSystem.createCheckoutSession(priceId, {
+                success_url: window.location.origin + '/payment-success.html',
+                cancel_url: window.location.origin + '/payment-cancelled.html'
+            });
+        } else {
+            // Fallback if payment system not loaded
+            blogAuth.showMessage('info', `${tier.charAt(0).toUpperCase() + tier.slice(1)} membership selected! Payment integration loading...`);
+            console.warn('Payment system not available');
+        }
+    }
+};
+
+// AI Assistance handler
+window.getAIAssistance = function() {
+    console.log('AI Assistance requested');
+    
+    // Open chatbot if available
+    if (window.tanziBot) {
+        if (!window.tanziBot.isOpen) {
+            window.tanziBot.toggleBot();
+        }
+        setTimeout(() => {
+            window.tanziBot.sendBotMessage("🎓 Perfect! I'm here to help you implement the strategies from the Email Validation Toolkit. What would you like to start with?");
+            window.tanziBot.showSuggestions([
+                "📧 Email list building",
+                "✅ Validation best practices",
+                "📈 Deliverability optimization",
+                "🤖 Automation setup"
+            ]);
+        }, 500);
+    } else {
+        blogAuth.showMessage('info', '🤖 AI Assistant is loading. Please try again in a moment!');
+    }
+};
+
+// Unlock Premium Strategies handler
+window.unlockPremiumStrategies = function() {
+    console.log('Unlock Premium Strategies requested');
+    
+    if (blogAuth.isLoggedIn()) {
+        const user = blogAuth.getCurrentUser();
+        if (user.membershipTier === 'premium' || user.membershipTier === 'pro') {
+            // User already has access
+            blogAuth.showMessage('success', '🎉 You already have premium access! Check out your exclusive content.');
+            // Could redirect to premium content page
+        } else {
+            // Show membership upgrade
+            showMembershipModal();
+        }
+    } else {
+        // User not logged in
+        blogAuth.showMessage('info', '🔐 Please sign in or create an account to access premium strategies.');
+        showRegisterModal();
+    }
+};
+
+// Make auth system globally available
+window.blogAuth = blogAuth;
 
 // Export for module use
 if (typeof module !== 'undefined' && module.exports) {
