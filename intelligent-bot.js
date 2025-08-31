@@ -686,18 +686,27 @@ class TanziBot {
 
     handleDownloadRequest() {
         if (this.userContext.isLoggedIn) {
-            this.sendBotMessage("🎯 Perfect! I'll get you that download link right away.");
+            this.sendBotMessage("🎯 Excellent! You're logged in and ready to access our premium resources. Let me help you get the right toolkit for your needs.");
             this.showSuggestions([
                 "📥 Download Email Toolkit",
                 "📊 Get Social Media Templates", 
-                "🎓 Need implementation help?"
+                "🎓 Get implementation guidance",
+                "📈 View success metrics"
             ]);
         } else {
-            this.sendBotMessage("🔐 To access our premium toolkits, you'll need to create a free account first. It takes just 30 seconds!");
+            this.sendBotMessage("📋 Our Email Validation Toolkit includes:
+
+✅ Complete email audit checklist
+✅ Proven templates that generated $2M+ revenue
+✅ AI-powered optimization strategies
+✅ Step-by-step implementation guide
+
+🔐 Quick registration helps us provide personalized implementation guidance and track your progress!");
             this.showSuggestions([
-                "🆓 Create free account",
-                "📋 What's included?",
-                "❓ Why do I need an account?"
+                "🆓 Create free account (30 sec)",
+                "📋 What else is included?",
+                "❓ Why registration required?",
+                "💬 Talk to expert"
             ]);
         }
     }

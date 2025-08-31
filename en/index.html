@@ -882,19 +882,50 @@
         // Handle download requests
         window.handleDownload = function(resource) {
             if (window.blogAuth && window.blogAuth.isLoggedIn()) {
-                // User is logged in, initiate download
-                const result = window.blogAuth.initiateDownload(resource);
-                if (result.success) {
-                    // Track download for email automation
-                    if (window.emailAutomation) {
-                        window.emailAutomation.trackDownload(window.blogAuth.getCurrentUser().id, resource);
-                    }
-                } else {
-                    window.blogAuth.showMessage('error', result.error);
+                // User is logged in, initiate actual download
+                console.log('Initiating download for authenticated user:', resource);
+                
+                // Create actual download
+                const downloadUrls = {
+                    'email_validation_toolkit': '../assets/Email-Validation-Toolkit-TanziTech.pdf',
+                    'social_media_templates': '../assets/Social-Media-Templates-TanziTech.zip',
+                    'ai_automation_guide': '../assets/AI-Automation-Guide-TanziTech.pdf'
+                };
+                
+                const downloadUrl = downloadUrls[resource] || downloadUrls['email_validation_toolkit'];
+                
+                // Create download link
+                const link = document.createElement('a');
+                link.href = downloadUrl;
+                link.download = resource + '-TanziTech';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                // Show success message
+                if (window.blogAuth.showMessage) {
+                    window.blogAuth.showMessage('success', '🎉 Download started! Check your downloads folder.');
                 }
+                
+                // Track download for email automation
+                if (window.emailAutomation) {
+                    window.emailAutomation.trackDownload(window.blogAuth.getCurrentUser().id, resource);
+                }
+                
+                // Trigger download started event for chatbot
+                document.dispatchEvent(new CustomEvent('downloadStarted', { 
+                    detail: { resource } 
+                }));
+                
+                return true;
             } else {
                 // User not logged in, show registration modal
+                console.log('User not logged in, showing registration modal');
+                if (window.blogAuth && window.blogAuth.showMessage) {
+                    window.blogAuth.showMessage('info', '🔐 Please create a free account to access our premium toolkits!');
+                }
                 showRegisterModal();
+                return false;
             }
         };
     </script>
