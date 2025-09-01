@@ -1,0 +1,32 @@
+[
+  {
+    "email": "info@tanzitech.com",
+    "imported": "2025-08-29T08:37:31.390Z",
+    "campaign": "test_campaign",
+    "status": "pending"
+  },
+  {
+    "email": "gabriele.tanzi@example.com",
+    "imported": "2025-08-29T08:37:31.391Z",
+    "campaign": "test_campaign",
+    "status": "pending"
+  },
+  {
+    "email": "test1@tanzitech.com",
+    "imported": "2025-08-29T08:37:31.391Z",
+    "campaign": "test_campaign",
+    "status": "pending"
+  },
+  {
+    "email": "test2@tanzitech.com",
+    "imported": "2025-08-29T08:37:31.391Z",
+    "campaign": "test_campaign",
+    "status": "pending"
+  },
+  {
+    "email": "test3@tanzitech.com",
+    "imported": "2025-08-29T08:37:31.391Z",
+    "campaign": "test_campaign",
+    "status": "pending"
+  }
+]

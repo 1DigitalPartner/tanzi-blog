@@ -1,0 +1,62 @@
+[
+  {
+    "email": "kevin.anderson@softwarecompany.com",
+    "firstName": "Kevin",
+    "lastName": "Anderson",
+    "title": "Senior Software Engineer",
+    "company": "Software Company",
+    "industry": "Technology",
+    "name": "Kevin Anderson",
+    "originalSegment": "tech_professionals",
+    "segment": "tech",
+    "segmentScore": 6
+  },
+  {
+    "email": "john.miller@saascompany.com",
+    "firstName": "John",
+    "lastName": "Miller",
+    "title": "Marketing Director",
+    "company": "SaaS Company",
+    "industry": "B2B Software",
+    "name": "John Miller",
+    "originalSegment": "marketing_executives",
+    "segment": "tech",
+    "segmentScore": 5
+  },
+  {
+    "email": "rachel.garcia@techservices.com",
+    "firstName": "Rachel",
+    "lastName": "Garcia",
+    "title": "Engineering Manager",
+    "company": "Tech Services",
+    "industry": "Tech Services",
+    "name": "Rachel Garcia",
+    "originalSegment": "tech_professionals",
+    "segment": "tech",
+    "segmentScore": 3
+  },
+  {
+    "email": "daniel.moore@saasplatform.io",
+    "firstName": "Daniel",
+    "lastName": "Moore",
+    "title": "Technical Lead",
+    "company": "SaaS Platform",
+    "industry": "SaaS",
+    "name": "Daniel Moore",
+    "originalSegment": "tech_professionals",
+    "segment": "tech",
+    "segmentScore": 3
+  },
+  {
+    "email": "emily.davis@growthcorp.com",
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "title": "VP Marketing",
+    "company": "GrowthCorp",
+    "industry": "Technology",
+    "name": "Emily Davis",
+    "originalSegment": "marketing_executives",
+    "segment": "tech",
+    "segmentScore": 2
+  }
+]

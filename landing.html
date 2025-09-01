@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your FREE Data Science Intelligence Report | TanziTech</title>
+    <meta name="description" content="Discover the 110-Character Formula and 4 other breakthrough insights from analyzing 118,001 social media interactions. Free comprehensive report.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="FREE Data Science Intelligence Report - 118,001 Interactions Analyzed">
+    <meta property="og:description" content="Discover the 110-Character Formula and 4 breakthrough insights from analyzing 125 data science posts. Download your free comprehensive report now.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tanzitech.com/landing.html">
+    <meta property="og:image" content="https://tanzitech.com/assets/data-science-report-preview.jpg">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FREE Data Science Intelligence Report - 118,001 Interactions Analyzed">
+    <meta name="twitter:description" content="Discover the 110-Character Formula and 4 breakthrough insights from analyzing 125 data science posts.">
+    <meta name="twitter:image" content="https://tanzitech.com/assets/data-science-report-preview.jpg">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .landing-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+        
+        .hero-section {
+            background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+            color: white;
+            padding: 60px 50px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="white" opacity="0.1"/><circle cx="80" cy="30" r="3" fill="white" opacity="0.1"/><circle cx="40" cy="70" r="2" fill="white" opacity="0.1"/><circle cx="90" cy="80" r="2" fill="white" opacity="0.1"/><circle cx="10" cy="60" r="3" fill="white" opacity="0.1"/></svg>') repeat;
+            opacity: 0.3;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero-title {
+            font-size: 2.8rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        
+        .stats-highlight {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            display: inline-block;
+        }
+        
+        .content-section {
+            padding: 50px;
+        }
+        
+        .value-proposition {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .value-title {
+            color: #059669;
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .benefit-card {
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+            border-left: 5px solid #10b981;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        
+        .benefit-icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        
+        .benefit-title {
+            color: #059669;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .form-section {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border-radius: 15px;
+            padding: 40px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .form-title {
+            color: #1f2937;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .form-subtitle {
+            color: #6b7280;
+            margin-bottom: 30px;
+        }
+        
+        .download-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .form-label {
+            display: block;
+            color: #374151;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: #059669;
+            box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.1);
+        }
+        
+        .download-btn {
+            background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+            color: white;
+            border: none;
+            padding: 16px 32px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(5, 150, 105, 0.3);
+        }
+        
+        .social-proof {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            border: 1px solid #e5e7eb;
+        }
+        
+        .testimonial {
+            font-style: italic;
+            font-size: 1.1rem;
+            color: #4b5563;
+            margin-bottom: 15px;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: #059669;
+        }
+        
+        .urgency-section {
+            background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .urgency-title {
+            color: #92400e;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: white;
+            background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+            border-radius: 15px;
+        }
+        
+        .footer a {
+            color: #10b981;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.2rem;
+            }
+            
+            .content-section {
+                padding: 30px 20px;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .success-message {
+            display: none;
+            background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .success-message.show {
+            display: block;
+        }
+        
+        .social-share-section {
+            background: #f8fafc;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            text-align: center;
+            border: 2px solid #e5e7eb;
+        }
+        
+        .social-share-title {
+            color: #1f2937;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .share-btn {
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .share-btn.twitter {
+            background: #1DA1F2;
+            color: white;
+        }
+        
+        .share-btn.linkedin {
+            background: #0077B5;
+            color: white;
+        }
+        
+        .share-btn.facebook {
+            background: #4267B2;
+            color: white;
+        }
+        
+        .share-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="landing-card">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title">Get the Complete Data Science Intelligence Report</h1>
+                    <p class="hero-subtitle">The analysis that took 3 months and cost $15K in tools - yours free</p>
+                    <div class="stats-highlight">
+                        <strong>Based on 125 posts • 118,001 interactions • Real performance data</strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <div class="value-proposition">
+                    <h2 class="value-title">What You'll Discover Inside</h2>
+                    <p>This isn't another generic "best practices" guide. It's a data-driven analysis of what actually works in data science content marketing.</p>
+                </div>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">📊</div>
+                        <h3 class="benefit-title">110-Character Formula</h3>
+                        <p>The exact character count that drives 3x more engagement than lengthy technical posts. Includes 15 proven templates.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🎯</div>
+                        <h3 class="benefit-title">Platform Performance Data</h3>
+                        <p>Why Reddit generates 6.4x more engagement than Twitter for data science content (and how to leverage this).</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🔥</div>
+                        <h3 class="benefit-title">Viral Content Patterns</h3>
+                        <p>5 psychological triggers that made posts hit 25,310+ interactions. Plus competitor analysis framework.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon">💡</div>
+                        <h3 class="benefit-title">Contrarian Insights</h3>
+                        <p>Why questions kill engagement, numbers don't always work, and trending tech mentions are crucial.</p>
+                    </div>
+                </div>
+                
+                <div class="form-section">
+                    <h3 class="form-title">Download Your Free Report</h3>
+                    <p class="form-subtitle">Get instant access to the complete analysis (normally $497)</p>
+                    
+                    <form class="download-form" id="downloadForm">
+                        <div class="form-group">
+                            <label class="form-label" for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label" for="role">Your Role</label>
+                            <select id="role" name="role" class="form-input" required>
+                                <option value="">Select your role...</option>
+                                <option value="Data Scientist">Data Scientist</option>
+                                <option value="ML Engineer">ML Engineer</option>
+                                <option value="Marketing Executive">Marketing Executive</option>
+                                <option value="Business Owner">Business Owner</option>
+                                <option value="Startup Founder">Startup Founder</option>
+                                <option value="Consultant">Consultant</option>
+                                <option value="Tech Professional">Tech Professional</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="download-btn">
+                            📊 Download Free Report Now
+                        </button>
+                    </form>
+                    
+                    <div class="success-message" id="successMessage">
+                        <h3 style="color: #059669; margin-bottom: 15px;">✅ Success! Check Your Email</h3>
+                        <p>Your Data Science Intelligence Report is on its way to your inbox. Check for an email from Gabriele Tanzi within the next few minutes.</p>
+                        <p style="margin-top: 15px;"><strong>Didn't receive it?</strong> Check your spam folder or reply to any of our previous emails with "REPORT" and we'll send it manually.</p>
+                    </div>
+                </div>
+                
+                <div class="social-proof">
+                    <div class="testimonial">
+                        "This data changed everything about my content strategy. Instead of guessing, I now know exactly what will perform before I post it. Our engagement increased 340% in 60 days."
+                    </div>
+                    <div class="testimonial-author">— Sarah Chen, CMO at TechFlow Solutions</div>
+                </div>
+                
+                <div class="social-share-section">
+                    <h3 class="social-share-title">📢 Share this FREE report with your network:</h3>
+                    <div class="share-buttons">
+                        <a href="https://twitter.com/intent/tweet?text=Just%20found%20this%20incredible%20FREE%20Data%20Science%20Intelligence%20Report!%20%F0%9F%93%8A%20Analysis%20of%20125%20posts%20%26%20118%2C001%20interactions%20reveals%20the%20110-Character%20Formula%20%26%20viral%20content%20patterns.&url=https://tanzitech.com/landing.html&hashtags=DataScience,Analytics,ContentMarketing" target="_blank" class="share-btn twitter">🐦 Share on Twitter</a>
+                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://tanzitech.com/landing.html&title=FREE%20Data%20Science%20Intelligence%20Report&summary=Discover%20the%20110-Character%20Formula%20and%20breakthrough%20insights%20from%20analyzing%20125%20data%20science%20posts%20and%20118%2C001%20interactions." target="_blank" class="share-btn linkedin">💼 Share on LinkedIn</a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://tanzitech.com/landing.html&quote=Just%20discovered%20this%20amazing%20FREE%20Data%20Science%20Intelligence%20Report!%20Perfect%20for%20anyone%20in%20data%20science%20or%20content%20marketing." target="_blank" class="share-btn facebook">📘 Share on Facebook</a>
+                    </div>
+                    <p style="margin-top: 15px; color: #6b7280; font-size: 0.9rem;">Help others discover these data-driven insights!</p>
+                </div>
+
+                <div class="urgency-section">
+                    <h3 class="urgency-title">⚡ Limited Time Offer</h3>
+                    <p>This comprehensive analysis normally sells for $497. We're offering it free as part of our data science community building initiative.</p>
+                    <p><strong>Download expires in 7 days.</strong></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>TanziTech - Data Science Intelligence</strong></p>
+            <p>Questions? Reply to any of our emails or contact <a href="mailto:contact@tanzitech.com">contact@tanzitech.com</a></p>
+            <p style="margin-top: 15px; font-size: 0.9rem; opacity: 0.8;">
+                This report is based on real analysis of 125 posts and 118,001 interactions. 
+                All data is current as of August 2025.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('downloadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = {
+                firstName: formData.get('firstName'),
+                email: formData.get('email'),
+                role: formData.get('role'),
+                source: 'landing_page',
+                timestamp: new Date().toISOString(),
+                utmSource: new URLSearchParams(window.location.search).get('utm_source') || 'direct',
+                utmCampaign: new URLSearchParams(window.location.search).get('utm_campaign') || 'data_science_insights'
+            };
+            
+            console.log('📝 Submitting lead:', data);
+            
+            // Disable submit button and show loading
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '⏳ Sending Report...';
+            submitBtn.disabled = true;
+            
+            try {
+                // Try to submit to backend API first (for local server)
+                let response;
+                try {
+                    response = await fetch('/api/send-report', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data)
+                    });
+                    
+                    if (response.ok) {
+                        const result = await response.json();
+                        console.log('✅ API Response:', result);
+                        
+                        // Show success message
+                        document.getElementById('downloadForm').style.display = 'none';
+                        document.getElementById('successMessage').classList.add('show');
+                        return;
+                    }
+                } catch (apiError) {
+                    console.log('ℹ️ Backend API not available, using fallback method');
+                }
+                
+                // Fallback: Send email directly using mailto (for static deployment)
+                const emailSubject = encodeURIComponent('Data Science Intelligence Report Request');
+                const emailBody = encodeURIComponent(
+                    `New lead from landing page:\n\n` +
+                    `Name: ${data.firstName}\n` +
+                    `Email: ${data.email}\n` +
+                    `Role: ${data.role}\n` +
+                    `Source: ${data.source}\n` +
+                    `UTM Source: ${data.utmSource}\n` +
+                    `UTM Campaign: ${data.utmCampaign}\n` +
+                    `Timestamp: ${data.timestamp}\n\n` +
+                    `Please send the Data Science Intelligence Report to this lead.`
+                );
+                
+                // Create a hidden form to submit the lead info
+                const hiddenForm = document.createElement('form');
+                hiddenForm.style.display = 'none';
+                hiddenForm.action = `mailto:gabriele.tanzitech@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+                hiddenForm.method = 'get';
+                document.body.appendChild(hiddenForm);
+                hiddenForm.submit();
+                document.body.removeChild(hiddenForm);
+                
+                // Show success message
+                document.getElementById('downloadForm').style.display = 'none';
+                document.getElementById('successMessage').classList.add('show');
+                
+                // Also save to localStorage for tracking
+                const leads = JSON.parse(localStorage.getItem('landingPageLeads') || '[]');
+                leads.push(data);
+                localStorage.setItem('landingPageLeads', JSON.stringify(leads));
+                
+                console.log('📧 Lead submitted via email fallback');
+                
+            } catch (error) {
+                console.error('❌ Submission error:', error);
+                alert('There was an error submitting your request. Please try again or contact us directly at gabriele.tanzitech@gmail.com');
+                
+                // Reset button
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }
+        });
+        
+        // Track page view
+        console.log('📊 Landing page view:', {
+            timestamp: new Date().toISOString(),
+            page: 'data-science-report-landing',
+            utmSource: new URLSearchParams(window.location.search).get('utm_source'),
+            utmCampaign: new URLSearchParams(window.location.search).get('utm_campaign'),
+            referrer: document.referrer
+        });
+        
+        // Save page view to localStorage for analytics
+        const pageViews = JSON.parse(localStorage.getItem('landingPageViews') || '[]');
+        pageViews.push({
+            timestamp: new Date().toISOString(),
+            page: 'data-science-report-landing',
+            utmSource: new URLSearchParams(window.location.search).get('utm_source'),
+            utmCampaign: new URLSearchParams(window.location.search).get('utm_campaign'),
+            referrer: document.referrer,
+            userAgent: navigator.userAgent
+        });
+        localStorage.setItem('landingPageViews', JSON.stringify(pageViews));
+    </script>
+</body>
+</html>

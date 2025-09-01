@@ -8,6 +8,13 @@
     <meta name="author" content="Gabriele Tanzi">
     <meta name="robots" content="index, follow">
     
+    <!-- Social Media Profile References -->
+    <meta name="github" content="https://github.com/gabrieletanzi">
+    <meta name="medium" content="https://medium.com/@TanziTech">
+    <meta name="linkedin" content="https://linkedin.com/in/tanzi-tech-b2766a293">
+    <meta name="twitter" content="https://twitter.com/tanzi_tech">
+    <meta name="instagram" content="https://instagram.com/tanzi_tech_insights">
+    
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tanzitech.com/">
@@ -17,6 +24,8 @@
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@tanzi_tech">
+    <meta property="twitter:creator" content="@tanzi_tech">
     <meta property="twitter:url" content="https://tanzitech.com/">
     <meta property="twitter:title" content="TanziTech Blog - AI, Social Media & Technology Insights">
     <meta property="twitter:description" content="Cutting-edge insights on AI, social media growth, and technology trends. Data-driven analysis and actionable strategies.">
@@ -264,6 +273,8 @@
             }
         }
     </style>
+    <!-- Authentication System CSS -->
+    <link rel="stylesheet" href="../auth-styles.css">
 </head>
 <body>
     <header class="header">
@@ -273,13 +284,23 @@
                 <nav>
                     <ul class="nav-links">
                         <li><a href="#blog">Blog</a></li>
-                        <li><a href="links.html">Bio Links</a></li>
+                        <li><a href="../links.html">Bio Links</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
+                
+                <!-- User Authentication Navigation -->
+                <div class="auth-nav">
+                    <button class="login-btn" onclick="showLoginModal()">Sign In</button>
+                    <button class="register-btn" onclick="showRegisterModal()">Join Now</button>
+                    <div class="user-menu" style="display: none;">
+                        <span class="user-info">Welcome, User!</span>
+                        <button class="logout-btn">Sign Out</button>
+                    </div>
+                </div>
                 <div class="lang-selector">
                     <a href="index.html" class="lang-link">EN</a>
-                    <a href="index-de.html" class="lang-link">DE</a>
+                    <a href="../de/index.html" class="lang-link">DE</a>
                 </div>
             </div>
         </div>
@@ -289,7 +310,17 @@
         <div class="container">
             <h1>AI & Social Media Intelligence</h1>
             <p>Data-driven insights on AI technology, social media growth strategies, and emerging tech trends that matter for your business</p>
-            <a href="#blog" class="cta-button">Explore Latest Posts</a>
+            <div class="hero-cta">
+                <a href="#blog" class="cta-button">Explore Latest Posts</a>
+                <a href="#" onclick="showRegisterModal()" class="cta-button secondary">Get Free Resources</a>
+            </div>
+            
+            <!-- Member Benefits Banner -->
+            <div class="member-benefits" data-member-only style="display: none; margin-top: 2rem; padding: 1.5rem; background: rgba(255,255,255,0.1); border-radius: 12px; backdrop-filter: blur(10px);">
+                <h3>🎉 Welcome Back, Member!</h3>
+                <p>Access your exclusive premium content, advanced templates, and member-only resources.</p>
+                <a href="#premium-content" class="btn-primary">View Premium Content</a>
+            </div>
         </div>
     </section>
 
@@ -298,6 +329,16 @@
             <section id="blog">
                 <h2 class="section-title">Latest Blog Posts</h2>
                 <p class="section-subtitle">Cutting-edge analysis and actionable insights from real data</p>
+                
+                <!-- Lead Magnet CTA Section -->
+                <div class="lead-magnet-section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem 2rem; border-radius: 20px; text-align: center; margin-bottom: 3rem;">
+                    <h3 style="font-size: 2rem; margin-bottom: 1rem;">🎯 Free Email Validation Toolkit</h3>
+                    <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;">Get our comprehensive guide to validate email marketing strategies that drove $2M+ in revenue for our clients</p>
+                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                        <a href="../email-validation-toolkit.html" style="background: rgba(255,255,255,0.9); color: #333; padding: 1rem 2rem; border: none; border-radius: 50px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; text-decoration: none; display: inline-block;">Get Free Toolkit →</a>
+                        <button onclick="showLoginModal()" style="background: transparent; color: white; padding: 1rem 2rem; border: 2px solid rgba(255,255,255,0.5); border-radius: 50px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Already a Member?</button>
+                    </div>
+                </div>
                 
                 <div class="blog-grid">
                     <article class="blog-card">
@@ -350,145 +391,66 @@
 
                     <article class="blog-card">
                         <div class="blog-card-content">
-                            <h3 class="blog-card-title">Instagram Growth Secrets: What 3,000 Posts and 2.1M Likes Revealed</h3>
+                            <h3 class="blog-card-title">Advanced Lead Generation Strategies for Social Media Intelligence</h3>
                             <div class="blog-card-meta">
-                                <span>📊 Data Analysis</span>
-                                <span>Aug 25, 2025</span>
+                                <span>🎯 Lead Generation</span>
+                                <span>Aug 26, 2025</span>
                             </div>
-                            <p class="blog-card-excerpt">Comprehensive analysis of 3,000 Instagram posts revealing the hidden patterns behind viral content and sustainable growth strategies.</p>
-                            <a href="posts/2025-08-25-instagram-growth-secrets-3000-posts-analyzed.html" class="read-more">Read Full Analysis →</a>
+                            <p class="blog-card-excerpt">Advanced strategies for generating high-quality leads through social media intelligence and data-driven approaches.</p>
+                            <a href="posts/2025-08-26-advanced-lead-generation-strategies-social-media-intelligence.html" class="read-more">Read Full Analysis →</a>
                         </div>
                     </article>
 
                     <article class="blog-card">
                         <div class="blog-card-content">
-                            <h3 class="blog-card-title">LinkedIn Algorithm Secrets Revealed: What 2,500 Posts Taught Us</h3>
+                            <h3 class="blog-card-title">LinkedIn Lead Generation: Viral Social Media Strategy That Converts</h3>
                             <div class="blog-card-meta">
-                                <span>🔍 Algorithm Analysis</span>
-                                <span>Aug 25, 2025</span>
+                                <span>🔗 LinkedIn Strategy</span>
+                                <span>Aug 26, 2025</span>
                             </div>
-                            <p class="blog-card-excerpt">Deep dive into LinkedIn's algorithm based on analysis of 2,500 posts, revealing the engagement patterns that drive professional success.</p>
-                            <a href="posts/2025-08-25-linkedin-algorithm-secrets-revealed-data-analysis.html" class="read-more">Read Full Analysis →</a>
+                            <p class="blog-card-excerpt">Proven LinkedIn strategies for generating high-quality leads through viral social media content that converts prospects into customers.</p>
+                            <a href="posts/2025-08-26-linkedin-lead-generation-viral-social-media-strategy.html" class="read-more">Read Full Analysis →</a>
                         </div>
                     </article>
 
                     <article class="blog-card">
                         <div class="blog-card-content">
-                            <h3 class="blog-card-title">Tech Content Strategy: Driving 6x Higher Engagement</h3>
+                            <h3 class="blog-card-title">High-Value Social Media Intelligence Report & Content Strategy</h3>
                             <div class="blog-card-meta">
-                                <span>🚀 Strategy</span>
-                                <span>Aug 24, 2025</span>
+                                <span>📈 Intelligence Report</span>
+                                <span>Aug 26, 2025</span>
                             </div>
-                            <p class="blog-card-excerpt">Proven content strategies that generated 6x higher engagement rates in the tech industry, backed by real performance data.</p>
-                            <a href="posts/2025-08-24-tech-content-strategy-driving-6x-higher-engagement.html" class="read-more">Read Full Analysis →</a>
+                            <p class="blog-card-excerpt">Comprehensive social media intelligence report with actionable strategies for content creation and audience engagement.</p>
+                            <a href="posts/2025-08-26-high-value-social-media-intelligence-report.html" class="read-more">Read Full Analysis →</a>
                         </div>
                     </article>
 
                     <article class="blog-card">
                         <div class="blog-card-content">
-                            <h3 class="blog-card-title">We Analyzed 1,000 AI Startups - 97% Will Fail</h3>
+                            <h3 class="blog-card-title">The Hidden Psychology of AI Content: Viral Posts Analysis</h3>
                             <div class="blog-card-meta">
-                                <span>🤖 AI Market</span>
-                                <span>Aug 24, 2025</span>
+                                <span>🧠 Psychology</span>
+                                <span>Aug 26, 2025</span>
                             </div>
-                            <p class="blog-card-excerpt">Comprehensive analysis of 1,000 AI startups reveals critical patterns that separate the 3% success stories from the failures.</p>
-                            <a href="posts/2025-08-24-we-analyzed-1000-ai-startups-97-percent-will-fail.html" class="read-more">Read Full Analysis →</a>
+                            <p class="blog-card-excerpt">Deep psychological analysis of what makes AI content go viral, revealing the hidden triggers that drive massive engagement.</p>
+                            <a href="posts/2025-08-26-hidden-psychology-ai-content-viral-posts-analysis.html" class="read-more">Read Full Analysis →</a>
                         </div>
                     </article>
-
-                    <article class="blog-card">
-                        <div class="blog-card-content">
-                            <h3 class="blog-card-title">We Analyzed 125 AI Posts That Got 100K+ Engagement</h3>
+                    
+                    <!-- Premium Content Teaser (for non-members) -->
+                    <article class="blog-card premium-teaser" data-premium-only>
+                        <div class="blog-card-content" style="background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%); text-align: center; padding: 3rem 2rem;">
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">🔒</div>
+                            <h3 class="blog-card-title">Premium Members Only</h3>
                             <div class="blog-card-meta">
-                                <span>📈 Viral Content</span>
-                                <span>Aug 24, 2025</span>
+                                <span>⭐ Exclusive Content</span>
+                                <span>Premium Access</span>
                             </div>
-                            <p class="blog-card-excerpt">What makes AI content go viral? Analysis of 125 high-engagement posts reveals the patterns behind massive social media success.</p>
-                            <a href="posts/2025-08-24-we-analyzed-125-ai-posts-that-got-100k-engagement.html" class="read-more">Read Full Analysis →</a>
-                        </div>
-                    </article>
-
-                    <article class="blog-card">
-                        <div class="blog-card-content">
-                            <h3 class="blog-card-title">AI Market Monday: Dashboard Insights</h3>
-                            <div class="blog-card-meta">
-                                <span>📊 Market Analysis</span>
-                                <span>Aug 24, 2025</span>
+                            <p class="blog-card-excerpt">Unlock advanced strategies, case studies, and insider insights available only to Premium and Pro members.</p>
+                            <div style="margin-top: 1.5rem;">
+                                <button onclick="showMembershipModal()" style="background: #2563eb; color: white; padding: 0.8rem 2rem; border: none; border-radius: 50px; font-weight: 600; cursor: pointer; margin-right: 1rem;">Upgrade Now</button>
+                                <button onclick="showLoginModal()" style="background: transparent; color: #666; padding: 0.8rem 2rem; border: 1px solid #ccc; border-radius: 50px; font-weight: 600; cursor: pointer;">Sign In</button>
                             </div>
-                            <p class="blog-card-excerpt">Weekly AI market dashboard with key metrics, trends, and actionable insights for investors and entrepreneurs in the AI space.</p>
-                            <a href="posts/2025-08-24-ai-market-monday-dashboard-insights.html" class="read-more">Read Full Analysis →</a>
-                        </div>
-                    </article>
-
-                    <article class="blog-card">
-                        <div class="blog-card-content">
-                            <h3 class="blog-card-title">The Shocking Truth About AI Technology Based on Recent Data</h3>
-                            <div class="blog-card-meta">
-                                <span>🔍 Technology</span>
-                                <span>Aug 16, 2025</span>
-                            </div>
-                            <p class="blog-card-excerpt">Data-driven analysis reveals surprising truths about AI technology adoption, performance, and future trajectory that most people miss.</p>
-                            <a href="posts/2025-08-16-the-shocking-truth-about-ai-technology-based-on-re.html" class="read-more">Read Full Analysis →</a>
-                        </div>
-                    </article>
-
-                    <article class="blog-card">
-                        <div class="blog-card-content">
-                            <h3 class="blog-card-title">We Analyzed 589 Programming Trends Posts - Here's What We Found</h3>
-                            <div class="blog-card-meta">
-                                <span>💻 Programming</span>
-                                <span>Aug 15, 2025</span>
-                            </div>
-                            <p class="blog-card-excerpt">Comprehensive analysis of 589 programming trend posts reveals the languages, frameworks, and technologies dominating developer conversations.</p>
-                            <a href="posts/2025-08-15-we-analyzed-589-programming-trends-posts---heres-w.html" class="read-more">Read Full Analysis →</a>
-                        </div>
-                    </article>
-
-                    <article class="blog-card">
-                        <div class="blog-card-content">
-                            <h3 class="blog-card-title">The Shocking Truth About Tech Innovation Based on Recent Data</h3>
-                            <div class="blog-card-meta">
-                                <span>🚀 Innovation</span>
-                                <span>Aug 15, 2025</span>
-                            </div>
-                            <p class="blog-card-excerpt">Data analysis reveals surprising patterns in tech innovation that challenge conventional wisdom about startup success and market timing.</p>
-                            <a href="posts/2025-08-15-the-shocking-truth-about-tech-innovation-based-on-.html" class="read-more">Read Full Analysis →</a>
-                        </div>
-                    </article>
-
-                    <article class="blog-card">
-                        <div class="blog-card-content">
-                            <h3 class="blog-card-title">The AI Technology Strategy That's Quietly Dominating in 2025</h3>
-                            <div class="blog-card-meta">
-                                <span>🎯 Strategy</span>
-                                <span>Aug 15, 2025</span>
-                            </div>
-                            <p class="blog-card-excerpt">Uncover the AI strategy that's silently revolutionizing how successful companies approach technology adoption and competitive advantage.</p>
-                            <a href="posts/2025-08-15-the-ai-technology-strategy-thats-quietly-dominatin.html" class="read-more">Read Full Analysis →</a>
-                        </div>
-                    </article>
-
-                    <article class="blog-card">
-                        <div class="blog-card-content">
-                            <h3 class="blog-card-title">Social Media Trends: Insights from Recent Data Analysis</h3>
-                            <div class="blog-card-meta">
-                                <span>📱 Social Media</span>
-                                <span>Aug 15, 2025</span>
-                            </div>
-                            <p class="blog-card-excerpt">Latest social media trend analysis reveals emerging patterns in user behavior, content performance, and platform algorithm changes.</p>
-                            <a href="posts/2025-08-15-social-media-trends-insights-from-recent-social-me.html" class="read-more">Read Full Analysis →</a>
-                        </div>
-                    </article>
-
-                    <article class="blog-card">
-                        <div class="blog-card-content">
-                            <h3 class="blog-card-title">5 Data Science Insights That Will Change Your Strategy</h3>
-                            <div class="blog-card-meta">
-                                <span>📊 Data Science</span>
-                                <span>Aug 15, 2025</span>
-                            </div>
-                            <p class="blog-card-excerpt">Five game-changing data science insights that successful companies use to make strategic decisions and outperform competitors.</p>
-                            <a href="posts/2025-08-15-5-data-science-insights-that-will-change-your-stra.html" class="read-more">Read Full Analysis →</a>
                         </div>
                     </article>
                 </div>
@@ -498,8 +460,443 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 TanziTech. All rights reserved. | <a href="links.html" style="color: white;">Bio Links</a> | <a href="mailto:contact@tanzitech.com" style="color: white;">Contact</a></p>
+            <p>&copy; 2025 TanziTech. All rights reserved. | <a href="../links.html" style="color: white;">Bio Links</a> | <a href="mailto:info@tanzitech.com" style="color: white;">Contact</a> | <a href="mailto:contact@tanzitech.com" style="color: white;">Business</a></p>
         </div>
     </footer>
+    
+    <!-- Authentication Modals -->
+    <!-- Authentication Modal -->
+    <div id="auth-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="hideAuthModal()">&times;</span>
+                <div class="auth-tabs">
+                    <button id="login-tab" class="auth-tab active" onclick="showAuthTab('login')">Sign In</button>
+                    <button id="register-tab" class="auth-tab" onclick="showAuthTab('register')">Join Now</button>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <!-- Login Form -->
+                <div id="login-content" class="auth-content active">
+                    <h2>Welcome Back</h2>
+                    <p class="auth-subtitle">Sign in to access exclusive content and tools</p>
+                    
+                    <form id="login-form" class="auth-form">
+                        <div class="form-group">
+                            <label for="login-email">Email Address</label>
+                            <input type="email" id="login-email" name="email" required 
+                                   placeholder="your.email@company.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="login-password">Password</label>
+                            <input type="password" id="login-password" name="password" required 
+                                   placeholder="Your password">
+                        </div>
+                        
+                        <div class="form-options">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" name="remember" checked>
+                                <span class="checkmark"></span>
+                                Remember me
+                            </label>
+                            <a href="#" class="forgot-link">Forgot Password?</a>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary full-width">Sign In</button>
+                    </form>
+                    
+                    <div class="auth-footer">
+                        <p>New to the community? <a href="#" onclick="showAuthTab('register')">Join now</a></p>
+                    </div>
+                </div>
+
+                <!-- Registration Form -->
+                <div id="register-content" class="auth-content">
+                    <h2>Join the Community</h2>
+                    <p class="auth-subtitle">Get access to exclusive marketing insights and tools</p>
+                    
+                    <form id="registration-form" class="auth-form">
+                        <div class="form-row">
+                            <div class="form-group half-width">
+                                <label for="reg-firstname">First Name</label>
+                                <input type="text" id="reg-firstname" name="firstName" required 
+                                       placeholder="John">
+                            </div>
+                            <div class="form-group half-width">
+                                <label for="reg-lastname">Last Name</label>
+                                <input type="text" id="reg-lastname" name="lastName" required 
+                                       placeholder="Smith">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="reg-email">Email Address</label>
+                            <input type="email" id="reg-email" name="email" required 
+                                   placeholder="john.smith@company.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="reg-password">Password</label>
+                            <input type="password" id="reg-password" name="password" required 
+                                   placeholder="Create a strong password" minlength="8">
+                            <div class="password-requirements">
+                                <small>Password must be at least 8 characters long</small>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group half-width">
+                                <label for="reg-company">Company</label>
+                                <input type="text" id="reg-company" name="company" 
+                                       placeholder="Your Company">
+                            </div>
+                            <div class="form-group half-width">
+                                <label for="reg-title">Job Title</label>
+                                <input type="text" id="reg-title" name="title" 
+                                       placeholder="Marketing Director">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="reg-industry">Industry</label>
+                            <select id="reg-industry" name="industry">
+                                <option value="">Select your industry</option>
+                                <option value="technology">Technology</option>
+                                <option value="marketing">Marketing & Advertising</option>
+                                <option value="ecommerce">E-commerce</option>
+                                <option value="saas">SaaS</option>
+                                <option value="consulting">Consulting</option>
+                                <option value="finance">Finance</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="education">Education</option>
+                                <option value="manufacturing">Manufacturing</option>
+                                <option value="retail">Retail</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Membership Tier Selection -->
+                        <div class="membership-selection">
+                            <label class="section-label">Choose Your Membership</label>
+                            <div class="membership-options">
+                                <label class="membership-option">
+                                    <input type="radio" name="membershipTier" value="free" checked>
+                                    <div class="option-content">
+                                        <div class="option-header">
+                                            <strong>Free Membership</strong>
+                                            <span class="price">$0</span>
+                                        </div>
+                                        <ul class="feature-list">
+                                            <li>Public blog access</li>
+                                            <li>Basic email toolkit</li>
+                                            <li>Monthly newsletter</li>
+                                        </ul>
+                                    </div>
+                                </label>
+                                
+                                <label class="membership-option premium">
+                                    <input type="radio" name="membershipTier" value="premium">
+                                    <div class="option-content">
+                                        <div class="option-header">
+                                            <strong>Premium Membership</strong>
+                                            <span class="price">$29/month</span>
+                                        </div>
+                                        <ul class="feature-list">
+                                            <li>Premium content access</li>
+                                            <li>Advanced toolkits</li>
+                                            <li>Priority email support</li>
+                                            <li>Exclusive webinars</li>
+                                        </ul>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-preferences">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" name="newsletter" checked>
+                                <span class="checkmark"></span>
+                                Subscribe to weekly marketing insights newsletter
+                            </label>
+                            
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" name="notifications">
+                                <span class="checkmark"></span>
+                                Get notified about new tools and resources
+                            </label>
+                            
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" name="marketingEmails">
+                                <span class="checkmark"></span>
+                                Receive promotional emails about services
+                            </label>
+                        </div>
+                        
+                        <div class="form-agreement">
+                            <label class="checkbox-wrapper required">
+                                <input type="checkbox" name="terms" required>
+                                <span class="checkmark"></span>
+                                I agree to the <a href="/terms" target="_blank">Terms of Service</a> 
+                                and <a href="/privacy" target="_blank">Privacy Policy</a>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary full-width">Create Account</button>
+                    </form>
+                    
+                    <div class="auth-footer">
+                        <p>Already have an account? <a href="#" onclick="showAuthTab('login')">Sign in</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Membership Modal -->
+    <div id="membership-modal" class="modal" style="display: none;">
+        <div class="modal-content large">
+            <div class="modal-header">
+                <span class="close" onclick="hideMembershipModal()">&times;</span>
+                <h2>Choose Your Membership Level</h2>
+                <p>Unlock exclusive content, tools, and direct access to expert insights</p>
+            </div>
+            
+            <div class="modal-body">
+                <div class="pricing-grid">
+                    <!-- Free Tier -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Free Member</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">0</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="pricing-description">Perfect for getting started with social media marketing</p>
+                        </div>
+                        
+                        <div class="pricing-features">
+                            <h4>What's Included:</h4>
+                            <ul>
+                                <li><span class="feature-icon">✓</span> Access to public blog posts</li>
+                                <li><span class="feature-icon">✓</span> Basic Email Validation Toolkit</li>
+                                <li><span class="feature-icon">✓</span> Monthly newsletter</li>
+                                <li><span class="feature-icon">✓</span> Community forum access</li>
+                                <li><span class="feature-icon">✓</span> Basic marketing templates</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="btn-outline" onclick="selectMembership('free')">
+                            Stay Free
+                        </button>
+                    </div>
+                    
+                    <!-- Premium Tier -->
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3>Premium Member</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">29</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="pricing-description">Ideal for serious marketers who want advanced strategies</p>
+                        </div>
+                        
+                        <div class="pricing-features">
+                            <h4>Everything in Free, plus:</h4>
+                            <ul>
+                                <li><span class="feature-icon">✓</span> Premium blog content & case studies</li>
+                                <li><span class="feature-icon">✓</span> Advanced toolkits & templates</li>
+                                <li><span class="feature-icon">✓</span> Social Media Intelligence Templates</li>
+                                <li><span class="feature-icon">✓</span> Priority email support</li>
+                                <li><span class="feature-icon">✓</span> Members-only monthly webinars</li>
+                                <li><span class="feature-icon">✓</span> Advanced analytics tools</li>
+                                <li><span class="feature-icon">✓</span> Exclusive industry reports</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="btn-primary" onclick="selectMembership('premium')">
+                            Start Premium Trial
+                        </button>
+                        <p class="trial-note">14-day free trial, cancel anytime</p>
+                    </div>
+                    
+                    <!-- Pro Tier -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Pro Member</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">99</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="pricing-description">For agencies and businesses wanting direct expert guidance</p>
+                        </div>
+                        
+                        <div class="pricing-features">
+                            <h4>Everything in Premium, plus:</h4>
+                            <ul>
+                                <li><span class="feature-icon">✓</span> Monthly 1-on-1 consultation (60min)</li>
+                                <li><span class="feature-icon">✓</span> Custom strategy templates</li>
+                                <li><span class="feature-icon">✓</span> Direct access to Gabriele via Slack</li>
+                                <li><span class="feature-icon">✓</span> Beta access to new tools</li>
+                                <li><span class="feature-icon">✓</span> White-label resources</li>
+                                <li><span class="feature-icon">✓</span> Agency collaboration features</li>
+                                <li><span class="feature-icon">✓</span> Custom automation setups</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="btn-primary" onclick="selectMembership('pro')">
+                            Upgrade to Pro
+                        </button>
+                        <p class="trial-note">Schedule a strategy call first</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Authentication System Scripts -->
+    <script src="../auth-system.js"></script>
+    <script src="../email-automation.js"></script>
+    <script src="../payment-system.js"></script>
+    
+    <!-- Navbar scroll effect -->
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Handle download requests
+        window.handleDownload = function(resource) {
+            if (window.blogAuth && window.blogAuth.isLoggedIn()) {
+                // User is logged in, initiate actual download
+                console.log('Initiating download for authenticated user:', resource);
+                
+                // Create actual download
+                const downloadUrls = {
+                    'email_validation_toolkit': '../assets/Email-Validation-Toolkit-TanziTech.pdf',
+                    'social_media_templates': '../assets/Social-Media-Templates-TanziTech.zip',
+                    'ai_automation_guide': '../assets/AI-Automation-Guide-TanziTech.pdf'
+                };
+                
+                const downloadUrl = downloadUrls[resource] || downloadUrls['email_validation_toolkit'];
+                
+                // Create download link
+                const link = document.createElement('a');
+                link.href = downloadUrl;
+                link.download = resource + '-TanziTech';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                // Show success message
+                if (window.blogAuth.showMessage) {
+                    window.blogAuth.showMessage('success', '🎉 Download started! Check your downloads folder.');
+                }
+                
+                // Track download for email automation
+                if (window.emailAutomation) {
+                    window.emailAutomation.trackDownload(window.blogAuth.getCurrentUser().id, resource);
+                }
+                
+                // Trigger download started event for chatbot
+                document.dispatchEvent(new CustomEvent('downloadStarted', { 
+                    detail: { resource } 
+                }));
+                
+                return true;
+            } else {
+                // User not logged in, show registration modal
+                console.log('User not logged in, showing registration modal');
+                if (window.blogAuth && window.blogAuth.showMessage) {
+                    window.blogAuth.showMessage('info', '🔐 Please create a free account to access our premium toolkits!');
+                }
+                showRegisterModal();
+                return false;
+            };
+        };
+    </script>
+    
+    <!-- Social Media Footer -->
+    <footer style="background: #1f2937; color: white; padding: 3rem 0 2rem 0; margin-top: 4rem;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+                <div>
+                    <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: white;">About TanziTech</h3>
+                    <p style="color: rgba(255,255,255,0.8); line-height: 1.6; margin-bottom: 1rem;">Data-driven insights on AI technology, social media growth strategies, and emerging tech trends for business leaders.</p>
+                    <p style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">by Gabriele Tanzi</p>
+                </div>
+                
+                <div>
+                    <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: white;">Connect & Follow</h3>
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <a href="https://github.com/gabrieletanzi" style="color: rgba(255,255,255,0.8); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; transition: color 0.3s ease;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">
+                            <span>🔗</span> GitHub - Code & Projects
+                        </a>
+                        <a href="https://medium.com/@TanziTech" style="color: rgba(255,255,255,0.8); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; transition: color 0.3s ease;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">
+                            <span>✍️</span> Medium - In-depth Articles
+                        </a>
+                        <a href="https://linkedin.com/in/tanzi-tech-b2766a293" style="color: rgba(255,255,255,0.8); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; transition: color 0.3s ease;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">
+                            <span>💼</span> LinkedIn - Professional Updates
+                        </a>
+                        <a href="https://twitter.com/tanzi_tech" style="color: rgba(255,255,255,0.8); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; transition: color 0.3s ease;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">
+                            <span>🐦</span> X/Twitter - Latest Updates
+                        </a>
+                        <a href="https://instagram.com/tanzi_tech_insights" style="color: rgba(255,255,255,0.8); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; transition: color 0.3s ease;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">
+                            <span>📷</span> Instagram - Visual Insights
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: white;">Quick Links</h3>
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <a href="#blog" style="color: rgba(255,255,255,0.8); text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">Latest Blog Posts</a>
+                        <a href="../links.html" style="color: rgba(255,255,255,0.8); text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">All Links & Resources</a>
+                        <a href="#" onclick="showRegisterModal(); return false;" style="color: rgba(255,255,255,0.8); text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">Free Resources</a>
+                        <a href="#" onclick="showMembershipModal(); return false;" style="color: rgba(255,255,255,0.8); text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">Premium Membership</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="border-top: 1px solid rgba(255,255,255,0.2); padding-top: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                <p style="color: rgba(255,255,255,0.6); margin: 0; font-size: 0.9rem;">
+                    © 2025 TanziTech Blog by Gabriele Tanzi. Data-driven insights for business growth.
+                </p>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="/privacy" style="color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease;" onmouseover="this.style.color='rgba(255,255,255,0.8)'" onmouseout="this.style.color='rgba(255,255,255,0.6)'">Privacy Policy</a>
+                    <a href="/terms" style="color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease;" onmouseover="this.style.color='rgba(255,255,255,0.8)'" onmouseout="this.style.color='rgba(255,255,255,0.6)'">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- TanziBot Integration -->
+    <script src="../intelligent-bot.js"></script>
 </body>
 </html>

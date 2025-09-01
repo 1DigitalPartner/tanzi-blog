@@ -415,6 +415,71 @@
             transform: translateY(-2px);
         }
 
+        .social-share-section {
+            background: #f8fafc;
+            padding: 2rem;
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .social-share-section h3 {
+            color: #2d3748;
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+        }
+
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .share-button {
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .share-button.twitter {
+            background: #1DA1F2;
+            color: white;
+        }
+
+        .share-button.linkedin {
+            background: #0077B5;
+            color: white;
+        }
+
+        .share-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .comment-cta {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin: 1rem auto;
+            max-width: 600px;
+            border: 2px solid #e2e8f0;
+        }
+
+        .comment-cta h4 {
+            color: #2d3748;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .comment-cta p {
+            color: #4a5568;
+            margin: 0;
+        }
+
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2rem;
@@ -647,6 +712,20 @@
                 <a href="../" class="back-link">← Back to Blog</a>
             </div>
         </article>
+
+        <section class="social-share-section">
+            <div class="container">
+                <h3>📣 Share this strategy with your network:</h3>
+                <div class="share-buttons">
+                    <a href="https://twitter.com/intent/tweet?text=I%20just%20discovered%20the%20ultimate%20LinkedIn%20lead%20generation%20strategy%20that%20consistently%20delivers%2050-100%20qualified%20leads%20per%20post!%20Check%20it%20out%3A&url=https://tanzitech.com/en/posts/2025-08-26-linkedin-lead-generation-viral-social-media-strategy.html" target="_blank" class="share-button twitter">Share on Twitter/X</a>
+                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://tanzitech.com/en/posts/2025-08-26-linkedin-lead-generation-viral-social-media-strategy.html" target="_blank" class="share-button linkedin">Share on LinkedIn</a>
+                </div>
+                <div class="comment-cta">
+                    <h4>💬 What's your experience with LinkedIn lead generation?</h4>
+                    <p>Have you tried any of these strategies? What worked best for you? Share your thoughts in the comments below!</p>
+                </div>
+            </div>
+        </section>
 
         <section class="cta-section">
             <div class="container">

@@ -1,0 +1,82 @@
+[
+  {
+    "campaignId": "campaign_1756456670971",
+    "campaignName": "test_campaign",
+    "templateType": "social_media_awareness",
+    "startTime": "2025-08-29T08:37:50.971Z",
+    "endTime": "2025-08-29T08:37:50.973Z",
+    "totalEmails": 5,
+    "successCount": 5,
+    "failureCount": 0
+  },
+  {
+    "campaignId": "campaign_1756459013458",
+    "campaignName": "test_campaign",
+    "templateType": "social_media_awareness",
+    "startTime": "2025-08-29T09:16:53.458Z",
+    "endTime": "2025-08-29T09:16:53.865Z",
+    "totalEmails": 5,
+    "successCount": 0,
+    "failureCount": 5
+  },
+  {
+    "campaignId": "campaign_1756460260502",
+    "campaignName": "test_campaign",
+    "templateType": "social_media_awareness",
+    "startTime": "2025-08-29T09:37:40.502Z",
+    "endTime": "2025-08-29T09:37:43.698Z",
+    "totalEmails": 5,
+    "successCount": 5,
+    "failureCount": 0
+  },
+  {
+    "campaignId": "campaign_1756463684389",
+    "campaignName": "data_science_professionals_1756463684383",
+    "templateType": "data_science_data_science_professionals",
+    "startTime": "2025-08-29T10:34:44.389Z",
+    "endTime": "2025-08-29T10:34:47.737Z",
+    "totalEmails": 3,
+    "successCount": 3,
+    "failureCount": 0
+  },
+  {
+    "campaignId": "campaign_1756464047163",
+    "campaignName": "marketing_executives_1756464047158",
+    "templateType": "data_science_marketing_executives",
+    "startTime": "2025-08-29T10:40:47.163Z",
+    "endTime": "2025-08-29T10:40:49.607Z",
+    "totalEmails": 3,
+    "successCount": 3,
+    "failureCount": 0
+  },
+  {
+    "campaignId": "campaign_1756464056736",
+    "campaignName": "startup_founders_1756464056729",
+    "templateType": "data_science_startup_founders",
+    "startTime": "2025-08-29T10:40:56.736Z",
+    "endTime": "2025-08-29T10:40:59.728Z",
+    "totalEmails": 3,
+    "successCount": 3,
+    "failureCount": 0
+  },
+  {
+    "campaignId": "campaign_1756464964149",
+    "campaignName": "marketing_executives_1756464964144",
+    "templateType": "data_science_marketing_executives",
+    "startTime": "2025-08-29T10:56:04.149Z",
+    "endTime": "2025-08-29T10:56:07.637Z",
+    "totalEmails": 5,
+    "successCount": 5,
+    "failureCount": 0
+  },
+  {
+    "campaignId": "campaign_1756464974693",
+    "campaignName": "startup_founders_1756464974687",
+    "templateType": "data_science_startup_founders",
+    "startTime": "2025-08-29T10:56:14.693Z",
+    "endTime": "2025-08-29T10:56:17.774Z",
+    "totalEmails": 5,
+    "successCount": 5,
+    "failureCount": 0
+  }
+]
