@@ -1,5 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+ <!-- Consent Mode v2: Default vor Laden von gtag -->
+<script>
+  // gespeicherte Entscheidung lesen
+  (function() {
+    const saved = localStorage.getItem('gt_consent');
+    const granted = saved === 'granted';
+
+    // Default-Einstellung (DE/EU): alles denied außer security_storage
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    gtag('consent', 'default', {
+      'ad_storage': granted ? 'granted' : 'denied',
+      'analytics_storage': granted ? 'granted' : 'denied',
+      'ad_user_data': granted ? 'granted' : 'denied',
+      'ad_personalization': granted ? 'granted' : 'denied',
+      'functionality_storage': granted ? 'granted' : 'denied',
+      'security_storage': 'granted'  // für grundlegende Sicherheit
+    });
+
+    // global verfügbar machen
+    window._gtSetConsent = function(grant){
+      localStorage.setItem('gt_consent', grant ? 'granted' : 'denied');
+      gtag('consent', 'update', {
+        'ad_storage': grant ? 'granted' : 'denied',
+        'analytics_storage': grant ? 'granted' : 'denied',
+        'ad_user_data': grant ? 'granted' : 'denied',
+        'ad_personalization': grant ? 'granted' : 'denied',
+        'functionality_storage': grant ? 'granted' : 'denied',
+        'security_storage': 'granted'
+      });
+      // Banner ausblenden
+      const b = document.getElementById('cookie-banner');
+      if (b) b.style.display = 'none';
+    };
+  })();
+</script>
+
+<!-- Google tag (gtag.js) Loader -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FXL2FL3M2M"></script>
+<script>
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-FXL2FL3M2M'); // GA4
+</script>
  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXL2FL3M2M"></script>
 <script>
