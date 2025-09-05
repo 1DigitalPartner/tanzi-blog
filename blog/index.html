@@ -258,6 +258,47 @@
     </style>
 </head>
 <body>
+ <style>
+  #cookie-banner {
+    position: fixed; inset: auto 20px 20px 20px; z-index: 9999;
+    background: #111827; color: #fff; padding: 16px; border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.3); display: none; max-width: 800px;
+  }
+  #cookie-banner .actions { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  #cookie-banner button {
+    border: 0; padding: 10px 14px; border-radius: 10px; cursor: pointer; font-weight: 600;
+  }
+  #cookie-accept { background: #10b981; color:#031B14; }
+  #cookie-reject { background: #374151; color:#fff; }
+  #cookie-text a { color:#93c5fd; text-decoration: underline; }
+</style>
+
+<div id="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie-Einwilligung">
+  <div id="cookie-text">
+    Wir verwenden Cookies (Analytics/Ads) gemäß unserer <a href="/privacy.html">Datenschutzerklärung</a>.
+    Bitte wähle, ob du zustimmst.
+  </div>
+  <div class="actions">
+    <button id="cookie-accept">Alle akzeptieren</button>
+    <button id="cookie-reject">Nur notwendige</button>
+  </div>
+</div>
+
+<script>
+  (function(){
+    const saved = localStorage.getItem('gt_consent');
+    // Banner nur zeigen, wenn noch keine Entscheidung vorliegt
+    if(!saved) {
+      const b = document.getElementById('cookie-banner');
+      if (b) b.style.display = 'block';
+    }
+    // Button-Handler
+    const acc = document.getElementById('cookie-accept');
+    const rej = document.getElementById('cookie-reject');
+    if(acc) acc.onclick = () => window._gtSetConsent(true);
+    if(rej) rej.onclick = () => window._gtSetConsent(false);
+  })();
+</script>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
