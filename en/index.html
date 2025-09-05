@@ -132,6 +132,46 @@
     gtag('config', 'G-FXL2FL3M2M');
   </script>
 </head>
+  <head>
+  ...
+  <!-- Consent Mode + gtag -->
+  <script>
+    (function() {
+      const saved = localStorage.getItem('gt_consent');
+      const granted = saved === 'granted';
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        'ad_storage': granted ? 'granted' : 'denied',
+        'analytics_storage': granted ? 'granted' : 'denied',
+        'ad_user_data': granted ? 'granted' : 'denied',
+        'ad_personalization': granted ? 'granted' : 'denied',
+        'functionality_storage': granted ? 'granted' : 'denied',
+        'security_storage': 'granted'
+      });
+      window._gtSetConsent = function(grant){
+        localStorage.setItem('gt_consent', grant ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+          'ad_storage': grant ? 'granted' : 'denied',
+          'analytics_storage': grant ? 'granted' : 'denied',
+          'ad_user_data': grant ? 'granted' : 'denied',
+          'ad_personalization': grant ? 'granted' : 'denied',
+          'functionality_storage': grant ? 'granted' : 'denied',
+          'security_storage': 'granted'
+        });
+        const b = document.getElementById('cookie-banner');
+        if (b) b.style.display = 'none';
+      };
+    })();
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXL2FL3M2M"></script>
+  <script>
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FXL2FL3M2M');
+  </script>
+</head>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
